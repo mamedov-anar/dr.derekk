@@ -159,8 +159,9 @@
     let link = document.querySelector('link[rel="canonical"]');
     if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.append(link); }
     link.href = canonical;
-    const og = document.createElement('meta');
-    og.setAttribute('property', 'og:url'); og.content = canonical; document.head.append(og);
+    let og = document.querySelector('meta[property="og:url"]');
+    if (!og) { og = document.createElement('meta'); og.setAttribute('property', 'og:url'); document.head.append(og); }
+    og.content = canonical;
     for (const meta of document.querySelectorAll('meta[property="og:image"],meta[name="twitter:image"]')) {
       const image = new URL(meta.content, siteRoot);
       if (image.origin === siteRoot.origin && image.pathname.startsWith(siteRoot.pathname)) {
