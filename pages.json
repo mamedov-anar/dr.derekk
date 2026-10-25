@@ -1,0 +1,122 @@
+[
+  {
+    "brand": "dr.derekk",
+    "route": "/",
+    "path": "index.html",
+    "title": "dr.derekk — Дерек Чрагян, врач-дерматолог и косметолог"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/about/",
+    "path": "about/index.html",
+    "title": "О враче Дереке Чрагяне — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/contact/",
+    "path": "contact/index.html",
+    "title": "Контакты и запись на консультацию — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/",
+    "path": "treatments/index.html",
+    "title": "Процедуры — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/404/",
+    "path": "404/index.html",
+    "title": "Страница не найдена — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/acne-laser-treatment/",
+    "path": "treatments/acne-laser-treatment/index.html",
+    "title": "Лазерное лечение акне — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/pigmentation-removal/",
+    "path": "treatments/pigmentation-removal/index.html",
+    "title": "Удаление пигментации — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/laser-skin-rejuvenation/",
+    "path": "treatments/laser-skin-rejuvenation/index.html",
+    "title": "Лазерное омоложение кожи — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/hydrafacial/",
+    "path": "treatments/hydrafacial/index.html",
+    "title": "Hydrafacial — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/chemical-peel/",
+    "path": "treatments/chemical-peel/index.html",
+    "title": "Химический пилинг — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/microneedling/",
+    "path": "treatments/microneedling/index.html",
+    "title": "Микронидлинг — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/jawline-filler/",
+    "path": "treatments/jawline-filler/index.html",
+    "title": "Коррекция овала лица — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/chin-filler/",
+    "path": "treatments/chin-filler/index.html",
+    "title": "Коррекция подбородка — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/cheek-filler/",
+    "path": "treatments/cheek-filler/index.html",
+    "title": "Коррекция скул — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/lip-filler/",
+    "path": "treatments/lip-filler/index.html",
+    "title": "Коррекция губ — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/forehead-line-treatment/",
+    "path": "treatments/forehead-line-treatment/index.html",
+    "title": "Коррекция морщин лба — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/frown-line-treatment/",
+    "path": "treatments/frown-line-treatment/index.html",
+    "title": "Коррекция межбровных морщин — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/crow-s-feet-treatment/",
+    "path": "treatments/crow-s-feet-treatment/index.html",
+    "title": "Коррекция «гусиных лапок» — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/treatments/brow-lift/",
+    "path": "treatments/brow-lift/index.html",
+    "title": "Подтяжка бровей — dr.derekk"
+  },
+  {
+    "brand": "dr.derekk",
+    "route": "/legal/privacy-policy/",
+    "path": "legal/privacy-policy/index.html",
+    "title": "Политика конфиденциальности — dr.derekk"
+  }
+]

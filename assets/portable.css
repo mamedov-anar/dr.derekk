@@ -1,0 +1,21 @@
+@import url("./page-hero.css");
+
+/* dr.derekk: accessible focus and form controls. */
+input::placeholder,
+textarea::placeholder {
+  color: #88482b !important;
+  opacity: 1 !important;
+}
+
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #88482b !important;
+  outline-offset: 3px;
+}
+
+form[aria-busy="true"] [type="submit"] {
+  cursor: progress;
+}

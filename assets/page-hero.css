@@ -1,0 +1,69 @@
+/* One hero layout for About, the treatment catalogue and treatment details.
+   Typography and colours continue to use the existing shared Framer presets.
+   The heading uses the full content width; the summary keeps its reading width. */
+:is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] {
+  --page-hero-summary-width: 100%;
+  background-color: var(--token-82299fab-18de-4064-a874-c681c75093a3, #f9f0ec);
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  width: 100%;
+  height: min-content;
+  padding: 32px 20px;
+}
+
+:is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] > [data-framer-name="Content"] {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0;
+  width: 100%;
+  max-width: 1360px;
+  padding: 0;
+}
+
+:is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] > [data-framer-name="Content"] > :is([data-framer-name="Texts"], [data-framer-name="Title"]) {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+:is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] [data-framer-component-type="RichTextContainer"] {
+  width: 100%;
+  max-width: 100%;
+}
+
+:is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] h1 {
+  text-align: left;
+}
+
+:is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] p {
+  width: 100%;
+  max-width: var(--page-hero-summary-width);
+  text-align: left;
+}
+
+@media (min-width: 810px) {
+  :is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] {
+    --page-hero-summary-width: 80%;
+    padding: 48px 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :is(.framer-ePKAy, .framer-TMndz, .framer-739Lw) main > section[data-framer-name="Hero"] {
+    --page-hero-summary-width: 60%;
+    padding: 48px;
+  }
+}
