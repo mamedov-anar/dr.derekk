@@ -1,4 +1,4 @@
-/* Keep the homepage name on one line while retaining the summary's reading width. */
+/* Keep the homepage name readable at its existing responsive size. */
 .framer-435tL main > section[data-framer-name="Hero"] .framer-1u8eja2 {
   width: max-content;
   max-width: calc(100vw - 40px);
@@ -6,7 +6,7 @@
 
 .framer-435tL main > section[data-framer-name="Hero"] .framer-1u8eja2 h1 {
   font-size: clamp(28px, 9vw, 70px);
-  white-space: nowrap;
+  white-space: normal;
   word-break: normal;
   overflow-wrap: normal;
 }
