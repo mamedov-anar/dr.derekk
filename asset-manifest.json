@@ -24,8 +24,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 2637,
-      "sha256": "ce5cdab41df9ccdae9d1023d31ad847a12f49b3b1a007114c05d78fba8b4a76c"
+      "bytes": 3094,
+      "sha256": "c37a594a0ed474e61cca5381af066d4043d1207635a5893583adf674e02ef389"
     },
     {
       "path": "README.md",
@@ -59,18 +59,13 @@
     },
     {
       "path": "assets/brand/logo-exploration-2026-10-26/README.md",
-      "bytes": 1780,
-      "sha256": "55d92d7a3841014d4495b1fdd16156900acb519bab29e2488032af3b6c85ebff"
+      "bytes": 1789,
+      "sha256": "0ea4a0eff93f96db06f772a300db30fe0ffc9c1b57d43c6dbcc6447fa4de32a1"
     },
     {
       "path": "assets/brand/logo-exploration-2026-10-26/doctor-derekk-brown-16.zip",
-      "bytes": 7854585,
-      "sha256": "aa4785eaa6034b8553aa50173d466463e1e9e9f511181f31267d3171dbebc4e1"
-    },
-    {
-      "path": "assets/brand/logo-exploration-2026-10-26/index.html",
-      "bytes": 14285,
-      "sha256": "f7fbc441fbd368fde55ca19dc1ed8abb10c10b540d4c06d4d9f84240fea74e24"
+      "bytes": 7850853,
+      "sha256": "0612ba1c1c1c0ed37109a9611b8cedfc04159d048392a395a29d911939bb0f38"
     },
     {
       "path": "assets/brand/logo-exploration-2026-10-26/manifest.json",
@@ -201,11 +196,6 @@
       "path": "assets/brand/logo-exploration-2026-10-26/source/selected-logo.jpg",
       "bytes": 65342,
       "sha256": "607088debf9a0b6071df67551e274d7857c40ff7969b116702d5275f704b2629"
-    },
-    {
-      "path": "assets/brand/logo-exploration-2026-10-26/theme.css",
-      "bytes": 1162,
-      "sha256": "0043e31dd6e0f350ef0ac71664a07e06da2b8b0b3a72eec603610667c4d569e1"
     },
     {
       "path": "assets/brand/logo-exploration-2026-10-26/transparent/B01.png",
