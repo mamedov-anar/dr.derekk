@@ -1,0 +1,447 @@
+{
+  "count": 16,
+  "unique": 16,
+  "palette": {
+    "page": "#FFFFFF",
+    "header": "#FFFFFF",
+    "accent": "#88482B",
+    "peach": "#F5E0D6",
+    "block": "#F9F0EC"
+  },
+  "checks": [
+    {
+      "id": "B01",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "0a9af4241b8a1549599836c0489b4d6d8f9ef9f4abf1a2ea112d82ddd3be7b15"
+    },
+    {
+      "id": "B02",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "f7e5928779a2088ca2edf90289613e593540e582e5431358fe7d82b4dc81e221"
+    },
+    {
+      "id": "B03",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "16daa6160b91edfc3d1ea765b630d0f5a30faa9e1cfb8b9c1aaff106393eb233"
+    },
+    {
+      "id": "B04",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "14bdb521f2a59fc6feca1008fb1978c9aebbc28fb371399f31a9f6b7c2616e28"
+    },
+    {
+      "id": "B05",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "eb93211fbb7cd564e31c86d8d827b20021b7aee4dc9f2dd40ff5147d8e6e8e36"
+    },
+    {
+      "id": "B06",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "2876dbaaa7c854cffe07d955ce1716c03e899e3dd6c30ecf16cb83dfba517875"
+    },
+    {
+      "id": "B07",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "2e0e4220638e5c59c405573ea60a6ce468e3ff270c577d9c8e803aa3be7d5f55"
+    },
+    {
+      "id": "B08",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "7168a2254912b9ce7a02d7c1a389fd6a4610919185e1394ea30835be30bd6912"
+    },
+    {
+      "id": "B09",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "d2c888b820a87deae85b71e33b84bafbc8c082773e70c09a75edf2ce3ecf512d"
+    },
+    {
+      "id": "B10",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "ae7dc608d55518c3c46b9d022a662ac0c678a98ce08da7366416d28230674c09"
+    },
+    {
+      "id": "B11",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "bed408aa59d5034fff276bfca2a6c6fce97196cc05c14f61ed888217d86a9186"
+    },
+    {
+      "id": "B12",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "f5263127d242e6d5340431e9660b0a8022631432b13f705c1124dea6a4af3e1e"
+    },
+    {
+      "id": "B13",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "c3feede41201d28d9e94408e6feba9786f31c8301ca95727272e07aa33e15eb1"
+    },
+    {
+      "id": "B14",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "123342f70ebe380af18d77b2410ee0a48c57318b28d54e9f71e0b05f0c3146b2"
+    },
+    {
+      "id": "B15",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "7dccf7e3a9c32c45cbaa6bc8b12425deb62773ebe45e9229bcce9607c6822176"
+    },
+    {
+      "id": "B16",
+      "size": [
+        2048,
+        2048
+      ],
+      "text": "doctor Derekk",
+      "sha256": "0f82d4113a4a6078940014d04f87317e2a1cfb082b0dbcc31fc0ae2f8e746165"
+    }
+  ],
+  "palette_export": [
+    {
+      "file": "marks/B01.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B02.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B03.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B04.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B05.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B06.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B07.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B08.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B09.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B10.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B11.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B12.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B13.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B14.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B15.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "marks/B16.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B01.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B02.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B03.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B04.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B05.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B06.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B07.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B08.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B09.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B10.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B11.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B12.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B13.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B14.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B15.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    },
+    {
+      "file": "transparent/B16.png",
+      "alphaPreserved": true,
+      "fillPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ]
+    }
+  ]
+}

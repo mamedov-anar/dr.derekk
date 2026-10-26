@@ -1,0 +1,169 @@
+{
+  "source": "source/selected-logo.jpg",
+  "palette": {
+    "page": "#FFFFFF",
+    "header": "#FFFFFF",
+    "accent": "#88482B",
+    "peach": "#F5E0D6",
+    "block": "#F9F0EC"
+  },
+  "groups": {
+    "classic-prompts": [
+      {
+        "id": "B01",
+        "prompt": "Use case: logo-brand. Re-render the supplied approved monogram for a dermatologist-cosmetologist with a NEW WARM PALETTE.\nReference identity must remain: two capital D letters diagonally interlocked, left D at upper left, right D at lower right, one calm feminine facial profile facing RIGHT in their central junction. Keep the same elegant classic serif character. Both D counters and the entire forehead-nose-lips-chin profile must read clearly.\nVariation B01: the closest, carefully cleaned classic redrawing of the reference, with balanced curves and slightly clearer face separation.\nCOLOR REPLACEMENT: remove ALL BLUE. Primary dark mark and facial silhouette: exact warm brown #88482B. Right D may use a pale peach #F5E0D6 interior with a strong #88482B contour so the entire letter reads on a white page. Only these two colors in the mark. No black, gray, gold, orange or new colors.\nREMOVE ALL TEXT from the reference. Generate ONLY the monogram symbol; exact words doctor Derekk will be added deterministically later. No text, labels, numbers, extra initials, frame, cross, leaf, drop, mockup or watermark.\nFlat vector-like graphic, solid colors, crisp edges, no gradients, shadows, glow, texture, bevel or 3D. One centered symbol with generous margin on a genuinely transparent square 1:1 canvas."
+      },
+      {
+        "id": "B02",
+        "prompt": "Use case: logo-brand. Re-render the approved DD monogram in the attached reference for a dermatologist-cosmetologist in a warm brown palette.\nKeep two capital D letters interlocked diagonally (left higher, right lower), with exactly one complete facial profile facing RIGHT between them. Both D counters must stay clear. Preserve recognizable approved identity.\nB02 variant: confident classic letters with strong rectangular slab serifs, upright stems, gently squared outer bowls, clean generous counters, and a compact smooth profile.\nColor: ONE SOLID warm brown #88482B for both letters and profile, fully transparent counters and background. Absolutely no blue, black, gold, gradient or extra colors. The exact page backgrounds are added later by the coordinator.\nRemove all source wordmark text. Return ONLY THE MONOGRAM SYMBOL: no words, labels, numbers or extra initials. No additional icons, frame, cross, leaf or drop. Flat vector-like clean graphic, smooth crisp edges, no texture, shadow, bevel, 3D, glow, mockup or watermark.\nGenuine transparent square 1:1 canvas, centered with generous empty margins."
+      },
+      {
+        "id": "B03",
+        "prompt": "Use case: logo-brand. Re-render the approved reference DD+profile for dermatology and cosmetology. Preserve two clearly readable interlocked capital D letters, left higher/right lower, and ONE complete feminine facial profile facing RIGHT in their central junction. B03 is a visibly tall narrow classical version with elongated oval bowls, slender robust stems and short crisp serifs. Preserve core identity and clear counters.\nREPLACE ALL BLUE with warm brown #88482B. Right D may contain a restrained pale peach #F5E0D6 strip inside a brown contour. No black, gold, gray or other colors. Remove every word from the source: only the monogram, no text, labels or numbers. Exact wordmark is added later. Flat solid-color vector-like graphic, no gradients, textures, shadow, bevel, 3D, glow, mockup, watermark or added symbols. One centered mark on a genuinely transparent square 1:1 canvas with generous margins."
+      },
+      {
+        "id": "B04",
+        "prompt": "Use case: logo-brand. Create the compact wide warm-brown re-rendering B04 of the approved reference logo. Preserve two diagonal overlapping capital D letters (left higher/right lower), one full feminine profile facing RIGHT between them, and both clearly open letter counters. Make this version visibly broad and low, with wider D bowls, strong classic stems, short serifs and a compact calm profile. Same recognizable DD identity, no additional symbols.\nUse ONLY solid warm brown #88482B for both D letters and profile. No blue, black, gold or other colors. Clear transparent counters and background. REMOVE ALL SOURCE WORDMARK TEXT; only the monogram, no words, labels, numbers or extra initials. Flat vector-like solid fills, crisp outlines, no gradient, shadow, bevel, texture, 3D or glow. Centered with ample margins on a truly transparent square 1:1 canvas."
+      }
+    ],
+    "graphic-prompts": [
+      {
+        "id": "B13",
+        "direction": "Графическая точность",
+        "prompt": "Use case: logo-brand refinement. Attached image is the selected logo identity: two clear capital D letters diagonally overlapping (left D higher, right D lower) with ONE full human facial profile facing RIGHT in their center. Produce ONE refined standalone symbol, REMOVE ALL WORDS underneath.\nVariation B13, graphic clarity: create a WIDE CLEAN TRANSPARENT CHANNEL separating the complete face silhouette from the right D, with generous clear air around forehead, nose, lips and chin. Preserve the FULL recognizable face from forehead to short neck, never partial features or a floating squiggle. Open both D counters, balance strong broad stems and soft outer curves; make the channel wider than the thin white separator in reference. Face silhouette and left D are solid warm BROWN #88482B. Right D is predominantly the same brown, with a restrained small secondary PALE PEACH #F5E0D6 inner inset; any peach region MUST have a sturdy brown outline for contrast. Brown must clearly dominate the symbol. COMPLETELY REPLACE every blue tone from source. Only these two colors, no blue, black or gold. Flat solid graphic fills, crisp vector-like edges, no gradient or texture, no shading, shadows, 3D or mockup. Square 1:1 genuinely transparent canvas with wide margins; single centered logo only. Exactly two D forms and one right-facing profile, no new symbols, no frames, crosses, circles or decorative icons. No wordmark, no words, no extra letters, no labels, captions or watermark. Must remain readable when small.",
+        "attemptCount": 1,
+        "selectedAttempt": 1
+      },
+      {
+        "id": "B14",
+        "direction": "Графическая точность",
+        "prompt": "Use case: logo-brand refinement. Referenced image is the identity to preserve: TWO unmistakable capital D letters diagonally overlapping, left D higher and second D lower-right, ONE full human facial profile looking RIGHT between the two letters. Create ONE standalone refined DD symbol and REMOVE the entire text below.\nVariation B14: strict MONOCHROME warm BROWN #88482B. All parts of the icon, both Ds and the solid face silhouette, must be ONE EXACT SAME UNIFORM BROWN. No peach and NO blue, black, gold or other color. Strong confident heavy DD with straight blunt stem terminals, no decorative serif flicks; slightly geometric curves and carefully open counters, broad clear transparent separation around full face profile. Keep exact diagonal identity but make shape more restrained and clinical than source; profile has clean forehead, nose, lips, chin and short neck, single recognizable face. Flat 2D vector-like graphic, fully solid uniform fill, NO gradients, shading, highlights, texture, shadow, 3D, bevel or mockup. Genuinely transparent square 1:1 canvas, generous margins, single centered logo. Exactly two D letter forms plus one face profile; no extra words or letters, no labels, captions or watermark. No new symbols, circles, frames, medical crosses or ornaments. Maintain clear recognition at small sizes.",
+        "attemptCount": 1,
+        "selectedAttempt": 1
+      },
+      {
+        "id": "B15",
+        "direction": "Графическая точность",
+        "prompt": "Use case: logo-brand refinement. Attached selected identity is TWO capital D letters diagonally overlapping (first D upper-left, second D lower-right), with ONE full human face profile facing RIGHT at the center. Create ONE standalone refined monogram symbol; remove every word from source.\nVariation B15: genuinely LINEAR CONTOUR DD around a DENSE FILLED FACE. Both D letters must use strong even LINE STROKES, noticeably lighter than the thick filled reference letters: a single continuous confident monoline D contour with large open transparent counters, robust enough for small sizes. Keep line weight uniform all around each D, no thick filled slab stems, no double-line ornament. Dense solid BROWN #88482B profile between the two letters, clear full forehead, nose, lips, chin, short neck, not an outline portrait. Left D contour solid brown #88482B; right D contour also brown, with one very restrained pale PEACH #F5E0D6 sliver on the lower arc fully framed by brown for contrast. Brown strongly dominates. Preserve diagonal DD identity, but remove curved serif flicks and use straight tidy terminals; precise spacious medical aesthetic. COMPLETELY REMOVE ALL BLUE from the reference; no black or gold. Flat uniform solid fills / strokes, crisp vector-like logo, no gradients, no shading, no highlights, no textures, no shadow, no 3D, no mockup. Genuine transparent square 1:1 canvas, generous clear margins, single centered icon. Exactly two D forms and one right-facing face, no extra letters, no words, no labels, captions, watermark, no new icons, frames, crosses or circles.",
+        "attemptCount": 1,
+        "selectedAttempt": 1
+      },
+      {
+        "id": "B16",
+        "direction": "Графическая точность",
+        "prompt": "Use case: logo-brand refinement of the attached exact selected identity. Create ONE standalone DD monogram symbol, REMOVE ALL WORDMARK TEXT. Preserve two unmistakable uppercase D letters in diagonal overlap, left D higher and right D lower, with ONE complete human facial profile facing RIGHT between letters.\nVariation B16, balanced compact geometry: reduce the diagonal displacement by about one third, shorten the D stems and bring both Ds closer into an almost square overall silhouette. Strong medium-thick regular stems and carefully balanced rounded counters. Each stem has perfectly FLAT STRAIGHT CUTS at top and bottom, no serifs or curved flicks. The centered face is a little smaller and less elongated than the reference, clear refined forehead, nose, lips and chin, short smooth neck; keep a broad clean transparent separation from the right D. Left D and face are dominant solid warm BROWN #88482B. Right D is also mostly brown #88482B, with only a restrained narrow PALE PEACH #F5E0D6 inset along the upper-right curve, fully framed in thick brown for contrast. Brown strongly dominates all visual mass. Completely replace ALL source blue; absolutely no blue, black or gold. Solid flat color fills, clean vector-like edges, no gradient, no shading, no texture, no highlights, no shadows, no 3D or mockup. Genuinely transparent square 1:1 canvas, single centered symbol, generous margins. No words, no letters beyond the two D forms, no labels, captions or watermark; no new symbols, frames, circles, medical crosses or ornaments. Clearly related to selected logo but visibly more compact and geometric.",
+        "attemptCount": 1,
+        "selectedAttempt": 1
+      }
+    ],
+    "modern-prompts": {
+      "group": "Современная геометрия — коричневая палитра",
+      "ids": [
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "mode": "built-in image_gen reference edit",
+      "aspectRatio": "1:1",
+      "transparentBackground": true,
+      "brandTextForParent": "doctor Derekk",
+      "palette": {
+        "white": "#FFFFFF",
+        "brown": "#88482B",
+        "peach": "#F5E0D6",
+        "pale": "#F9F0EC"
+      },
+      "concepts": [
+        {
+          "id": "B05",
+          "rationale_ru": "Строгие прямые стойки и круглые дуги; обе D коричневые, маленький персиковый акцент на переплетении.",
+          "limitations_ru": "Сохраняется лёгкая тональная неоднородность генератора; точность HEX не гарантируется для каждого пикселя.",
+          "prompt": "Use case: precise-object-edit, logo-brand.\nCreate ONE modern refinement of ONLY THE SYMBOL from the supplied reference. Keep this exact recognisable logo concept: two diagonally intertwined capital D shapes, left D higher, right D lower, and exactly one human face PROFILE looking RIGHT in their central overlap. Preserve the diagonal architecture and identity of the chosen DD+face mark.\nTargeted shape redesign B05: strict sans-serif GEOMETRIC construction, no serifs or flared ends. Flat straight vertical stems, precise horizontal joins, perfectly smooth circular right arcs. Strong modular forms and large clear counters. Keep a simple elegant right-facing forehead, nose, lip notch and chin profile integrated between the D shapes; broad silhouette, no tiny features. Each D must clearly read as D, no R leg.\nREPLACE ALL BLUE FROM THE REFERENCE. Color the two D forms AND the face profile in solid warm BROWN #88482B. Use transparent negative-space separations to distinguish the interweaving. A very small peach #F5E0D6 accent is allowed at an overlap, but brown must dominate. Absolutely no blue, cyan, black, gray, gold or metallic color.\nFlat vector-like clean edges, professional and trustworthy dermatology/cosmetology identity. One centered isolated mark on a SQUARE 1:1 genuinely TRANSPARENT canvas with generous margins. Delete the white source background and DELETE ALL TEXT from the source. No words, name, captions, labels, numbers, extra letters or watermark. Generate only the DD pictorial symbol and single face profile.\nNo circle badge, drop, shield, hexagon/cell, front-view face, flower, butterfly, medical cross, syringe, decorative marks, eyelashes, fine hair, 3D, shadows, texture, gloss or mockup.",
+          "workspacePath": "B05.png",
+          "attemptNumber": 1,
+          "recognizability_ru": "Сохранены две D, диагональное перекрытие слева сверху вправо вниз и один профиль направленный вправо.",
+          "visualInspection": "Inspected inline: two D forms and single right-facing profile, brown/peach palette with no source blue, no text or background, no extra motifs."
+        },
+        {
+          "id": "B06",
+          "rationale_ru": "Округлые окончания и компактное переплетение; правая D персиковая с широким коричневым контуром.",
+          "limitations_ru": "Ширина контура не математически равномерная; часть мягких расширений терминалов унаследована от исходника.",
+          "prompt": "Use case: precise-object-edit, logo-brand.\nRefine the supplied selected DD+face logo into ONE new isolated symbol. Preserve its identity: two diagonally interlocking CAPITAL D forms, the LEFT D higher and the RIGHT D lower, exactly ONE human profile facing RIGHT between them. Same recognisable DD and face relationship, not a new motif.\nTargeted shape redesign B06: SOFTLY ROUNDED MODERN GEOMETRY. The D bands have evenly thick broad strokes, gently rounded inner/outer corners and pill-rounded terminals instead of sharp serifs. Make the diagonal interlock compact and balanced. The face profile has a smooth forehead, obvious simple nose, understated lip notch and softly rounded chin. Broad silhouette only, no hair strands or eyelashes. Each D remains unambiguously D, never R.\nCOMPLETE PALETTE REPLACEMENT: left D and face profile in solid BROWN #88482B. Right D may have solid PEACH #F5E0D6 fill, but MUST have a substantial clear BROWN #88482B outline all around it so it remains legible on pure white. Brown should dominate the logo; only these brown/peach colors allowed. Absolutely no blue, cyan, black, gray, gold, metallic or orange lighting.\nFlat vector-like mark, clean edges, professional dermatology/cosmetology identity, bold enough at small sizes. Center the single isolated symbol on a square 1:1 genuinely TRANSPARENT canvas, generous margins. Delete white source background and REMOVE ALL TEXT from the source. No words, name, captions, labels, numerals, extra letters, watermark or presentation headings. D forms are the pictorial symbol only.\nDo not change the concept into a circle badge, drop, shield, cell/hexagon, front-view face, flower, butterfly, cross, syringe or extra ornamental shape. No fine detail, 3D, shadows, texture, shine or mockup.",
+          "workspacePath": "B06.png",
+          "attemptNumber": 1,
+          "recognizability_ru": "Сохранены две D, диагональное перекрытие слева сверху вправо вниз и один профиль направленный вправо.",
+          "visualInspection": "Inspected inline: two D forms and single right-facing profile, brown/peach palette with no source blue, no text or background, no extra motifs."
+        },
+        {
+          "id": "B07",
+          "rationale_ru": "Узкие вытянутые DD с наклоном вперёд; коричневая монограмма и профиль с небольшим персиковым акцентом.",
+          "limitations_ru": "Генератор сохранил часть расширений терминалов; наклон и ширина являются оптическими, не математически точными.",
+          "prompt": "Use case: precise-object-edit, logo-brand.\nCreate ONE refined variant of ONLY THE SYMBOL in the supplied selected logo. Preserve the exact logo family: two diagonally intertwined capital D forms, LEFT D above, RIGHT D below, one right-facing human face PROFILE between them. It must remain clearly recognisable as the selected DD and profile logo.\nTargeted shape redesign B07: make both D forms noticeably TALLER AND NARROWER, with a subtle uniform FORWARD LEAN about 10 degrees right. Clean slender but bold geometric stems and elongated oval D arcs. Remove heavy serif flares; straight ends are fine. Open the central face zone so the forehead, nose, lip notch and chin remain clear and confident. Preserve the two D counters and diagonal overlap. No R-shaped diagonal leg, no extra connecting strokes. Refined dynamic proportions, no speed lines.\nREPLACE ALL BLUE with flat warm BROWN #88482B. Both D forms AND the profile predominantly solid #88482B. Interweaving separated by transparent negative space; one tiny peach #F5E0D6 overlap accent allowed. No blue, cyan, black, gray, gold, metallic or additional colors. Brown must dominate.\nCrisp flat vector-like edges, no gradients or texture. One centered isolated mark, square 1:1 genuinely TRANSPARENT canvas, generous margins. Remove the white source background and DELETE ALL SOURCE TEXT. No brand name, captions, labels, numerals, words, extra letters or watermark. Two D forms are the symbol only.\nDo not change concept into circle, drop, shield, hexagon/cell, front-view face, flower, butterfly, cross, syringe or decorative ornament. No fine hair, eyelashes, tiny detail, 3D, shadows, shine, lighting or mockups.",
+          "workspacePath": "B07.png",
+          "attemptNumber": 1,
+          "recognizability_ru": "Сохранены две D, диагональное перекрытие слева сверху вправо вниз и один профиль направленный вправо.",
+          "visualInspection": "Inspected inline: two D forms and single right-facing profile, brown/peach palette with no source blue, no text or background, no extra motifs."
+        },
+        {
+          "id": "B08",
+          "rationale_ru": "Более лёгкие открытые DD с широкими просветами; коричневый профиль и сравнительно тонкие дуги.",
+          "limitations_ru": "Равномерная контурность интерпретирована свободно: на окончаниях есть расширения, профиль остаётся сплошным.",
+          "prompt": "Use case: precise-object-edit, logo-brand.\nUse the supplied selected DD+profile logo as the identity reference. Produce ONE new variant of ONLY ITS SYMBOL: two capital D shapes interlocked diagonally, LEFT D higher, RIGHT D lower, exactly one human FACE PROFILE looking RIGHT at their central overlap. Preserve this recognisable chosen logo family.\nTargeted shape redesign B08: OPEN EVEN-WEIGHT OUTLINE construction. Draw each D as a broad continuous contour LOOP with the same moderate but bold line width throughout, a straight vertical left side and a smoothly rounded right arc. Large open transparent counters. Straight-cut simple terminals, no serifs. Each full D contour must read clearly as D; absolutely NO R-like diagonal leg or flourish. Use transparent cut-throughs to show diagonal weaving. Integrate the one face profile into the central connection as a broad simple brown silhouette or its clear negative-space edge, with obvious forehead, nose, small lip notch and chin. The overall mark must feel visibly lighter and more open than the solid source, rather than copying its heavy bands.\nREPLACE ALL BLUE. All main outlines and the face in warm solid BROWN #88482B only. If useful, a small internal band can use PEACH #F5E0D6 with a substantial brown border, but most space remains transparent and brown dominates. No blue, cyan, black, gray, gold, metallic color, gradients or texture.\nFlat vector-like clean crisp edges. One centered isolated symbol, square 1:1 genuinely TRANSPARENT canvas, generous margins. Delete white source background and REMOVE ALL SOURCE TEXT. No words, brand name, labels, captions, numerals, extra letters or watermark. Two D pictorial forms and one face profile only.\nNo circle badge, drop, shield, hexagon/cell, front-view face, flower, butterfly, cross, syringe, extra decorative shape, hair strands, eyelashes, fine detail, 3D, shadow, glossy lighting or mockup.",
+          "workspacePath": "B08.png",
+          "attemptNumber": 1,
+          "recognizability_ru": "Сохранены две D, диагональное перекрытие слева сверху вправо вниз и один профиль направленный вправо.",
+          "visualInspection": "Inspected inline: two D forms and single right-facing profile, brown/peach palette with no source blue, no text or background, no extra motifs."
+        }
+      ]
+    },
+    "organic-prompts": {
+      "wordmarkAddedSeparately": "doctor Derekk",
+      "aspectRatio": "1:1",
+      "requestedPalette": [
+        "#88482B",
+        "#F5E0D6",
+        "#FFFFFF"
+      ],
+      "records": [
+        {
+          "id": "B09",
+          "group": "Плавная пластика",
+          "prompt": "Use case: logo-brand, identity-preserving recolor and refinement.\nInput image: the attached selected logo is the exact identity reference. Preserve its essential construction: TWO CLEARLY READABLE capital D letters diagonally overlapping, first D higher at the left, second D lower at the right, ONE human facial profile facing RIGHT in the central overlap.\nCreate variation B09: smooth flowing D arcs, softly flared short refined serifs at the stem ends, softer compact neutral human profile, broad clean contours and open counters. Keep both left stems and both rounded bowls unmistakably D, like the reference, and keep the face structurally integrated in their intersection. Clean professional dermatologist-cosmetologist identity.\nMANDATORY NEW PALETTE: dominant warm terracotta brown #88482B, secondary pale peach #F5E0D6, optional white #FFFFFF only. The first D and central face are SOLID BROWN. The second lower-right D uses PALE PEACH flat fill within a substantial smooth BROWN OUTLINE for legibility on white; outline thickness around one fifth of the D stroke width. Brown visually dominates. Absolutely NO BLUE, black, gold, metallic or unrelated colors.\nStyle: precise flat 2D vector-like mark, even uniform color fills, smooth crisp edges. No gradient, shading, highlights, texture, bevel, 3D, glow or shadows.\nOutput: ONE mark only on a SQUARE 1:1 truly transparent canvas, centered with generous clear space on all sides, uncropped.\nREMOVE the reference's entire wordmark. No doctor Derekk text, no words, labels, captions, numbers, watermark or extra letters. ONLY the TWO D letterforms may appear. No new symbols, flowers, leaves, drops, shields, crosses, syringe, hair, eyes or eyelashes, extra faces, mockup or collage. Preserve DD diagonal overlap plus single right-facing profile.",
+          "workspacePath": "B09.png",
+          "generationTool": "built-in image_gen with referenced_image_paths",
+          "attempts": 1,
+          "visualInspection": "Two diagonal D and central right-facing profile preserved. Flowing arcs and restrained soft serifs. Brown dominates, peach lower-right D with brown border. Small flat white separator; subtle model tonal variation."
+        },
+        {
+          "id": "B10",
+          "group": "Плавная пластика",
+          "prompt": "Use case: logo-brand, identity-preserving logo refinement using the supplied actual reference.\nMake variant B10 of the selected DD-and-face identity. Preserve TWO unmistakeably readable uppercase D letters diagonally overlapping: left D is higher, right D is lower, ONE human face profile points RIGHT in the middle. Preserve the straight D stems, two rounded D bowls, large open counters, and the recognizable diagonal arrangement from the reference. Remove all words from the reference.\nB10 design variation: make the D shapes two broad smooth continuous interwoven RIBBONS, with softly rounded blunt terminals and no serifs. Round the interior corners of the D stems into their bowls for a flowing gentle construction. Use a short clean flat negative-space interruption at the central overlap to show weaving without depth. The right-facing profile is integrated in the clean central opening, forehead-nose-lips-chin only. Two D stay visually dominant; do not turn this into abstract infinity loops.\nNew palette ONLY: dominant warm terracotta brown #88482B; secondary pale peach #F5E0D6; optional tiny white #FFFFFF separators. Brown left D and face. The lower-right D is also BROWN with one broad central PALE PEACH inset stripe following the D ribbon; keep substantial brown borders so the D is readable on white and very pale backgrounds. Brown must dominate. NO BLUE, BLACK, GOLD, metallic or unrelated hues.\nFlat 2D vector-like fills, crisp smooth edges, even uniform ink. Absolutely no gradient, texture, dimensional shading, bevel, 3D, highlights, lighting, shadow or glow.\nOutput ONE symbol only on SQUARE 1:1 truly transparent canvas, centered with generous margins, no crop.\nNO WORDMARK. No doctor Derekk, words, labels, captions, other letters, numbers or watermark. Only the TWO D letters as the monogram. No extra symbols, flowers, leaves, drops, shields, hair, eyelashes, eye, cross, syringe, extra face, mockup or collage. Keep DD plus a single right-facing face.",
+          "workspacePath": "B10.png",
+          "generationTool": "built-in image_gen with referenced_image_paths",
+          "attempts": 1,
+          "visualInspection": "Two diagonal D and central right-facing profile preserved. Wide smooth softly interwoven forms, rounded transitions; peach inset stripe in brown lower-right D. Brown dominates. Subtle model tonal variation."
+        },
+        {
+          "id": "B11",
+          "group": "Плавная пластика",
+          "prompt": "Use case: logo-brand, identity-preserving recolor and proportion refinement of the actual selected logo.\nReference identity must stay immediately recognizable: exactly TWO uppercase D letters, first D upper-left and second D lower-right, diagonally overlapping with ONE single human facial profile facing RIGHT at the central intersection.\nCreate B11, a CONSPICUOUSLY TALL NARROW version. Complete DD mark height is about 1.5 times its width. Both D letterforms are elongated vertically, with narrower upright rounded bowls, clear straight left stems and generous tall internal counters. Lighten the bulk moderately, maintain readable broad strokes. The central profile is also slender and elongated: long forehead, subtle clear nose, restrained lips, elegant long chin/neck. Restrained short tapered serifs. Professional precise dermatology/cosmetology identity. Keep DD dominant and diagonal, not an unrelated face symbol.\nNEW PALETTE: dominant terracotta BROWN #88482B, secondary PALE PEACH #F5E0D6, optional white #FFFFFF as small flat separator only. Navy and all blues MUST BE REMOVED. Left D and face are solid BROWN. Right D has pale peach fill contained in a thick substantial BROWN outline, so its entire D shape is highly legible on white. Brown remains the dominant visual color. NO BLUE, black, gold, metallic or unrelated hue.\nFlat vector-like 2D symbol, uniform color fills, smooth crisp edges. No shading, gradients, light, highlights, bevels, 3D, shadows, glow, textures.\nOutput: SQUARE 1:1 genuinely transparent canvas. Center the tall narrow symbol at about 73% canvas height and 48% canvas width with generous transparent margins.\nREMOVE ALL reference wordmark text entirely. No doctor Derekk, words, labels, captions, numbers, watermark or extra letters; only TWO D letters forming the monogram. No hair, eyelashes, eye, flower, leaf, drop, shield, medical cross, syringe, new symbols, extra face, mockup or collage. Keep the tall DD plus central right-facing profile.",
+          "workspacePath": "B11.png",
+          "generationTool": "built-in image_gen with referenced_image_paths",
+          "attempts": 1,
+          "visualInspection": "Two diagonal D and central right-facing profile preserved. Taller narrower construction and elongated profile. Brown dominates. Model filled the lower-right D counter peach as well as outlining it; this differentiates the version but reduces open-counter similarity to reference. Subtle model tonal variation."
+        },
+        {
+          "id": "B12",
+          "group": "Плавная пластика",
+          "prompt": "Use case: logo-brand, identity-preserving recolor and refinement of the selected DD logo.\nThe supplied image is the actual reference. Keep TWO unmistakable uppercase D letters diagonally overlapping: first D higher at left, second D lower at right; ONE human face profile facing RIGHT at their central junction. Preserve two D stems, two D bowls and two OPEN EMPTY D counters. Exact same DD+face identity idea, no new symbol.\nCreate B12: a VERY LOW WIDE COMPACT monogram. Overall symbol width about 1.6 times its total height. Both D have shorter stable stems and wide horizontally rounded bowls. Use soft rounded stem terminals, no sharp serifs. Make the D counters broad and open. Make the right-facing profile compact and gently rounded, clearly readable but subordinate to the two D letters. Diagonal offset remains obvious, with left D just higher than right D. Broad soft plasticity, trustworthy professional medical identity.\nMANDATORY PALETTE ONLY: dominant warm terracotta brown #88482B, secondary pale peach #F5E0D6, optional white #FFFFFF flat separator. Left D and face solid BROWN. Right D is a thick BROWN ring-shaped D letter with a broad PALE PEACH stripe inset within that D STROKE, leaving both sides of the stroke clearly bordered in brown. Its central D COUNTER is EMPTY TRANSPARENT, not filled with peach. Brown dominates. NO BLUE of any kind, black, gold, metallic or other hue.\nStrictly flat 2D vector-like shapes, uniform solid colors, smooth crisp contours. No gradients, shading, illumination, highlights, bevels, 3D, shadow, glow or texture.\nOutput ONE mark on SQUARE 1:1 genuinely transparent canvas, centered around 74% canvas width and 46% canvas height with generous margins. Full mark uncropped.\nREMOVE all reference wordmark text. No doctor Derekk, no words, labels, captions, numbers, watermark or letters beyond exactly TWO D. No eye, eyelashes, hair, flowers, leaves, drops, shields, medical crosses, syringe, extra faces or new icons. No mockup, collage or stationery. Maintain DD plus one clear right-facing face.",
+          "workspacePath": "B12.png",
+          "generationTool": "built-in image_gen with referenced_image_paths",
+          "attempts": 1,
+          "visualInspection": "Two diagonal D and central right-facing profile preserved. Lower wider construction, softer terminals, open broad counters. Peach inset stripe in brown lower-right D. Brown dominates. Subtle model tonal variation."
+        }
+      ]
+    }
+  },
+  "export": "Exact palette mapping preserves the generated alpha channel and monogram silhouette; wordmark is typeset deterministically."
+}

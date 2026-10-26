@@ -13,14 +13,14 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "404/index.html",
-      "bytes": 65245,
-      "sha256": "b4ccb47e355d982babeb66b903cf9a1727129a89690055e0ec5baba952291cfe"
-    },
-    {
       "path": "404.html",
       "bytes": 1557,
       "sha256": "ff70526a37a4cb6281999a31e53f68bedafa5eb1750797c3de5a01c8a642e92c"
+    },
+    {
+      "path": "404/index.html",
+      "bytes": 65245,
+      "sha256": "b4ccb47e355d982babeb66b903cf9a1727129a89690055e0ec5baba952291cfe"
     },
     {
       "path": "AGENTS.md",
@@ -51,6 +51,321 @@
       "path": "assets/brand/favicon.svg",
       "bytes": 280,
       "sha256": "44a8f5d78ba1670fd49012e84755f9434a1d03274f372c1e3347dace2f2a89a8"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/QA.json",
+      "bytes": 8634,
+      "sha256": "ea44d08805876c44ea0a5feb6bfc18e807c5f034403b6a09c3eb65cd696488d5"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/README.md",
+      "bytes": 1780,
+      "sha256": "55d92d7a3841014d4495b1fdd16156900acb519bab29e2488032af3b6c85ebff"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/doctor-derekk-brown-16.zip",
+      "bytes": 7854585,
+      "sha256": "aa4785eaa6034b8553aa50173d466463e1e9e9f511181f31267d3171dbebc4e1"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/index.html",
+      "bytes": 14285,
+      "sha256": "f7fbc441fbd368fde55ca19dc1ed8abb10c10b540d4c06d4d9f84240fea74e24"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/manifest.json",
+      "bytes": 8184,
+      "sha256": "50b0ce0c0474216e3504d05cbecdd093b855a20c5159ade9d26fe82dca78cc61"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B01.png",
+      "bytes": 51381,
+      "sha256": "f27cd6d5d3b5435908e7bd071efd7eb03bcec5cc981efd5600536676e6206948"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B02.png",
+      "bytes": 52103,
+      "sha256": "50ff7e5541cdb02d796070e5f13cad5e766c65f992b097bb5fe821a32c6e0427"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B03.png",
+      "bytes": 54233,
+      "sha256": "7fcdfad922d8c31fbd9adeb0154b8ad6b2e66d1b6f7aa4a2f3b85922bae56748"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B04.png",
+      "bytes": 58024,
+      "sha256": "acff8cfabb0604b79e8b19ded09b1207b60736fde57357558b0af2a6ea9e6d26"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B05.png",
+      "bytes": 67062,
+      "sha256": "42687d27fc6a2acb9dc2b0eaadc22e6b5143f06cd0991ca5a92ff9b0e5203542"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B06.png",
+      "bytes": 72725,
+      "sha256": "defcf1326a91d642d866b6f47b7e6cbf34f395a96230ca6386d25e55df84e5af"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B07.png",
+      "bytes": 68398,
+      "sha256": "501bf7e2c3f45c62c9b7912be8a7abbc99429b2b653bc896961d40ca2b1030b0"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B08.png",
+      "bytes": 62577,
+      "sha256": "7bea59a951d7f18cd4ee53976b817eb3b8f6da4be60719c2d2fce8ff44b04258"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B09.png",
+      "bytes": 65897,
+      "sha256": "cc02eb50fe3f4dfa0bfddd08f575f960f2c5889c4455899d90316488206f137e"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B10.png",
+      "bytes": 69779,
+      "sha256": "79d96f104a007f870ea9840a08c77befa75db421948bb97bc94aa4428581d035"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B11.png",
+      "bytes": 55273,
+      "sha256": "2006850f957d5f134bad17809465dfac3ab044dad5e0fb69aed6cb07c99031c4"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B12.png",
+      "bytes": 52354,
+      "sha256": "c5afadbf568b3235962cc45f10248ba650eab02251960c9a3e0b5fc8cf874319"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B13.png",
+      "bytes": 80377,
+      "sha256": "649f0d8ffe92beca7111aa4c1eaab2bf2d2a08caaf5640c9f041bd65472ca7e3"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B14.png",
+      "bytes": 60362,
+      "sha256": "fc2c163ec418a579f39f2a08bdd164a83768ea879dfa4c418bebec14a2838bfc"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B15.png",
+      "bytes": 55556,
+      "sha256": "25836860ca52f8da0a77951db683be00c07b8b0410f09a131923027730b7b870"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/marks/B16.png",
+      "bytes": 51399,
+      "sha256": "44d769986e9b016422c8fcda2f9f4ae3d8e084e5c2d9723114baf3ffbc419c70"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/palette.json",
+      "bytes": 114,
+      "sha256": "ce189c3c20d337a085166add8dee99ef07bc25cadada8cd54d475aa4ac0a565d"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/prompts.json",
+      "bytes": 33374,
+      "sha256": "18fb94897312ecb19178a9967930101ff6cb15eee6347cbc4eb630dd0c8595c0"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/review/all-16-comparison.png",
+      "bytes": 573287,
+      "sha256": "f8213e12a218380d37d22adf9d57018c1f1a39f38eb4356fb54e09c3dec57c0b"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/review/classic-comparison.png",
+      "bytes": 193621,
+      "sha256": "e0fcceb9df64e115dc65914de137e94c257fb3f2f3acd27eb3732fa615b2aa5e"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/review/graphic-comparison.png",
+      "bytes": 196115,
+      "sha256": "da7fa5d562a5b18eaec3c0b113e54ca34856272eceb1aa2ab1c5628c77952cb7"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/review/modern-comparison.png",
+      "bytes": 189111,
+      "sha256": "9902422745849b81f383365ea8ad00e731dd3c420527e3299923ed57a9f7e7e2"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/review/organic-comparison.png",
+      "bytes": 197887,
+      "sha256": "ec73b0ca1fcd47c4a440b69d6bb7744cecc5774cc1d585c26f096e64c5cef64a"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/review/scale-check.png",
+      "bytes": 372005,
+      "sha256": "e33bcff34e9d40b088ee24c33eceb0efb83137d645b0ba7598c425b8da5bb8dd"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/source/selected-logo.jpg",
+      "bytes": 65342,
+      "sha256": "607088debf9a0b6071df67551e274d7857c40ff7969b116702d5275f704b2629"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/theme.css",
+      "bytes": 1162,
+      "sha256": "0043e31dd6e0f350ef0ac71664a07e06da2b8b0b3a72eec603610667c4d569e1"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B01.png",
+      "bytes": 129829,
+      "sha256": "0a9af4241b8a1549599836c0489b4d6d8f9ef9f4abf1a2ea112d82ddd3be7b15"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B02.png",
+      "bytes": 168785,
+      "sha256": "f7e5928779a2088ca2edf90289613e593540e582e5431358fe7d82b4dc81e221"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B03.png",
+      "bytes": 163017,
+      "sha256": "16daa6160b91edfc3d1ea765b630d0f5a30faa9e1cfb8b9c1aaff106393eb233"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B04.png",
+      "bytes": 151108,
+      "sha256": "14bdb521f2a59fc6feca1008fb1978c9aebbc28fb371399f31a9f6b7c2616e28"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B05.png",
+      "bytes": 155438,
+      "sha256": "eb93211fbb7cd564e31c86d8d827b20021b7aee4dc9f2dd40ff5147d8e6e8e36"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B06.png",
+      "bytes": 155905,
+      "sha256": "2876dbaaa7c854cffe07d955ce1716c03e899e3dd6c30ecf16cb83dfba517875"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B07.png",
+      "bytes": 163534,
+      "sha256": "2e0e4220638e5c59c405573ea60a6ce468e3ff270c577d9c8e803aa3be7d5f55"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B08.png",
+      "bytes": 156538,
+      "sha256": "7168a2254912b9ce7a02d7c1a389fd6a4610919185e1394ea30835be30bd6912"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B09.png",
+      "bytes": 168632,
+      "sha256": "d2c888b820a87deae85b71e33b84bafbc8c082773e70c09a75edf2ce3ecf512d"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B10.png",
+      "bytes": 146581,
+      "sha256": "ae7dc608d55518c3c46b9d022a662ac0c678a98ce08da7366416d28230674c09"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B11.png",
+      "bytes": 135729,
+      "sha256": "bed408aa59d5034fff276bfca2a6c6fce97196cc05c14f61ed888217d86a9186"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B12.png",
+      "bytes": 144320,
+      "sha256": "f5263127d242e6d5340431e9660b0a8022631432b13f705c1124dea6a4af3e1e"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B13.png",
+      "bytes": 176586,
+      "sha256": "c3feede41201d28d9e94408e6feba9786f31c8301ca95727272e07aa33e15eb1"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B14.png",
+      "bytes": 152218,
+      "sha256": "123342f70ebe380af18d77b2410ee0a48c57318b28d54e9f71e0b05f0c3146b2"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B15.png",
+      "bytes": 166651,
+      "sha256": "7dccf7e3a9c32c45cbaa6bc8b12425deb62773ebe45e9229bcce9607c6822176"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/transparent/B16.png",
+      "bytes": 155204,
+      "sha256": "0f82d4113a4a6078940014d04f87317e2a1cfb082b0dbcc31fc0ae2f8e746165"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B01.png",
+      "bytes": 160703,
+      "sha256": "f8cf593b67f50e23f4af8600f1870699c9aaf06ea1c912a388b222605a89d0a0"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B02.png",
+      "bytes": 214422,
+      "sha256": "fc3e2b4d53320d4e6f7de2d20dc1c464122867bbdcd9fd196e16e307d3fabd9d"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B03.png",
+      "bytes": 204333,
+      "sha256": "0805297c9b1ef0b708eaf3c4c7d90855465e9e19b2935ba4e254e7b7ed1eb118"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B04.png",
+      "bytes": 192130,
+      "sha256": "baab583d446aa037610921068c27fd5e58365672b386bb6d3d4d9c4cd6859b5b"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B05.png",
+      "bytes": 196016,
+      "sha256": "c6327f25bcbd0adde1829faaa7ac99b73e55b37f87a5b476dce9682fe7e48163"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B06.png",
+      "bytes": 192673,
+      "sha256": "8f8611af33fa728f4a02d84394994593dbfb321d599adbc36b19ac4a0ff63e65"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B07.png",
+      "bytes": 206677,
+      "sha256": "75f839d6141298b6f259a41c1c11429f5deeb33458bc42aa498e7fc26df8b1be"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B08.png",
+      "bytes": 200117,
+      "sha256": "58b7be16a4bc04dd806a2a1bd70da2af25c2dcacad9fc44c646c2c653d3d2bd1"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B09.png",
+      "bytes": 207039,
+      "sha256": "86f20fd07869bbe9ccd2ff1e7a4219cdf4c95540d56e517cd7ae9ba5c68cb2ed"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B10.png",
+      "bytes": 175490,
+      "sha256": "24058bc2e417b6c015177dacfcbd78112526b8fc2731a3e1d9227fc7718d6db2"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B11.png",
+      "bytes": 166895,
+      "sha256": "abf7a81623897a067c7cd4f96930dc211646ceec21f3f26cbb97a59d4f79d50b"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B12.png",
+      "bytes": 179759,
+      "sha256": "06f52e87c3255ed2e25993cc8cdd6f918042b0f65997138acb72ad311e3d496a"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B13.png",
+      "bytes": 219225,
+      "sha256": "d48b5d92e3624dff070c4ed5e5b27ce177786d878a54d7c82898c87a64123e89"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B14.png",
+      "bytes": 194416,
+      "sha256": "0704172eea61023f10a10f5988d68ecfaee0da5c322a3977863722c60823e188"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B15.png",
+      "bytes": 210625,
+      "sha256": "ea257a925a590c58e882e2a7a2dbd8547b0b6f721ba5c2482a5d9eb76c335241"
+    },
+    {
+      "path": "assets/brand/logo-exploration-2026-10-26/white/B16.png",
+      "bytes": 197735,
+      "sha256": "852bdb7c0cf422ad2b2111675bc9f003596ac5c3ec108c33cc1c7fb404200278"
     },
     {
       "path": "assets/brand/social-preview.png",

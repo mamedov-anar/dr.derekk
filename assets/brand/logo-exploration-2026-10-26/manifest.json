@@ -1,0 +1,290 @@
+[
+  {
+    "id": "B01",
+    "index": 1,
+    "title": "B01 · Чистая классика",
+    "concept": "Чистая классика",
+    "group": "classic",
+    "family": "Классические формы",
+    "src": "../transparent/B01.png",
+    "href": "../white/B01.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Avenir Next.ttc",
+      "index": 2
+    },
+    "white": "white/B01.png",
+    "transparent": "transparent/B01.png",
+    "mark": "marks/B01.png"
+  },
+  {
+    "id": "B02",
+    "index": 2,
+    "title": "B02 · Уверенные засечки",
+    "concept": "Уверенные засечки",
+    "group": "classic",
+    "family": "Классические формы",
+    "src": "../transparent/B02.png",
+    "href": "../white/B02.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/Baskerville.ttc",
+      "index": 4
+    },
+    "white": "white/B02.png",
+    "transparent": "transparent/B02.png",
+    "mark": "marks/B02.png"
+  },
+  {
+    "id": "B03",
+    "index": 3,
+    "title": "B03 · Вертикальная элегантность",
+    "concept": "Вертикальная элегантность",
+    "group": "classic",
+    "family": "Классические формы",
+    "src": "../transparent/B03.png",
+    "href": "../white/B03.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/GillSans.ttc",
+      "index": 4
+    },
+    "white": "white/B03.png",
+    "transparent": "transparent/B03.png",
+    "mark": "marks/B03.png"
+  },
+  {
+    "id": "B04",
+    "index": 4,
+    "title": "B04 · Компактная классика",
+    "concept": "Компактная классика",
+    "group": "classic",
+    "family": "Классические формы",
+    "src": "../transparent/B04.png",
+    "href": "../white/B04.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Optima.ttc",
+      "index": 1
+    },
+    "white": "white/B04.png",
+    "transparent": "transparent/B04.png",
+    "mark": "marks/B04.png"
+  },
+  {
+    "id": "B05",
+    "index": 5,
+    "title": "B05 · Строгая геометрия",
+    "concept": "Строгая геометрия",
+    "group": "modern",
+    "family": "Современная геометрия",
+    "src": "../transparent/B05.png",
+    "href": "../white/B05.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "HelveticaNeue.ttc",
+      "index": 10
+    },
+    "white": "white/B05.png",
+    "transparent": "transparent/B05.png",
+    "mark": "marks/B05.png"
+  },
+  {
+    "id": "B06",
+    "index": 6,
+    "title": "B06 · Мягкие скругления",
+    "concept": "Мягкие скругления",
+    "group": "modern",
+    "family": "Современная геометрия",
+    "src": "../transparent/B06.png",
+    "href": "../white/B06.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/Futura.ttc",
+      "index": 0
+    },
+    "white": "white/B06.png",
+    "transparent": "transparent/B06.png",
+    "mark": "marks/B06.png"
+  },
+  {
+    "id": "B07",
+    "index": 7,
+    "title": "B07 · Диагональная динамика",
+    "concept": "Диагональная динамика",
+    "group": "modern",
+    "family": "Современная геометрия",
+    "src": "../transparent/B07.png",
+    "href": "../white/B07.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/DIN Alternate Bold.ttf",
+      "index": 0
+    },
+    "white": "white/B07.png",
+    "transparent": "transparent/B07.png",
+    "mark": "marks/B07.png"
+  },
+  {
+    "id": "B08",
+    "index": 8,
+    "title": "B08 · Открытая монограмма",
+    "concept": "Открытая монограмма",
+    "group": "modern",
+    "family": "Современная геометрия",
+    "src": "../transparent/B08.png",
+    "href": "../white/B08.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/GillSans.ttc",
+      "index": 0
+    },
+    "white": "white/B08.png",
+    "transparent": "transparent/B08.png",
+    "mark": "marks/B08.png"
+  },
+  {
+    "id": "B09",
+    "index": 9,
+    "title": "B09 · Плавные дуги",
+    "concept": "Плавные дуги",
+    "group": "organic",
+    "family": "Плавная пластика",
+    "src": "../transparent/B09.png",
+    "href": "../white/B09.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Optima.ttc",
+      "index": 0
+    },
+    "white": "white/B09.png",
+    "transparent": "transparent/B09.png",
+    "mark": "marks/B09.png"
+  },
+  {
+    "id": "B10",
+    "index": 10,
+    "title": "B10 · Мягкое переплетение",
+    "concept": "Мягкое переплетение",
+    "group": "organic",
+    "family": "Плавная пластика",
+    "src": "../transparent/B10.png",
+    "href": "../white/B10.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Avenir Next.ttc",
+      "index": 7
+    },
+    "white": "white/B10.png",
+    "transparent": "transparent/B10.png",
+    "mark": "marks/B10.png"
+  },
+  {
+    "id": "B11",
+    "index": 11,
+    "title": "B11 · Тонкая пластика",
+    "concept": "Тонкая пластика",
+    "group": "organic",
+    "family": "Плавная пластика",
+    "src": "../transparent/B11.png",
+    "href": "../white/B11.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/Athelas.ttc",
+      "index": 0
+    },
+    "white": "white/B11.png",
+    "transparent": "transparent/B11.png",
+    "mark": "marks/B11.png"
+  },
+  {
+    "id": "B12",
+    "index": 12,
+    "title": "B12 · Широкий силуэт",
+    "concept": "Широкий силуэт",
+    "group": "organic",
+    "family": "Плавная пластика",
+    "src": "../transparent/B12.png",
+    "href": "../white/B12.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/Futura.ttc",
+      "index": 0
+    },
+    "white": "white/B12.png",
+    "transparent": "transparent/B12.png",
+    "mark": "marks/B12.png"
+  },
+  {
+    "id": "B13",
+    "index": 13,
+    "title": "B13 · Чистый просвет",
+    "concept": "Чистый просвет",
+    "group": "graphic",
+    "family": "Графическая точность",
+    "src": "../transparent/B13.png",
+    "href": "../white/B13.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Avenir Next.ttc",
+      "index": 2
+    },
+    "white": "white/B13.png",
+    "transparent": "transparent/B13.png",
+    "mark": "marks/B13.png"
+  },
+  {
+    "id": "B14",
+    "index": 14,
+    "title": "B14 · Одноцветный знак",
+    "concept": "Одноцветный знак",
+    "group": "graphic",
+    "family": "Графическая точность",
+    "src": "../transparent/B14.png",
+    "href": "../white/B14.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/GillSans.ttc",
+      "index": 4
+    },
+    "white": "white/B14.png",
+    "transparent": "transparent/B14.png",
+    "mark": "marks/B14.png"
+  },
+  {
+    "id": "B15",
+    "index": 15,
+    "title": "B15 · Линия и силуэт",
+    "concept": "Линия и силуэт",
+    "group": "graphic",
+    "family": "Графическая точность",
+    "src": "../transparent/B15.png",
+    "href": "../white/B15.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "HelveticaNeue.ttc",
+      "index": 0
+    },
+    "white": "white/B15.png",
+    "transparent": "transparent/B15.png",
+    "mark": "marks/B15.png"
+  },
+  {
+    "id": "B16",
+    "index": 16,
+    "title": "B16 · Сбалансированный контраст",
+    "concept": "Сбалансированный контраст",
+    "group": "graphic",
+    "family": "Графическая точность",
+    "src": "../transparent/B16.png",
+    "href": "../white/B16.png",
+    "exactText": "doctor Derekk",
+    "font": {
+      "file": "Supplemental/Baskerville.ttc",
+      "index": 4
+    },
+    "white": "white/B16.png",
+    "transparent": "transparent/B16.png",
+    "mark": "marks/B16.png"
+  }
+]
