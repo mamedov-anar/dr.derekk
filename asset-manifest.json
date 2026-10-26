@@ -14,8 +14,8 @@
     },
     {
       "path": "404.html",
-      "bytes": 1557,
-      "sha256": "ff70526a37a4cb6281999a31e53f68bedafa5eb1750797c3de5a01c8a642e92c"
+      "bytes": 1700,
+      "sha256": "3a03e2fc78242b88995dd79b0a070ed490afe16ae5f7f0619896f4db23111a7b"
     },
     {
       "path": "404/index.html",
@@ -24,13 +24,13 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 2178,
-      "sha256": "7674b76c06028e3b5e314bc7d6a5cd48c7e3ff4b0e0178f80672807ab04e4261"
+      "bytes": 2629,
+      "sha256": "95f15aa0c678b6fd3bed860921846039e3f909914c8445612fcd76bec6858b2b"
     },
     {
       "path": "README.md",
-      "bytes": 2811,
-      "sha256": "6cfc3444f16e5ec8759ce778fa0f8c5c21015ed0cba8f8950335ef490af09987"
+      "bytes": 3491,
+      "sha256": "be85323628d3ae15a9b757e986d99e6ea143347190444c4e298d5332a01e94b2"
     },
     {
       "path": "about/index.html",
@@ -1969,8 +1969,8 @@
     },
     {
       "path": "assets/portable.css",
-      "bytes": 433,
-      "sha256": "e22d8a67e530d0cbc44da6d726fa72361663f9bab4b8ef4bf60cab6bbf799944"
+      "bytes": 802,
+      "sha256": "530da85dc1b8aa1db7db967adec64c71c5032413ae8177cdc2494f9f6feff821"
     },
     {
       "path": "assets/portable.js",

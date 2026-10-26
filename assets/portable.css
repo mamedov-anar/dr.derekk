@@ -19,3 +19,19 @@ textarea:focus-visible {
 form[aria-busy="true"] [type="submit"] {
   cursor: progress;
 }
+
+/* Inter is the default for every site language and text state.
+   Keep all existing font sizes, weights, line heights and spacing. */
+:root {
+  --dr-derekk-font-family: "Inter", "Inter Placeholder", sans-serif;
+}
+
+html,
+body,
+body *,
+body *::before,
+body *::after,
+input::placeholder,
+textarea::placeholder {
+  font-family: var(--dr-derekk-font-family) !important;
+}
