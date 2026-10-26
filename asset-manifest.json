@@ -1638,6 +1638,11 @@
       "sha256": "5a51946dfffa82972bc98745359c46761515641fda557c25116459a9f83da4a7"
     },
     {
+      "path": "assets/home-hero.css",
+      "bytes": 400,
+      "sha256": "8154791d77610d2634a6c7eb2313beb51276b4bbfc1a44881126824c68c428c3"
+    },
+    {
       "path": "assets/page-hero.css",
       "bytes": 2131,
       "sha256": "7362505d1f72208b6a10240dccd806b4a87e950bbca207dc5c2a9ddb44192655"
@@ -1754,8 +1759,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 375960,
-      "sha256": "696fcf014a79c63477abfded98ee91e80c8406440d46bb0dc15b430d77d8e5f1"
+      "bytes": 376035,
+      "sha256": "7c45e357738b1b4e77620a621bc0e6a13c63222247afd7e3d352a2bfe4725384"
     },
     {
       "path": "legal/privacy-policy/index.html",
