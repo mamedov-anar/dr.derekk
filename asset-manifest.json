@@ -24,13 +24,18 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3094,
-      "sha256": "c37a594a0ed474e61cca5381af066d4043d1207635a5893583adf674e02ef389"
+      "bytes": 3820,
+      "sha256": "46329cd0ed9dfacf2d0e3414121368e61014d923642a69b5975834e54418ad99"
+    },
+    {
+      "path": "PAGES.md",
+      "bytes": 14904,
+      "sha256": "6eb4bca85f960e574799cbe8b4ae754bde342bab8024ce232653cdd3409decbf"
     },
     {
       "path": "README.md",
-      "bytes": 3979,
-      "sha256": "f2dc3445e1336e6a0f538e73d7bf7e3b801f18321b6108aeec6d680419346306"
+      "bytes": 5016,
+      "sha256": "ff66039d37c04a779fc137ee05d4dde6067eb0e0aba2b18986f17552bc16d555"
     },
     {
       "path": "about/index.html",
