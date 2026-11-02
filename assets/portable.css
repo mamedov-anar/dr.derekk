@@ -18,7 +18,7 @@
 }
 
 
-/* dr.derekk: accessible focus and form controls. */
+/* Dr.Derek: accessible focus and form controls. */
 input::placeholder,
 textarea::placeholder {
   color: #88482b !important;

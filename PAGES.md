@@ -1,4 +1,4 @@
-# dr.derekk — справочник страниц
+# Dr.Derek — справочник страниц
 
 Состав страниц проверен **2 ноября 2026 года** по ветке `main` репозитория [mamedov-anar/dr.derekk](https://github.com/mamedov-anar/dr.derekk) и истории её коммитов. Срез перед добавлением справочника: [`3bc4cae`](https://github.com/mamedov-anar/dr.derekk/commit/3bc4cae5606b80b4aced295b6bd22780075a8976).
 

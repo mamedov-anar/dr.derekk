@@ -1,5 +1,5 @@
 {
-  "brand": "dr.derekk",
+  "brand": "Dr.Derek",
   "repository": "https://github.com/mamedov-anar/dr.derekk",
   "files": [
     {
@@ -14,33 +14,33 @@
     },
     {
       "path": "404.html",
-      "bytes": 1715,
-      "sha256": "958ba94211f7aba6f3e3e29b7f1d8f722a6e5ae4458b7ccff393ca879aac1164"
+      "bytes": 1714,
+      "sha256": "6683b125f53edf3cf98b9ed16c8268101b10bbe96cdb4e8e40eb693f816aadca"
     },
     {
       "path": "404/index.html",
-      "bytes": 65260,
-      "sha256": "0c31b425dc0149a32d5a17b28ae98fb640683c8bcfa3201350ae6d6179693e49"
+      "bytes": 65486,
+      "sha256": "8b7ed163a3c0fc5c18be359712b7fec288fc35c9a89292469560582b9196487b"
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3820,
-      "sha256": "46329cd0ed9dfacf2d0e3414121368e61014d923642a69b5975834e54418ad99"
+      "bytes": 3819,
+      "sha256": "0d987399d5945e00c9aaba379b0a347bbf20b199a550265f3a7cf0bc36f6463d"
     },
     {
       "path": "PAGES.md",
-      "bytes": 14904,
-      "sha256": "6eb4bca85f960e574799cbe8b4ae754bde342bab8024ce232653cdd3409decbf"
+      "bytes": 14903,
+      "sha256": "37ba4c22ed1527801b176b1d3ee7b1fcd2f1deb45ed517b11578583adbd0e497"
     },
     {
       "path": "README.md",
-      "bytes": 5016,
-      "sha256": "ff66039d37c04a779fc137ee05d4dde6067eb0e0aba2b18986f17552bc16d555"
+      "bytes": 5013,
+      "sha256": "121b37683100727fcb53b75880d721e3d312b784020f0852b7392257cbed57bb"
     },
     {
       "path": "about/index.html",
-      "bytes": 208320,
-      "sha256": "b0164c36bcd5cf270aa421c801b8428fcdbdde979867d7b8af3a5088ea98bfcd"
+      "bytes": 208576,
+      "sha256": "8542e5a5cd21b736d76121dda6c62d56e7f195152e728ec9e23081f5956f653b"
     },
     {
       "path": "assets/brand/apple-touch-icon.png",
@@ -54,8 +54,8 @@
     },
     {
       "path": "assets/brand/favicon.svg",
-      "bytes": 280,
-      "sha256": "44a8f5d78ba1670fd49012e84755f9434a1d03274f372c1e3347dace2f2a89a8"
+      "bytes": 279,
+      "sha256": "f444c081832a60d59348f1afeb89f0b1b744294b49932cf222ee4f279684404c"
     },
     {
       "path": "assets/brand/logo-exploration-2026-10-26/QA.json",
@@ -364,8 +364,8 @@
     },
     {
       "path": "assets/brand/social-preview.png",
-      "bytes": 27489,
-      "sha256": "5d3ba9c506fce4d12577d4e488a46c6bf9d3f9f72ab9b82f4d400acc62547f48"
+      "bytes": 519929,
+      "sha256": "0c4779ed85adba8d4f7ee2d3b3397f90370c8659491b2257fe0ea2ff4eadd5f2"
     },
     {
       "path": "assets/dr.derekk/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2",
@@ -559,8 +559,8 @@
     },
     {
       "path": "assets/dr.derekk/assets/kYUO6CnhArtC2eEn3sjsmp3CPA.png",
-      "bytes": 27489,
-      "sha256": "5d3ba9c506fce4d12577d4e488a46c6bf9d3f9f72ab9b82f4d400acc62547f48"
+      "bytes": 519929,
+      "sha256": "0c4779ed85adba8d4f7ee2d3b3397f90370c8659491b2257fe0ea2ff4eadd5f2"
     },
     {
       "path": "assets/dr.derekk/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2",
@@ -1004,13 +1004,13 @@
     },
     {
       "path": "assets/dr.derekk/images/JswTjukBm0GEEmbddTNi9yk2kM__q232da8bb8f2c.svg",
-      "bytes": 264,
-      "sha256": "65aa8c18b4ba3b6bcffa0434e3d1f1a87ae9bbb946d89177f2161fd83af7059b"
+      "bytes": 263,
+      "sha256": "0e1ac070f0de86d44a92f1da8bb1acf283876059d401ec585f709b80e73b78d4"
     },
     {
       "path": "assets/dr.derekk/images/JswTjukBm0GEEmbddTNi9yk2kM__q2cc2eda10c3b.svg",
-      "bytes": 264,
-      "sha256": "65aa8c18b4ba3b6bcffa0434e3d1f1a87ae9bbb946d89177f2161fd83af7059b"
+      "bytes": 263,
+      "sha256": "0e1ac070f0de86d44a92f1da8bb1acf283876059d401ec585f709b80e73b78d4"
     },
     {
       "path": "assets/dr.derekk/images/K9IuqYRyUxhRrmmNLRgTm0QmELs__q1f654dc50c72.png",
@@ -1379,8 +1379,8 @@
     },
     {
       "path": "assets/dr.derekk/images/kYUO6CnhArtC2eEn3sjsmp3CPA.png",
-      "bytes": 27489,
-      "sha256": "5d3ba9c506fce4d12577d4e488a46c6bf9d3f9f72ab9b82f4d400acc62547f48"
+      "bytes": 519929,
+      "sha256": "0c4779ed85adba8d4f7ee2d3b3397f90370c8659491b2257fe0ea2ff4eadd5f2"
     },
     {
       "path": "assets/dr.derekk/images/mY922oLqjcTHH9P616QCnEgs6A__q1f654dc50c72.png",
@@ -1484,13 +1484,13 @@
     },
     {
       "path": "assets/dr.derekk/images/qGPuxhMguNv4jn5f35KJ5Yw6B08__q4cb7f5e08e0b.svg",
-      "bytes": 239,
-      "sha256": "0e3c54d0aea0e4d7229641d729f6676609fd8b1b7da5b6d591d2d7e0efad161c"
+      "bytes": 237,
+      "sha256": "5f58ed9c66dda522899d627fca16f92e49a2604231a9b9ccc2c621a96ece1033"
     },
     {
       "path": "assets/dr.derekk/images/qGPuxhMguNv4jn5f35KJ5Yw6B08__qd6f17568eaaf.svg",
-      "bytes": 239,
-      "sha256": "0e3c54d0aea0e4d7229641d729f6676609fd8b1b7da5b6d591d2d7e0efad161c"
+      "bytes": 237,
+      "sha256": "5f58ed9c66dda522899d627fca16f92e49a2604231a9b9ccc2c621a96ece1033"
     },
     {
       "path": "assets/dr.derekk/images/rrD3UQ4s1g7zorF602uYOUq4uUg__q1f654dc50c72.png",
@@ -1629,23 +1629,23 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/-GVIQfTkNUW1Fk1x1onHomVbWpfcJQ8-Nw6joNjGDIc.C7YVs2bC.mjs",
-      "bytes": 126702,
-      "sha256": "7692a424d36be10c6523f28d5fa8eca680a705941883f90fc0b67093b7e58a41"
+      "bytes": 126885,
+      "sha256": "9ee09c70b50d7258aac79e75bc15cc7605ce63a45733a1697e39b54b5b9595a8"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/4YFaaXWHZUUsh4fcXVoLm-WJSCoDNy2iDyhqku4igXo.JiJpcIFj.mjs",
-      "bytes": 82931,
-      "sha256": "e4126815fb5c08494c9c0f28eb55409517bdc08ee1728d314ed0bec099f3fea7"
+      "bytes": 83037,
+      "sha256": "23bb27f6e69dfcc804c9f58808ba1bb0895e96ddb5dbbbd89c04e20a6b22dc79"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/A3iOgAeJr.B4HsJ-mh.mjs",
-      "bytes": 743,
-      "sha256": "6fd457aec4164c577c6c58c60729ba5ad4436137d139a133859da0acd3223a5f"
+      "bytes": 769,
+      "sha256": "143cdd5787e35c21a263ff83e1a0aab11756c86b8cbc171d8469135dd8591727"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/EN94BBGutV-nMwY5V29SpuB1a_oTEU8ysHlnBpOieR8.CK-Q-VZX.mjs",
-      "bytes": 10584,
-      "sha256": "a75fadf0fa87157020a4aa14d21f3697bb07ae8246cf02112303827e680b2d8c"
+      "bytes": 10636,
+      "sha256": "561ac65cd51824ab7070bf9cbfa364d5aa04b9ef50c9a416d037f1f55169426b"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/IY-B2P-KIqpNFe-25tpSrgrBHDPQb9Ickp5hmMzQlho.DrCdpD5R.mjs",
@@ -1654,8 +1654,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/JGrd_eiLowvdCHh8nPwQvpE-QKSMDDuMxGXjWviBcxg.Bm7vhCqM.mjs",
-      "bytes": 14635,
-      "sha256": "cff3a68ff11ddb68de4a74ddb6b66e1e8af5fa73f956de2e6418eeb3ff7230de"
+      "bytes": 14687,
+      "sha256": "3c9b40e15893eb1cda181ae3d0222d26b8558ec391ac825ccaf186d32a591b9d"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/LpLvjTVjmN4_9Lkno72FP71T1omrhxTdHehaMxKlUBk.CJEEaUZW.mjs",
@@ -1664,8 +1664,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/LtLcokkL6.CPfy0igJ.mjs",
-      "bytes": 1786,
-      "sha256": "1bcdbabd0ba5396a388f0a11aa8a652af15653bc1f883c05ec8b10a5780eb2c8"
+      "bytes": 1812,
+      "sha256": "b8d6b6b1822efd10ddbc1c0aa159c0675bcccaa555dee6538aa632594d6fb7b9"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/Oxv8x2Tlc.DTu3Hm_K.mjs",
@@ -1674,8 +1674,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/RRs9gDlJTJ_mVtXSfOLzbkCdo5L9kWxbIPDrrUAZVJ4.BAnRLAmr.mjs",
-      "bytes": 41568,
-      "sha256": "455b9e1a0b2287c4d6334003351d2b1e41fbd6a9e7cbf2c284e7f888b8cca049"
+      "bytes": 41674,
+      "sha256": "0d3cde281505b565d1db67226989ddf253dbf25a14e04f9877f184cdac8989e6"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/SLrFxM57o.DpFrMgMQ.mjs",
@@ -1689,23 +1689,23 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/XvDQYR5Gn.BRaww6_L.mjs",
-      "bytes": 37779,
-      "sha256": "f6b6d19a38ea6840da13752fa5d7baa1e0764f17637923f248baf27f937b5752"
+      "bytes": 37805,
+      "sha256": "dc773691af60c8176468d60d00b24fab82e5d360807fbb23adb69033e569c18d"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/YgJBP6HuF.DgBeD8p1.mjs",
-      "bytes": 745,
-      "sha256": "ae4e7be1bc22eafe20250994753bb4b0cd3b3eca3cf8ba59717ad31888cdd5fb"
+      "bytes": 771,
+      "sha256": "00b78d59ec23fdf37ad88d1b846f8410754e9b70f7abc5cd691648ab28634339"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/augiA20Il.ZJI3mJ0u.mjs",
-      "bytes": 740,
-      "sha256": "204986accd3b1484ed5162a81ac1cf2459876dcabfbb960add657d2e6f029df7"
+      "bytes": 766,
+      "sha256": "941c4672f45f678485662e977a6486a7c2645e09c097cea04affa830cc723532"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/dVNiWCait.CJzBLeV0.mjs",
-      "bytes": 730,
-      "sha256": "0bccfcd836ef1ef87712593648f8c477ecfee842618ad61e4c37eaaf627aacf4"
+      "bytes": 756,
+      "sha256": "0573d90f3357afcb6c8184e78fcd5aba4ecd46c4d303a50ec3fd402133583b1b"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/fontshare-4THNDPMZ.DgFrsCWO.mjs",
@@ -1734,8 +1734,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/g6LmOAIEQ.Cwk1H13S.mjs",
-      "bytes": 55253,
-      "sha256": "6db78f8324cf63008d1aff443bbe1297fe5c43a5be9acc1bc69c065dc420aff7"
+      "bytes": 55279,
+      "sha256": "c6aa32d1791a0665a6cdf16a894cf4e7dda0ec920537f44b71dfae825a4a5ce0"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/google-3FCAKCAC.DFsZFEGE.mjs",
@@ -1759,13 +1759,13 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/ld2W7YdMT.CXagHhqJ.mjs",
-      "bytes": 766,
-      "sha256": "fbee395fbbe1a59d8bd3cf44d0a449c0bda7a9b102c03b7f771ceaf0c6025b7a"
+      "bytes": 792,
+      "sha256": "ee10063782ac15daa7d4ff7b38a58191613fe03ed466aa728725d8bf3827ad17"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/loNNOxt6lcdhGo6qsY_UUPf4O3b0KYrHy6kA1ZgoUsI.CRY1CCMy.mjs",
-      "bytes": 51979,
-      "sha256": "7ebc4f0b6edb5e6a25094ae66a7da6aa34da29ddf4e007ccdf3c30e47c143637"
+      "bytes": 52033,
+      "sha256": "c64caf8f43e9d0035c3d61de062de0f25f6c029734d31c5b15daa4e90c397834"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/motion.Dc2aXs1x.mjs",
@@ -1774,23 +1774,23 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/pSxy4F4VR.D7E7T303.mjs",
-      "bytes": 18843,
-      "sha256": "c5a7e76c7974291484e34140cdbe422507a3b6323ddf62c943d94d97e9e9f72f"
+      "bytes": 18869,
+      "sha256": "022a830e127fae116add23e96ffdcbd8a3e7fd43c63d1b871476d9b5bfeae46b"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/psfGMHXrQNDy7QQR-V1MKBEhvjR5x8LJRAKPfKMQhw0.Cv36tcBv.mjs",
-      "bytes": 37792,
-      "sha256": "a5852e0536d22f208456ec3ca0bbb670e119e13de1d38bc3757523a62479e757"
+      "bytes": 37872,
+      "sha256": "6e549f0e3c90cc698f105525f9f1c8b9ccf8dc7b0c84d7e6d586a001f5978ebf"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/qHC212U3r.BdqxcVqr.mjs",
-      "bytes": 19424,
-      "sha256": "ac98c6695a71826af8fc7e709337f123620c3bc06e21bbf850431d0c0671952e"
+      "bytes": 19450,
+      "sha256": "b8a3d09eee863bedcca97137ad31b710abe2a8e5628bc428a04235483f8e8b3c"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/qXZHf8wBR.z4sQPA0a.mjs",
-      "bytes": 36177,
-      "sha256": "1bcf64d0f408746b0bfc0029debee543016195d92bd7a852db6cd77f077c62a6"
+      "bytes": 36203,
+      "sha256": "6bf5ac5c695efc833b6430f32680c5ea70801be7b7e126645425a724501388bf"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/react.CuwjDPPn.mjs",
@@ -1809,8 +1809,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/script_main.LLxlMnGa.mjs",
-      "bytes": 57693,
-      "sha256": "c909bdc238eecac4f6e8a49be8fa86df1a64e1be94f030eb313c9fd05cbbf185"
+      "bytes": 57901,
+      "sha256": "85f4f765eb03dbc87cf8ecb3abc8326266738616609d239ce9c32ed17463a121"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/searchIndex-S7AoYXM5NxWV.json",
@@ -1824,8 +1824,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/shared-lib.BrY62Mbm.mjs",
-      "bytes": 40863,
-      "sha256": "fd968c71e2d9a20096a3a925e43da6c2fae41efedad63527d81207aaa83ba000"
+      "bytes": 40887,
+      "sha256": "462fe8c0ed9d1f24f617b18516567b0954a10d774ef61ad508ddd952257cd9dc"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/tkyRqqT-9us72w6OLzwArBusnyB_Du4-dGktLm4KB9k.DKwEbqDh.mjs",
@@ -1834,8 +1834,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/trnTNE0xM.EldekONV.mjs",
-      "bytes": 1737,
-      "sha256": "67e2f52acde330e900704d0ba0eca33a82890047dec82b190a7c8d3f3f40434c"
+      "bytes": 1762,
+      "sha256": "73dad2e7abc4252a3a2874a96daba6d56bd08a423af3137036fd5876beca104d"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/wejWbW0PA.BmCs7wkm.mjs",
@@ -1844,8 +1844,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/x4HNbppQ6.DKQ7EDUB.mjs",
-      "bytes": 34474,
-      "sha256": "1cdb40b359faa39f96f9eda12383387bacce79d55bdd58faf8d9de4178ca5231"
+      "bytes": 34526,
+      "sha256": "06fb13b4f6c934e6948e586d2ce3f620ad703bcab9f4755e876a3cd4153f47b7"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/xit0E0FqF.Fh7_3584.mjs",
@@ -1979,13 +1979,13 @@
     },
     {
       "path": "assets/portable.css",
-      "bytes": 1272,
-      "sha256": "2a3f3ebebfccb7b2e44b85ee7bf11222ee8993c02c8ebec3a97aa3cd5f06fc99"
+      "bytes": 1271,
+      "sha256": "4e5c509c54b7e565dbe75a364ce6f7e17a1cdb88f80ad14ae6cea7932e218988"
     },
     {
       "path": "assets/portable.js",
-      "bytes": 55616,
-      "sha256": "9576ad49d4856487f97c94fa7122470719d56892a96455403be563fa92f6df54"
+      "bytes": 55615,
+      "sha256": "cb9ff21e2aa77f84512da624372745fef40b73e291a0956d7da440d3cbfc79dc"
     },
     {
       "path": "assets/styles/0e02bc8f8e85dc80.css",
@@ -2069,13 +2069,13 @@
     },
     {
       "path": "contact/index.html",
-      "bytes": 121801,
-      "sha256": "1a513266cbeedc61e0bebe415aebaf0c0d1c8d59157a9e243b8b8b36623371fc"
+      "bytes": 122005,
+      "sha256": "d13c18dba45befa47c727deaa2f2c3555794a8ddd3b85cba722c8570890452af"
     },
     {
       "path": "docs/QA-2026-10-25.md",
-      "bytes": 3120,
-      "sha256": "0b6749a1ae52660ed0c37cfcff2fece6e1d32e23d74dfc969d18b589a7062d6b"
+      "bytes": 3118,
+      "sha256": "fc898be521ed1940f1426588ba7c483677480ce3cd81f3ee723c3027d99560d2"
     },
     {
       "path": "favicon.ico",
@@ -2084,23 +2084,23 @@
     },
     {
       "path": "index.html",
-      "bytes": 376042,
-      "sha256": "92d9c63983c06fbb298bdce11f77d3bd89131572476283a25ccf9c450f5306db"
+      "bytes": 376350,
+      "sha256": "9f6302aad653ebbca26659b9c1ea1b12416521612efa0594c28a1239301326e8"
     },
     {
       "path": "legal/privacy-policy/index.html",
-      "bytes": 86372,
-      "sha256": "caf994fdca12ea0bf2a48c5f52f8eda1403c4f5e39b84fd7f9de306864b5ff57"
+      "bytes": 86598,
+      "sha256": "41f1a2a53ea442b449663b983aa245076fc00a411b2969d398f0ca16499e0c1e"
     },
     {
       "path": "pages.json",
-      "bytes": 3837,
-      "sha256": "22d11ce9173bddfb0a18fb26b7303276a034abf64bc8fcc7afc9932dc9b9c3cc"
+      "bytes": 3797,
+      "sha256": "f065567f6abfc7c2432bdfb01058c606d076d7007614e8b5d68921f496facdec"
     },
     {
       "path": "services-preview/index.html",
-      "bytes": 30836,
-      "sha256": "c174b12af369a2ccf394f672dd3eb2298eccd24ae5f09dea4d5ce276f20c51cc"
+      "bytes": 30883,
+      "sha256": "9e4df2d353eaf53622509b87ecebbd8d811929fe10c1161c50437770803d0f40"
     },
     {
       "path": "services-preview/services-preview.css",
@@ -2114,83 +2114,83 @@
     },
     {
       "path": "site-config.js",
-      "bytes": 183,
-      "sha256": "e743bba99175bceb60e63f1f0865b293f26a457d3f1d266b39aa24b4a181ebcc"
+      "bytes": 182,
+      "sha256": "c3838b0a9235b840059f14a23bb96f34d3e1d6ee6cd571c25145dc8e8d446550"
     },
     {
       "path": "treatments/acne-laser-treatment/index.html",
-      "bytes": 167839,
-      "sha256": "022de3ce4265ca56ca9521299937e828b76e554da22b0c11c4a489d11ef408bf"
+      "bytes": 168043,
+      "sha256": "1a154bd10bc01fe225a1a8a2044af442061e06068470e4c991d4987d69c083a6"
     },
     {
       "path": "treatments/brow-lift/index.html",
-      "bytes": 167462,
-      "sha256": "bf2b39d5317dee7fdc50e25ccdb3495508b30bf890e0fbf8ca2e2ceaeaf428a5"
+      "bytes": 167666,
+      "sha256": "5f5e54b9b0062900a5b6982b1ec4e3fc5054e84077ccd9f72b60b2897f4ce167"
     },
     {
       "path": "treatments/cheek-filler/index.html",
-      "bytes": 167490,
-      "sha256": "0cb16731b075598f62bb6d6b9ae88f65b744d124be0308d7a7c226bfb8a646bf"
+      "bytes": 167694,
+      "sha256": "c0585f4d8b02d0cad8e8e431223027baee31ab4012b897348908e5a74f8a318b"
     },
     {
       "path": "treatments/chemical-peel/index.html",
-      "bytes": 167335,
-      "sha256": "5f9d15059274b1680c4515eea82ddffa84851346554aad90e27e1fb3bda7a743"
+      "bytes": 167539,
+      "sha256": "42fea74fe0d0b7b2df60b94d473ec3e64ae9d26734f01879c1318021a38f6787"
     },
     {
       "path": "treatments/chin-filler/index.html",
-      "bytes": 167390,
-      "sha256": "09a4a56fecfbd94f2e561ba446f5d415520802f73b691647cb2b7af5d18f6738"
+      "bytes": 167594,
+      "sha256": "79f03697f3a9918620afff6a70f127267a98df50a47ca540b6a03ad45ec4b81a"
     },
     {
       "path": "treatments/crow-s-feet-treatment/index.html",
-      "bytes": 167733,
-      "sha256": "3649573599c485d0dcfd070e126d6d8550f181338e7b9775cf0491f17351c528"
+      "bytes": 167937,
+      "sha256": "fcc3c459a38a3a1a7812a00bccb8842057bd85adf0ca8146ff466e40f5098f9c"
     },
     {
       "path": "treatments/forehead-line-treatment/index.html",
-      "bytes": 167667,
-      "sha256": "8cadcfffb1a17b58e45c266ec23499881861e6686321323c9497f1bde7750096"
+      "bytes": 167871,
+      "sha256": "cc960181e4c4ff5abc5e4b2f36f70285a17d5e46b0da43392742861fcd463464"
     },
     {
       "path": "treatments/frown-line-treatment/index.html",
-      "bytes": 167583,
-      "sha256": "d2aa3c4ebc0b0ba38bb9291501b85ce48e7b2c01ae995cf17ec2e9c87d38c351"
+      "bytes": 167787,
+      "sha256": "f1ba566f91ffaeb90bef667813cccc2495fbed1b40ca77dfa9983fa48a72a4ef"
     },
     {
       "path": "treatments/hydrafacial/index.html",
-      "bytes": 166669,
-      "sha256": "fc57d787e64b245756e0742c831383159788b1477a98e5d92091ddd81e68c485"
+      "bytes": 166873,
+      "sha256": "15d44b032c71a8f5c4ce749ab92e670597d20dd78f333462b3d703f0477ee76c"
     },
     {
       "path": "treatments/index.html",
-      "bytes": 233507,
-      "sha256": "e839b278c963f7180f1d2f64706a1fa21a4fa1788e5cf780e7209b38e40cde39"
+      "bytes": 233725,
+      "sha256": "0c89ee2aa9a9c9ce2018e3bc6972c9f15d2990d64e34a65b1255e31ab3209d64"
     },
     {
       "path": "treatments/jawline-filler/index.html",
-      "bytes": 167540,
-      "sha256": "3624b39033ef7076443950e79864b8ea555cd3cfdbfc896922815cb31fee3bd3"
+      "bytes": 167744,
+      "sha256": "9459fdf3bc8cc1013ace7b218c3f0b184b275da5e57562479b0b1f3d41b4a81a"
     },
     {
       "path": "treatments/laser-skin-rejuvenation/index.html",
-      "bytes": 167933,
-      "sha256": "2b7fc002fe89f2bf70e91624ac26933cba04eda1bd1294ab8074395c4bfa8579"
+      "bytes": 168137,
+      "sha256": "970b0fba87bef73f8bfc9a1e30efd129dd280add7c842c5a84c69adf70085abf"
     },
     {
       "path": "treatments/lip-filler/index.html",
-      "bytes": 167190,
-      "sha256": "b0fe61d448ee9ec37739d3a363033da5eb3f330a0cb8fa9355fbcf5154fa480d"
+      "bytes": 167394,
+      "sha256": "2e0e06db391323b77806ba5eb1c988580141da50a39fee292e51f1da4c347f99"
     },
     {
       "path": "treatments/microneedling/index.html",
-      "bytes": 167118,
-      "sha256": "2c138f8dd0f1a77ce83c049f35cd1928d24b7ba21152bce438f550ff57698c83"
+      "bytes": 167322,
+      "sha256": "b823d7242dfe25034755cef7b1d456792ffde9c95337a72e04d857a69ca6b717"
     },
     {
       "path": "treatments/pigmentation-removal/index.html",
-      "bytes": 167558,
-      "sha256": "8813da9db51054877d99ef44e2fde09ae42f1e59268c9274f517bfeafc6d7266"
+      "bytes": 167762,
+      "sha256": "b5d4044bbce7d3340ccf4a01954d3f8037eee4766b7734187f30546ae9301e51"
     }
   ]
 }

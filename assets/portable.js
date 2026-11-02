@@ -1,4 +1,4 @@
-/* dr.derekk: local assets, navigation, accessible controls and contact form. */
+/* Dr.Derek: local assets, navigation, accessible controls and contact form. */
 (() => {
   'use strict';
   const siteRoot = new URL('../', document.currentScript.src);
