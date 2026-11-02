@@ -29,13 +29,13 @@
     },
     {
       "path": "PAGES.md",
-      "bytes": 14903,
-      "sha256": "37ba4c22ed1527801b176b1d3ee7b1fcd2f1deb45ed517b11578583adbd0e497"
+      "bytes": 16954,
+      "sha256": "f187980463f3041e0043b7f3f7c73e7ed9f12ff79647f0fbfd99707f04b05d21"
     },
     {
       "path": "README.md",
-      "bytes": 5013,
-      "sha256": "121b37683100727fcb53b75880d721e3d312b784020f0852b7392257cbed57bb"
+      "bytes": 5372,
+      "sha256": "67ab9f6145210a6dbf1a46794f0b8085314595d1cfa87fabc471b6bed2aac56c"
     },
     {
       "path": "about/index.html",
@@ -2191,6 +2191,11 @@
       "path": "treatments/pigmentation-removal/index.html",
       "bytes": 167762,
       "sha256": "b5d4044bbce7d3340ccf4a01954d3f8037eee4766b7734187f30546ae9301e51"
+    },
+    {
+      "path": "treatments_2/index.html",
+      "bytes": 233725,
+      "sha256": "0c89ee2aa9a9c9ce2018e3bc6972c9f15d2990d64e34a65b1255e31ab3209d64"
     }
   ]
 }
