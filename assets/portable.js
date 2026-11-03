@@ -10,14 +10,20 @@
     if (!assetsByPath.has(pathname) || !path.includes('__q')) assetsByPath.set(pathname, path);
   }
   globalThis.__drDerekkSiteRoot = siteRoot.href;
+  const versionedIconPaths = new Set(["assets/brand/favicon.svg","assets/brand/favicon-32.png","assets/brand/apple-touch-icon.png","favicon.ico","assets/dr.derekk/assets/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png","assets/dr.derekk/images/UiYALh0wtmR22ukVOhKyTmCWNdo.png","assets/dr.derekk/images/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png","assets/dr.derekk/images/juIVPIOlhVmLY4hoxUQpMQuAw.png"].map(path => new URL(path, siteRoot).pathname));
+  function localAssetUrl(path) {
+    const url = new URL(path, siteRoot);
+    if (versionedIconPaths.has(url.pathname)) url.searchParams.set('v', 'icon-dr-20261103');
+    return url.href;
+  }
   globalThis.__drDerekkAssetString = value => {
     if (typeof value !== 'string') return value;
     return value.replace(/https?:\/\/[^\s"'`<>,)\\]+|assets\/[^\s"'`<>,)\\]+/g, candidate => {
-      if (candidate.startsWith('assets/')) return new URL(candidate, siteRoot).href;
+      if (candidate.startsWith('assets/')) return localAssetUrl(candidate);
       let url;
       try { url = new URL(candidate); } catch { return candidate; }
       const path = assetMap[url.pathname + url.search] || assetsByPath.get(url.pathname);
-      return path ? new URL(path, siteRoot).href : candidate;
+      return path ? localAssetUrl(path) : candidate;
     });
   };
   globalThis.__drDerekkPath = path => siteRoot.pathname.replace(/\/$/, '') + (path === '/' ? '/' : path);

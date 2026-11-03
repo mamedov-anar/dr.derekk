@@ -14,13 +14,13 @@
     },
     {
       "path": "404.html",
-      "bytes": 1714,
-      "sha256": "6683b125f53edf3cf98b9ed16c8268101b10bbe96cdb4e8e40eb693f816aadca"
+      "bytes": 2018,
+      "sha256": "4b233c38f2dea20c32bdb440f57f773f7fb9330b612db72a693ab36ebe2cab8e"
     },
     {
       "path": "404/index.html",
-      "bytes": 65486,
-      "sha256": "8b7ed163a3c0fc5c18be359712b7fec288fc35c9a89292469560582b9196487b"
+      "bytes": 65536,
+      "sha256": "0162582ff6bdf25ff36e6ae57dfeaaff7f20ee6b40c5c366345b32dcde7d375f"
     },
     {
       "path": "AGENTS.md",
@@ -39,23 +39,23 @@
     },
     {
       "path": "about/index.html",
-      "bytes": 208576,
-      "sha256": "8542e5a5cd21b736d76121dda6c62d56e7f195152e728ec9e23081f5956f653b"
+      "bytes": 208626,
+      "sha256": "4e70b1063194ed4116101bca1b2f8c438c295ac12792451f9152bc8ca60353aa"
     },
     {
       "path": "assets/brand/apple-touch-icon.png",
-      "bytes": 6843,
-      "sha256": "cdfc9240c6b8c8b72411000673776f650ee284445c8f33d9dbf6189bd9556278"
+      "bytes": 5179,
+      "sha256": "8df6282798ba3815fec8f753772416bcc4b0155d8560d97709dc8143cf73e870"
     },
     {
       "path": "assets/brand/favicon-32.png",
-      "bytes": 1096,
-      "sha256": "2741a4cc9db78c932435e84940621259e1cb0863906616ee712f98fe6652f675"
+      "bytes": 995,
+      "sha256": "a5011980e0a03f9598ae162b1c8fe4a418da8b2957c7f0a190b762423c193982"
     },
     {
       "path": "assets/brand/favicon.svg",
-      "bytes": 279,
-      "sha256": "f444c081832a60d59348f1afeb89f0b1b744294b49932cf222ee4f279684404c"
+      "bytes": 281,
+      "sha256": "2296d836fd6b21c8f8f7da48298df0da89594c35295ca817acab9e6dab79450f"
     },
     {
       "path": "assets/brand/logo-exploration-2026-10-26/QA.json",
@@ -534,8 +534,8 @@
     },
     {
       "path": "assets/dr.derekk/assets/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png",
-      "bytes": 1096,
-      "sha256": "2741a4cc9db78c932435e84940621259e1cb0863906616ee712f98fe6652f675"
+      "bytes": 995,
+      "sha256": "a5011980e0a03f9598ae162b1c8fe4a418da8b2957c7f0a190b762423c193982"
     },
     {
       "path": "assets/dr.derekk/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2",
@@ -1134,8 +1134,8 @@
     },
     {
       "path": "assets/dr.derekk/images/UiYALh0wtmR22ukVOhKyTmCWNdo.png",
-      "bytes": 1096,
-      "sha256": "2741a4cc9db78c932435e84940621259e1cb0863906616ee712f98fe6652f675"
+      "bytes": 995,
+      "sha256": "a5011980e0a03f9598ae162b1c8fe4a418da8b2957c7f0a190b762423c193982"
     },
     {
       "path": "assets/dr.derekk/images/WnyAX3GJCl1ihDQxykpRBl4aRg__q1f654dc50c72.png",
@@ -1239,8 +1239,8 @@
     },
     {
       "path": "assets/dr.derekk/images/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png",
-      "bytes": 1096,
-      "sha256": "2741a4cc9db78c932435e84940621259e1cb0863906616ee712f98fe6652f675"
+      "bytes": 995,
+      "sha256": "a5011980e0a03f9598ae162b1c8fe4a418da8b2957c7f0a190b762423c193982"
     },
     {
       "path": "assets/dr.derekk/images/e7mESUogApLARF03aeUOiVWvA__q1f654dc50c72.png",
@@ -1364,8 +1364,8 @@
     },
     {
       "path": "assets/dr.derekk/images/juIVPIOlhVmLY4hoxUQpMQuAw.png",
-      "bytes": 6843,
-      "sha256": "cdfc9240c6b8c8b72411000673776f650ee284445c8f33d9dbf6189bd9556278"
+      "bytes": 5179,
+      "sha256": "8df6282798ba3815fec8f753772416bcc4b0155d8560d97709dc8143cf73e870"
     },
     {
       "path": "assets/dr.derekk/images/kULwYoxsES8s2KB9h49RKSjk9s__qb34004e38701.png",
@@ -1984,8 +1984,8 @@
     },
     {
       "path": "assets/portable.js",
-      "bytes": 55615,
-      "sha256": "cb9ff21e2aa77f84512da624372745fef40b73e291a0956d7da440d3cbfc79dc"
+      "bytes": 56213,
+      "sha256": "a16d347f2a0d9f260829c88554b8bccbdccdd245fcd8c20fc91fe45fd7de7d38"
     },
     {
       "path": "assets/styles/0e02bc8f8e85dc80.css",
@@ -2069,8 +2069,8 @@
     },
     {
       "path": "contact/index.html",
-      "bytes": 122005,
-      "sha256": "d13c18dba45befa47c727deaa2f2c3555794a8ddd3b85cba722c8570890452af"
+      "bytes": 122055,
+      "sha256": "c1185a184027640829d2b601817b29e19223880279cf348e248e10b4d546af15"
     },
     {
       "path": "docs/QA-2026-10-25.md",
@@ -2079,18 +2079,18 @@
     },
     {
       "path": "favicon.ico",
-      "bytes": 3478,
-      "sha256": "a0332b00d3b4a79ebbe1034f607717a4f1026316511071c9d0006d9b548a005b"
+      "bytes": 2937,
+      "sha256": "4209a2a94507a470a7b27b861a05c101787b3916537f77e2848a3313ebbf1457"
     },
     {
       "path": "index.html",
-      "bytes": 376350,
-      "sha256": "9f6302aad653ebbca26659b9c1ea1b12416521612efa0594c28a1239301326e8"
+      "bytes": 376400,
+      "sha256": "734cdfd65b468fa4dbd0896f8890778781137494b7ece3df27981c83c7ead3b5"
     },
     {
       "path": "legal/privacy-policy/index.html",
-      "bytes": 86598,
-      "sha256": "41f1a2a53ea442b449663b983aa245076fc00a411b2969d398f0ca16499e0c1e"
+      "bytes": 86648,
+      "sha256": "5e7f945d778354758c89396f37bae5ea2c03b8a05a2ff8daae85108e1cb93efe"
     },
     {
       "path": "pages.json",
@@ -2099,8 +2099,8 @@
     },
     {
       "path": "services-preview/index.html",
-      "bytes": 30883,
-      "sha256": "9e4df2d353eaf53622509b87ecebbd8d811929fe10c1161c50437770803d0f40"
+      "bytes": 31095,
+      "sha256": "a9c3658a70c6d912c080718d409f4d2f4795b3b1c235007954a6d597a5b9e9be"
     },
     {
       "path": "services-preview/services-preview.css",
@@ -2119,83 +2119,83 @@
     },
     {
       "path": "treatments/acne-laser-treatment/index.html",
-      "bytes": 168043,
-      "sha256": "1a154bd10bc01fe225a1a8a2044af442061e06068470e4c991d4987d69c083a6"
+      "bytes": 168093,
+      "sha256": "920cb543b48449f7f61a04940c7a1fa9ea57f57563535afddcd740c4738fc05a"
     },
     {
       "path": "treatments/brow-lift/index.html",
-      "bytes": 167666,
-      "sha256": "5f5e54b9b0062900a5b6982b1ec4e3fc5054e84077ccd9f72b60b2897f4ce167"
+      "bytes": 167716,
+      "sha256": "5b707cbdd5e9b6e07c004d214c793cc09d4c0c1975f1b0e521f184a12ed28c33"
     },
     {
       "path": "treatments/cheek-filler/index.html",
-      "bytes": 167694,
-      "sha256": "c0585f4d8b02d0cad8e8e431223027baee31ab4012b897348908e5a74f8a318b"
+      "bytes": 167744,
+      "sha256": "9b7515fa1e212a5237282e3e5caa8845a40cec927f1ca8424dd1a566c6eaaad6"
     },
     {
       "path": "treatments/chemical-peel/index.html",
-      "bytes": 167539,
-      "sha256": "42fea74fe0d0b7b2df60b94d473ec3e64ae9d26734f01879c1318021a38f6787"
+      "bytes": 167589,
+      "sha256": "9393a385b6d33e1b6bcc216afc90fc20e1375821f686922a6c7f2e617cde40b9"
     },
     {
       "path": "treatments/chin-filler/index.html",
-      "bytes": 167594,
-      "sha256": "79f03697f3a9918620afff6a70f127267a98df50a47ca540b6a03ad45ec4b81a"
+      "bytes": 167644,
+      "sha256": "0c2fb49b0ebede71db22126040cb36c727d527a173e631dfa104b8313b947574"
     },
     {
       "path": "treatments/crow-s-feet-treatment/index.html",
-      "bytes": 167937,
-      "sha256": "fcc3c459a38a3a1a7812a00bccb8842057bd85adf0ca8146ff466e40f5098f9c"
+      "bytes": 167987,
+      "sha256": "8f9d254548e73430e16a985b0403369d40281faee91648c398b948b06309388b"
     },
     {
       "path": "treatments/forehead-line-treatment/index.html",
-      "bytes": 167871,
-      "sha256": "cc960181e4c4ff5abc5e4b2f36f70285a17d5e46b0da43392742861fcd463464"
+      "bytes": 167921,
+      "sha256": "8f498c69f27fdfd928facd84ef64f5c2621c3ba5cb2c8a27171342dc92d59c63"
     },
     {
       "path": "treatments/frown-line-treatment/index.html",
-      "bytes": 167787,
-      "sha256": "f1ba566f91ffaeb90bef667813cccc2495fbed1b40ca77dfa9983fa48a72a4ef"
+      "bytes": 167837,
+      "sha256": "7ce6602755afdcd0eba9310f2c34f7603f3c0212eb65776713100c98008c474f"
     },
     {
       "path": "treatments/hydrafacial/index.html",
-      "bytes": 166873,
-      "sha256": "15d44b032c71a8f5c4ce749ab92e670597d20dd78f333462b3d703f0477ee76c"
+      "bytes": 166923,
+      "sha256": "edd6f604123f65cecba446cedb6705d27ac082afec8bbfdfb7176172c6697fa6"
     },
     {
       "path": "treatments/index.html",
-      "bytes": 233725,
-      "sha256": "0c89ee2aa9a9c9ce2018e3bc6972c9f15d2990d64e34a65b1255e31ab3209d64"
+      "bytes": 233775,
+      "sha256": "d37f2154bae9ac2eb00e9a308aee1d134ba10c2309a4d537d652fd2ea26352c2"
     },
     {
       "path": "treatments/jawline-filler/index.html",
-      "bytes": 167744,
-      "sha256": "9459fdf3bc8cc1013ace7b218c3f0b184b275da5e57562479b0b1f3d41b4a81a"
+      "bytes": 167794,
+      "sha256": "29f4f904ae6c74b828a1e88f36b71570a06f41e7f394e78460e721b1c83ee05f"
     },
     {
       "path": "treatments/laser-skin-rejuvenation/index.html",
-      "bytes": 168137,
-      "sha256": "970b0fba87bef73f8bfc9a1e30efd129dd280add7c842c5a84c69adf70085abf"
+      "bytes": 168187,
+      "sha256": "c20bbe935a6346626c192da535fd53e9658ee5da8b2ace67cb4954e5ca2715d8"
     },
     {
       "path": "treatments/lip-filler/index.html",
-      "bytes": 167394,
-      "sha256": "2e0e06db391323b77806ba5eb1c988580141da50a39fee292e51f1da4c347f99"
+      "bytes": 167444,
+      "sha256": "6c821960e9c952dd471d0dd69b4e39c46fb4ed1f7c37e9b0dfb0012783b6f7a3"
     },
     {
       "path": "treatments/microneedling/index.html",
-      "bytes": 167322,
-      "sha256": "b823d7242dfe25034755cef7b1d456792ffde9c95337a72e04d857a69ca6b717"
+      "bytes": 167372,
+      "sha256": "b5b555cc07be0fc680a9a95abe71d6119d385eefce0147d79464c0c02ec0531e"
     },
     {
       "path": "treatments/pigmentation-removal/index.html",
-      "bytes": 167762,
-      "sha256": "b5d4044bbce7d3340ccf4a01954d3f8037eee4766b7734187f30546ae9301e51"
+      "bytes": 167812,
+      "sha256": "1d6bedcac1ba3882230fac4aa0450ff6696880f3d1fb67a816aa86131b714e63"
     },
     {
       "path": "treatments_2/index.html",
-      "bytes": 233725,
-      "sha256": "0c89ee2aa9a9c9ce2018e3bc6972c9f15d2990d64e34a65b1255e31ab3209d64"
+      "bytes": 233775,
+      "sha256": "d37f2154bae9ac2eb00e9a308aee1d134ba10c2309a4d537d652fd2ea26352c2"
     }
   ]
 }
