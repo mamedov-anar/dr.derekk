@@ -125,7 +125,7 @@ details[open] > summary .toggle-mark::after { transform: rotate(0deg); }
 .consultation address { font-style: normal; padding-top: 8px; }
 .phone-link { font-size: 28px; letter-spacing: -.025em; text-decoration: none; }
 .site-footer { padding-block: 40px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px 30px; font-size: 16px; }
-.footer-brand { font-size: 28px; font-weight: 600; text-decoration: none; }
+.footer-brand { font-size: 28px; font-weight: 650; text-decoration: none; }
 .site-footer p { color: var(--muted); }
 .is-visible { animation: section-enter 600ms cubic-bezier(.2,.65,.3,1) both; }
 @keyframes section-enter { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }

@@ -10,10 +10,10 @@
     if (!assetsByPath.has(pathname) || !path.includes('__q')) assetsByPath.set(pathname, path);
   }
   globalThis.__drDerekkSiteRoot = siteRoot.href;
-  const versionedIconPaths = new Set(["assets/brand/favicon.svg","assets/brand/favicon-32.png","assets/brand/apple-touch-icon.png","favicon.ico","assets/dr.derekk/assets/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png","assets/dr.derekk/images/UiYALh0wtmR22ukVOhKyTmCWNdo.png","assets/dr.derekk/images/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png","assets/dr.derekk/images/juIVPIOlhVmLY4hoxUQpMQuAw.png"].map(path => new URL(path, siteRoot).pathname));
+  const versionedBrandPaths = new Set(["assets/brand/favicon.svg","assets/brand/favicon-32.png","assets/brand/apple-touch-icon.png","favicon.ico","assets/dr.derekk/assets/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png","assets/dr.derekk/images/UiYALh0wtmR22ukVOhKyTmCWNdo.png","assets/dr.derekk/images/d0ve0G4ZE0pInbfpfAkJUpcNt4E.png","assets/dr.derekk/images/juIVPIOlhVmLY4hoxUQpMQuAw.png","assets/dr.derekk/images/JswTjukBm0GEEmbddTNi9yk2kM__q232da8bb8f2c.svg","assets/dr.derekk/images/JswTjukBm0GEEmbddTNi9yk2kM__q2cc2eda10c3b.svg","assets/dr.derekk/images/qGPuxhMguNv4jn5f35KJ5Yw6B08__q4cb7f5e08e0b.svg","assets/dr.derekk/images/qGPuxhMguNv4jn5f35KJ5Yw6B08__qd6f17568eaaf.svg","assets/brand/social-preview.png","assets/dr.derekk/assets/kYUO6CnhArtC2eEn3sjsmp3CPA.png","assets/dr.derekk/images/kYUO6CnhArtC2eEn3sjsmp3CPA.png"].map(path => new URL(path, siteRoot).pathname));
   function localAssetUrl(path) {
     const url = new URL(path, siteRoot);
-    if (versionedIconPaths.has(url.pathname)) url.searchParams.set('v', 'icon-dr-20261103');
+    if (versionedBrandPaths.has(url.pathname)) url.searchParams.set('v', 'brand-ss3-650-20261103');
     return url.href;
   }
   globalThis.__drDerekkAssetString = value => {
