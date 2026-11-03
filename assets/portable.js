@@ -171,7 +171,10 @@
     for (const meta of document.querySelectorAll('meta[property="og:image"],meta[name="twitter:image"]')) {
       const image = new URL(meta.content, siteRoot);
       if (image.origin === siteRoot.origin && image.pathname.startsWith(siteRoot.pathname)) {
-        meta.content = new URL(image.pathname.slice(siteRoot.pathname.length), root).href;
+        const publishedImage = new URL(image.pathname.slice(siteRoot.pathname.length), root);
+        publishedImage.search = image.search;
+        publishedImage.hash = image.hash;
+        meta.content = publishedImage.href;
       }
     }
   });
