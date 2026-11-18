@@ -1629,8 +1629,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/-GVIQfTkNUW1Fk1x1onHomVbWpfcJQ8-Nw6joNjGDIc.C7YVs2bC.mjs",
-      "bytes": 126877,
-      "sha256": "a2b87e07aeaf5e306ba066162fd14d22d8aadb6b948ab9909acc479b739e5010"
+      "bytes": 127684,
+      "sha256": "902f4c2a8c292047b1686860ed692936a332d7ec18de4e0eeed42659a1162f89"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/4YFaaXWHZUUsh4fcXVoLm-WJSCoDNy2iDyhqku4igXo.JiJpcIFj.mjs",
@@ -1809,8 +1809,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/script_main.LLxlMnGa.mjs",
-      "bytes": 57888,
-      "sha256": "d6b52d920692254383df7c8ba33d72359c0031b269c46cc3a627c140eea9c11c"
+      "bytes": 57889,
+      "sha256": "10be6471b925893ecfe460d254b5f3dd422a805f5f60f48ab04657e6f237ae86"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/searchIndex-S7AoYXM5NxWV.json",
@@ -1964,8 +1964,13 @@
     },
     {
       "path": "assets/home-hero.css",
-      "bytes": 385,
-      "sha256": "13da288eac6a80be38eb71d6030cdf73647f214f9f2dd6ceae1d1cd2b5342e9f"
+      "bytes": 960,
+      "sha256": "11bcbd2c0c1adc48ed76bded85ca2b4cbbe4d0d0d8d7ffd819a2ab8cb619cf7f"
+    },
+    {
+      "path": "assets/home-service-badges.mjs",
+      "bytes": 9956,
+      "sha256": "afb59b5293d56fa9070ca2aa52365db72bf06e5771bd95ccd8d0ce9cbfc06ffe"
     },
     {
       "path": "assets/page-hero.css",
@@ -2084,8 +2089,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 376413,
-      "sha256": "645602775bcec43cd2c31158a710737e16447e03e673a40e4be50e7f89e2ec55"
+      "bytes": 380259,
+      "sha256": "14acf6d92acbd33579c8f8405f8fab6155563f38a1dd58f0fd687421a8c8b685"
     },
     {
       "path": "legal/privacy-policy/index.html",
