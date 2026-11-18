@@ -1964,8 +1964,8 @@
     },
     {
       "path": "assets/home-hero.css",
-      "bytes": 960,
-      "sha256": "11bcbd2c0c1adc48ed76bded85ca2b4cbbe4d0d0d8d7ffd819a2ab8cb619cf7f"
+      "bytes": 1044,
+      "sha256": "013b543ec823bfcfe016676e36cf9de1f16713e6e6acb192b08cd7ec21d0eebd"
     },
     {
       "path": "assets/home-service-badges.mjs",
@@ -2090,7 +2090,7 @@
     {
       "path": "index.html",
       "bytes": 380259,
-      "sha256": "14acf6d92acbd33579c8f8405f8fab6155563f38a1dd58f0fd687421a8c8b685"
+      "sha256": "c57042905c142b8eb0f7228aacd9fbd5896d74d5fbb9e57a68633cb76d38b8d2"
     },
     {
       "path": "legal/privacy-policy/index.html",

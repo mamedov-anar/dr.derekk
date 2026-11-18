@@ -38,6 +38,7 @@
   color: var(--token-36d3bafe-bf2d-4a51-a2b4-d61993a82bef, #88482b);
 }
 
-.home-service-badge p {
-  margin: 0;
+.home-service-badge > p.framer-text {
+  /* The site applies paragraph spacing after the icon. */
+  margin: 0 !important;
 }
