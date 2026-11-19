@@ -88,6 +88,10 @@
       .find(section => section.getClientRects().length);
   }
   function scrollToAppointment(section, behavior) {
+    if (section.id !== appointmentId) {
+      document.getElementById(appointmentId)?.removeAttribute('id');
+      section.id = appointmentId;
+    }
     if (!section.hasAttribute('tabindex')) section.tabIndex = -1;
     section.focus({ preventScroll: true });
     section.scrollIntoView({ block: 'start', behavior });
@@ -96,8 +100,6 @@
     if (location.hash !== appointmentUrl.hash) return;
     const section = visibleAppointmentSection();
     if (!section || section.id === appointmentId) return;
-    document.getElementById(appointmentId)?.removeAttribute('id');
-    section.id = appointmentId;
     scrollToAppointment(section, 'auto');
   }
 
@@ -259,6 +261,12 @@
       if (menuControl) {
         menuControl.focus({ preventScroll: true });
         tapControl(menuControl);
+      }
+      // Retain the destination if the export replaces the responsive section while loading.
+      if (location.hash !== appointmentUrl.hash) {
+        const current = new URL(location.href);
+        current.hash = appointmentUrl.hash;
+        history.pushState(history.state, '', current.href);
       }
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       scrollToAppointment(section, reduceMotion ? 'auto' : 'smooth');
