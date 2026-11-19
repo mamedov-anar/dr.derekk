@@ -53,3 +53,8 @@ input::placeholder,
 textarea::placeholder {
   font-family: var(--dr-derekk-font-family) !important;
 }
+
+/* Leave room for the fixed navigation when scrolling to the appointment block. */
+section.framer-hFNGM {
+  scroll-margin-top: 96px;
+}

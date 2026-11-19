@@ -74,11 +74,43 @@
     result.hash = url.hash;
     return result;
   }
+  const appointmentId = 'appointment-location';
+  const appointmentUrl = new URL('contact/#' + appointmentId, siteRoot);
+  const consultationLabel = /^(?:Записаться на консультацию\s*)+$/iu;
+
+  function isConsultationLink(link) {
+    return link.hasAttribute('data-consultation-link')
+      || consultationLabel.test(link.textContent.replace(/\s+/g, ' ').trim());
+  }
+  function visibleAppointmentSection() {
+    // The static export contains separate copies for each breakpoint.
+    return Array.from(document.querySelectorAll('section.framer-hFNGM'))
+      .find(section => section.getClientRects().length);
+  }
+  function scrollToAppointment(section, behavior) {
+    if (!section.hasAttribute('tabindex')) section.tabIndex = -1;
+    section.focus({ preventScroll: true });
+    section.scrollIntoView({ block: 'start', behavior });
+  }
+  function followAppointmentFragment() {
+    if (location.hash !== appointmentUrl.hash) return;
+    const section = visibleAppointmentSection();
+    if (!section || section.id === appointmentId) return;
+    document.getElementById(appointmentId)?.removeAttribute('id');
+    section.id = appointmentId;
+    scrollToAppointment(section, 'auto');
+  }
+
   function fixLinks(parent) {
     const links = [];
     if (parent.nodeType === 1 && parent.matches('a[href]')) links.push(parent);
     if (parent.querySelectorAll) links.push(...parent.querySelectorAll('a[href]'));
     for (const link of links) {
+      if (isConsultationLink(link)) {
+        if (link.getAttribute('href') !== appointmentUrl.href) link.href = appointmentUrl.href;
+        if (link.hasAttribute('target')) link.removeAttribute('target');
+        continue;
+      }
       if (link.textContent.trim() === 'Контакты' && !link.closest('nav')) {
         const contact = new URL('contact/', siteRoot).href;
         if (link.getAttribute('href') !== contact) link.setAttribute('href', contact);
@@ -135,22 +167,29 @@
       frame.title = 'Место приёма: Москва, Садовническая, 5';
     }
   }
-  let disclosureUpdate = false;
-  function scheduleDisclosures() {
-    if (disclosureUpdate) return;
-    disclosureUpdate = true;
-    queueMicrotask(() => { disclosureUpdate = false; disclosures(); });
+  let pageUpdateScheduled = false;
+  function schedulePageUpdate() {
+    if (pageUpdateScheduled) return;
+    pageUpdateScheduled = true;
+    queueMicrotask(() => {
+      pageUpdateScheduled = false;
+      disclosures();
+      followAppointmentFragment();
+    });
   }
   new MutationObserver(records => {
     for (const record of records) {
       if (record.type === 'attributes') fixLinks(record.target);
       else for (const node of record.addedNodes) fixLinks(node);
     }
-    scheduleDisclosures();
-  }).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['href', 'data-framer-name', 'data-highlight', 'tabindex'] });
+    schedulePageUpdate();
+  }).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['href', 'target', 'data-framer-name', 'data-highlight', 'tabindex'] });
+  window.addEventListener('hashchange', followAppointmentFragment);
+  window.addEventListener('resize', followAppointmentFragment);
   document.addEventListener('DOMContentLoaded', () => {
     fixLinks(document);
     disclosures();
+    followAppointmentFragment();
     // Use an explicitly configured public URL for canonical metadata.
     const configured = globalThis.DR_DEREKK_CONFIG?.siteUrl;
     if (!configured) return;
@@ -178,29 +217,54 @@
       }
     }
   });
+  function tapControl(trigger) {
+    // Motion attaches its tap keyboard handler to Enter rather than click.
+    for (const type of ['keydown', 'keyup']) {
+      trigger.dispatchEvent(new KeyboardEvent(type, { key: 'Enter', code: 'Enter', bubbles: true }));
+    }
+  }
+  const openMenuControl = 'div[data-highlight][data-framer-name="Opened"]';
   document.addEventListener('keydown', event => {
     if (event.key === ' ' && !event.repeat) {
       const button = event.target.closest?.('div[role="button"][data-highlight]');
       if (button) {
         event.preventDefault();
         event.stopImmediatePropagation();
-        for (const type of ['keydown', 'keyup']) button.dispatchEvent(new KeyboardEvent(type, { key: 'Enter', code: 'Enter', bubbles: true }));
+        tapControl(button);
         return;
       }
     }
     if (event.key !== 'Escape') return;
-    const trigger = document.querySelector('nav div[data-highlight][data-framer-name="Opened"]');
+    const trigger = document.querySelector(`nav ${openMenuControl}`);
     if (trigger) {
       event.preventDefault();
       trigger.focus();
-      // Motion attaches its tap keyboard handler to Enter rather than click.
-      for (const type of ['keydown', 'keyup']) trigger.dispatchEvent(new KeyboardEvent(type, { key: 'Enter', code: 'Enter', bubbles: true }));
+      tapControl(trigger);
     }
   }, true);
   document.addEventListener('click', event => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const link = event.target.closest?.('a[href]');
-    if (!link || link.target === '_blank' || link.hasAttribute('download')) return;
+    if (!link || link.hasAttribute('download')) return;
+    if (isConsultationLink(link)) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      const section = visibleAppointmentSection();
+      if (!section) {
+        location.assign(appointmentUrl.href);
+        return;
+      }
+
+      const menuControl = link.closest('nav')?.querySelector(openMenuControl);
+      if (menuControl) {
+        menuControl.focus({ preventScroll: true });
+        tapControl(menuControl);
+      }
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      scrollToAppointment(section, reduceMotion ? 'auto' : 'smooth');
+      return;
+    }
+    if (link.target === '_blank') return;
     const route = localRoute(link.getAttribute('href'));
     if (!route) return;
     const current = location.pathname.replace(/\/index\.html$/, '/').replace(/\/$/, '') || '/';
