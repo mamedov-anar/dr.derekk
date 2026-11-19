@@ -140,6 +140,83 @@ const lipFillerPhoto = {
   "alt": ""
 };
 
+const laserTreatmentCards = [
+  {
+    "name": "Лазерная коррекция пигментации",
+    "description": "Помогает уменьшить выраженность отдельных пигментных пятен после оценки их причины.",
+    "labels": [
+      "Ровный тон",
+      "Светлее пятна"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/pigmentation-removal/",
+    "image": {
+      "src": "assets/dr.derekk/images/5i3DDRW4KKzosVYLwS6Hg5qzhxs__q1f654dc50c72.png",
+      "srcSet": "assets/dr.derekk/images/5i3DDRW4KKzosVYLwS6Hg5qzhxs__qc9ba2fb51883.png 512w,assets/dr.derekk/images/5i3DDRW4KKzosVYLwS6Hg5qzhxs__q1f654dc50c72.png 1024w",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "alt": "Проведение удаления пигментации"
+    }
+  },
+  {
+    "name": "Лазерное омоложение кожи",
+    "description": "Может улучшить текстуру кожи и уменьшить мелкие морщины. Эффект зависит от метода.",
+    "labels": [
+      "Гладкая кожа",
+      "Меньше морщин"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/laser-skin-rejuvenation/",
+    "image": {
+      "src": "assets/dr.derekk/images/3BCpsmPcT1my43C4c3v8Xso__q1f654dc50c72.png",
+      "srcSet": "assets/dr.derekk/images/3BCpsmPcT1my43C4c3v8Xso__qc9ba2fb51883.png 512w,assets/dr.derekk/images/3BCpsmPcT1my43C4c3v8Xso__q1f654dc50c72.png 1024w",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "alt": "Проведение лазерного омоложения кожи"
+    }
+  },
+  {
+    "name": "Шлифовка CO₂-лазером",
+    "description": "Лазерная шлифовка для коррекции рубцов постакне, неровного рельефа и мелких морщин.",
+    "labels": [
+      "Сглаживание рубцов постакне",
+      "Сглаживание мелких морщин"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/"
+  },
+  {
+    "name": "Омоложение тулиевым лазером LaseMed",
+    "description": "Лазерное воздействие для выравнивания тона и улучшения текстуры кожи.",
+    "labels": [
+      "Ровнее тон кожи",
+      "Кожа становится глаже"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/"
+  },
+  {
+    "name": "Лазерное лечение акне",
+    "description": "Световая терапия в дополнение к лечению воспалительных высыпаний при акне.",
+    "labels": [
+      "Меньше воспалений",
+      "Меньше прыщей"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/acne-laser-treatment/",
+    "image": {
+      "src": "assets/dr.derekk/images/ByRe5uCc7rVTIQClratO2d2LEB0__q1f654dc50c72.png",
+      "srcSet": "assets/dr.derekk/images/ByRe5uCc7rVTIQClratO2d2LEB0__qc9ba2fb51883.png 512w,assets/dr.derekk/images/ByRe5uCc7rVTIQClratO2d2LEB0__q1f654dc50c72.png 1024w",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "alt": "Проведение лазерного лечения акне"
+    }
+  }
+];
+
+const acneLaserPhoto = {
+  "src": "assets/dr.derekk/images/ByRe5uCc7rVTIQClratO2d2LEB0__q1f654dc50c72.png",
+  "srcSet": "assets/dr.derekk/images/ByRe5uCc7rVTIQClratO2d2LEB0__qc9ba2fb51883.png 512w,assets/dr.derekk/images/ByRe5uCc7rVTIQClratO2d2LEB0__q1f654dc50c72.png 1024w",
+  "pixelWidth": 1024,
+  "pixelHeight": 1024,
+  "alt": ""
+};
+
 const treatmentCardStyles = `
   .framer-fbpvt7 .framer-1owj5fc { right: min(332px, calc(100% - 935px)); }
 `;
@@ -149,7 +226,7 @@ function renderTreatmentCards(breakpoint, cards, photo) {
   return a("div", {
     className: "framer-waghog",
     "data-border": true,
-    children: cards.map(({ name, description, labels, url }) =>
+    children: cards.map(({ name, description, labels, url, image = photo }) =>
       a("div", {
         className: "framer-13fp0mz-container",
         children: a(E, {
@@ -160,7 +237,7 @@ function renderTreatmentCards(breakpoint, cards, photo) {
             treatmentName: name,
             shortDescription: description,
             benefitLabels: labels,
-            image: photo,
+            image,
             link: url,
             style: { width: "100%" },
           }),
@@ -212,7 +289,7 @@ function renderTreatmentCategories(breakpoint, groups) {
     return groups;
   }
 
-  const [wrinkles, contouring, skin, , laser] = groups;
+  const [wrinkles, contouring, skin] = groups;
   return [
     renderTreatmentCategory("Инъекционная косметология",
       renderTreatmentCards(breakpoint, injectionTreatmentCards, foreheadTreatmentPhoto)),
@@ -222,7 +299,8 @@ function renderTreatmentCategories(breakpoint, groups) {
     contouring,
     renderTreatmentCategory("Коллагено\u00adстимуляция",
       renderTreatmentCards(breakpoint, collagenTreatmentCards, lipFillerPhoto)),
-    laser,
+    renderTreatmentCategory("Лазерные процедуры",
+      renderTreatmentCards(breakpoint, laserTreatmentCards, acneLaserPhoto)),
     skin,
   ];
 }
