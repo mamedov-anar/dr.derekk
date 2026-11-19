@@ -36,17 +36,17 @@
 
 ## 2. Отдельные процедуры — действующие, нетестовые
 
-Это внутренние страницы текущего каталога `/treatments/`, а не 14 дополнительных разделов верхнего уровня. При разработке нового каталога они продолжают существовать по своим адресам.
+Это внутренние страницы текущего каталога `/treatments/`, а не 14 дополнительных разделов верхнего уровня. При разработке нового каталога они продолжают существовать по своим адресам. Заголовки трёх страниц приведены к названиям карточек **19 ноября 2026 года**.
 
 | Процедура | Адрес на сайте | Файл в репозитории |
 | --- | --- | --- |
 | Лазерное лечение акне | [`/treatments/acne-laser-treatment/`](https://mamedov-anar.github.io/dr.derekk/treatments/acne-laser-treatment/) | [treatments/acne-laser-treatment/index.html](treatments/acne-laser-treatment/index.html) |
-| Удаление пигментации | [`/treatments/pigmentation-removal/`](https://mamedov-anar.github.io/dr.derekk/treatments/pigmentation-removal/) | [treatments/pigmentation-removal/index.html](treatments/pigmentation-removal/index.html) |
+| Лазерная коррекция пигментации | [`/treatments/pigmentation-removal/`](https://mamedov-anar.github.io/dr.derekk/treatments/pigmentation-removal/) | [treatments/pigmentation-removal/index.html](treatments/pigmentation-removal/index.html) |
 | Лазерное омоложение кожи | [`/treatments/laser-skin-rejuvenation/`](https://mamedov-anar.github.io/dr.derekk/treatments/laser-skin-rejuvenation/) | [treatments/laser-skin-rejuvenation/index.html](treatments/laser-skin-rejuvenation/index.html) |
-| Hydrafacial | [`/treatments/hydrafacial/`](https://mamedov-anar.github.io/dr.derekk/treatments/hydrafacial/) | [treatments/hydrafacial/index.html](treatments/hydrafacial/index.html) |
+| Аппаратный уход Hydrafacial | [`/treatments/hydrafacial/`](https://mamedov-anar.github.io/dr.derekk/treatments/hydrafacial/) | [treatments/hydrafacial/index.html](treatments/hydrafacial/index.html) |
 | Химический пилинг | [`/treatments/chemical-peel/`](https://mamedov-anar.github.io/dr.derekk/treatments/chemical-peel/) | [treatments/chemical-peel/index.html](treatments/chemical-peel/index.html) |
 | Микронидлинг | [`/treatments/microneedling/`](https://mamedov-anar.github.io/dr.derekk/treatments/microneedling/) | [treatments/microneedling/index.html](treatments/microneedling/index.html) |
-| Коррекция овала лица | [`/treatments/jawline-filler/`](https://mamedov-anar.github.io/dr.derekk/treatments/jawline-filler/) | [treatments/jawline-filler/index.html](treatments/jawline-filler/index.html) |
+| Коррекция линии челюсти | [`/treatments/jawline-filler/`](https://mamedov-anar.github.io/dr.derekk/treatments/jawline-filler/) | [treatments/jawline-filler/index.html](treatments/jawline-filler/index.html) |
 | Коррекция подбородка | [`/treatments/chin-filler/`](https://mamedov-anar.github.io/dr.derekk/treatments/chin-filler/) | [treatments/chin-filler/index.html](treatments/chin-filler/index.html) |
 | Коррекция скул | [`/treatments/cheek-filler/`](https://mamedov-anar.github.io/dr.derekk/treatments/cheek-filler/) | [treatments/cheek-filler/index.html](treatments/cheek-filler/index.html) |
 | Коррекция губ | [`/treatments/lip-filler/`](https://mamedov-anar.github.io/dr.derekk/treatments/lip-filler/) | [treatments/lip-filler/index.html](treatments/lip-filler/index.html) |

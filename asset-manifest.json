@@ -29,8 +29,8 @@
     },
     {
       "path": "PAGES.md",
-      "bytes": 16954,
-      "sha256": "f187980463f3041e0043b7f3f7c73e7ed9f12ff79647f0fbfd99707f04b05d21"
+      "bytes": 17145,
+      "sha256": "bcaf348233722887faf7f3299e81f2cf5a5a08f17b3f7ae8e18c6f09b41d6030"
     },
     {
       "path": "README.md",
@@ -1674,8 +1674,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/RRs9gDlJTJ_mVtXSfOLzbkCdo5L9kWxbIPDrrUAZVJ4.BAnRLAmr.mjs",
-      "bytes": 41669,
-      "sha256": "fa107c46d8b44d6d571344e0a23b76029c9ee93ef6bcaf6b54e9fb09dbac6ea1"
+      "bytes": 41973,
+      "sha256": "560e7cee66bb98be7a15a2402c389f562c519e17b42928939c4e9e1ab6178bd0"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/SLrFxM57o.DpFrMgMQ.mjs",
@@ -1809,18 +1809,18 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/script_main.LLxlMnGa.mjs",
-      "bytes": 57900,
-      "sha256": "ff1736aa20a1a33871482636976e55da2dc077b19c14153cf4d5e28eb54f21f8"
+      "bytes": 57901,
+      "sha256": "6edd011319f60eb0613fc779869e7fedf58be803db7c241e2e6278047865d758"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/searchIndex-S7AoYXM5NxWV.json",
-      "bytes": 124693,
-      "sha256": "abfb9b1c819a43815a09cd581a061d287783c38fedbd1f73ef98cb0095083689"
+      "bytes": 124747,
+      "sha256": "1f76f067599b4f2965da7354935fe013738a01f757fad079c3f7e21a109956a5"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/searchIndex-fpXSjSAOxCdr.json",
-      "bytes": 124659,
-      "sha256": "75a0caecb68507c631dde356b490603e67cffd57f8095bde09965b0c08f5c90e"
+      "bytes": 124713,
+      "sha256": "776366cc3b5bf7e2a408a20fbe02c90c5bfa58bf0ac6e75d08b3ceb140e47e78"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/shared-lib.BrY62Mbm.mjs",
@@ -2164,8 +2164,8 @@
     },
     {
       "path": "treatments/hydrafacial/index.html",
-      "bytes": 166943,
-      "sha256": "4a5c80961e349ebb6ce71f8555bfc70e63beaddf17df0041d8871c406e1b3335"
+      "bytes": 167825,
+      "sha256": "75b3b5aa180fd07d2350de097f19c4bc2b27acaa6d7ceaeba543c5fcd1180389"
     },
     {
       "path": "treatments/index.html",
@@ -2174,8 +2174,8 @@
     },
     {
       "path": "treatments/jawline-filler/index.html",
-      "bytes": 167814,
-      "sha256": "5beba5aee26062e94b2b643b516cd1ddd60615de5050ca29d7f0e19e7858e5a9"
+      "bytes": 168222,
+      "sha256": "9c85ef6a469f4890439a3b9a9a4bbd8ea027c1c3f063a0fb73cf42a12eb1d19b"
     },
     {
       "path": "treatments/laser-skin-rejuvenation/index.html",
@@ -2194,8 +2194,8 @@
     },
     {
       "path": "treatments/pigmentation-removal/index.html",
-      "bytes": 167832,
-      "sha256": "0e5851951106d966a440cf0df1f91f58d980263febb5d091206edcaf9d41a857"
+      "bytes": 168324,
+      "sha256": "ab7b120950de414429f1d0ac0d88ed79234ef62291c225b7cb80de686cfd009c"
     },
     {
       "path": "treatments_2/index.html",
