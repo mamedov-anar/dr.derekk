@@ -285,6 +285,91 @@ const chemicalPeelPhoto = {
   "alt": ""
 };
 
+const wrinkleTreatmentCards = [
+  {
+    "name": "Коррекция морщин лба",
+    "description": "Ботулинотерапия для уменьшения выраженности мимических морщин в области лба.",
+    "labels": [
+      "Гладкий лоб",
+      "Отдохнувший вид"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/forehead-line-treatment/",
+    "image": {
+      "src": "assets/dr.derekk/images/HWWJtTa1mgQEqqnaYTTlgtD0TK0__q1f654dc50c72.png",
+      "srcSet": "assets/dr.derekk/images/HWWJtTa1mgQEqqnaYTTlgtD0TK0__qc9ba2fb51883.png 512w,assets/dr.derekk/images/HWWJtTa1mgQEqqnaYTTlgtD0TK0__q1f654dc50c72.png 1024w",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "alt": "Проведение коррекции морщин лба"
+    }
+  },
+  {
+    "name": "Коррекция межбровных морщин",
+    "description": "Ботулинотерапия для уменьшения мимических складок между бровями.",
+    "labels": [
+      "Гладкое межбровье",
+      "Спокойный взгляд"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/frown-line-treatment/",
+    "image": {
+      "src": "assets/dr.derekk/images/5xPmAghHPMid3Vblsb9yY90FlQ__q1f654dc50c72.png",
+      "srcSet": "assets/dr.derekk/images/5xPmAghHPMid3Vblsb9yY90FlQ__qc9ba2fb51883.png 512w,assets/dr.derekk/images/5xPmAghHPMid3Vblsb9yY90FlQ__q1f654dc50c72.png 1024w",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "alt": "Проведение коррекции межбровных морщин"
+    }
+  },
+  {
+    "name": "Ботулинотерапия Botox Full Face",
+    "description": "Ботулинотерапия для коррекции мимических морщин в нескольких зонах лица.",
+    "labels": [
+      "Коррекция морщин лба",
+      "Смягчение межбровных складок"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/"
+  },
+  {
+    "name": "Подтяжка бровей",
+    "description": "Ботулинотерапия для лёгкого подъёма бровей.",
+    "labels": [
+      "Выразительный взгляд",
+      "Приподнятые хвостики бровей"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/brow-lift/",
+    "image": {
+      "src": "assets/dr.derekk/images/uejk4yJa54ae43jh4DVpAcy4A__q1f654dc50c72.png",
+      "srcSet": "assets/dr.derekk/images/uejk4yJa54ae43jh4DVpAcy4A__qc9ba2fb51883.png 512w,assets/dr.derekk/images/uejk4yJa54ae43jh4DVpAcy4A__q1f654dc50c72.png 1024w",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "alt": "Проведение подтяжки бровей"
+    }
+  },
+  {
+    "name": "Коррекция «гусиных лапок»",
+    "description": "Ботулинотерапия для уменьшения мимических морщин у наружных уголков глаз.",
+    "labels": [
+      "Свежий взгляд",
+      "Меньше морщин улыбки"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/crow-s-feet-treatment/",
+    "image": {
+      "src": "assets/dr.derekk/images/CAfYseRsXGjbZRLK5Q9ERcDTo__q1f654dc50c72.png",
+      "srcSet": "assets/dr.derekk/images/CAfYseRsXGjbZRLK5Q9ERcDTo__qc9ba2fb51883.png 512w,assets/dr.derekk/images/CAfYseRsXGjbZRLK5Q9ERcDTo__q1f654dc50c72.png 1024w",
+      "pixelWidth": 1024,
+      "pixelHeight": 1024,
+      "alt": "Проведение коррекции «гусиных лапок»"
+    }
+  },
+  {
+    "name": "Ботулинотерапия верхней трети лица",
+    "description": "Уменьшения мимических морщин на лбу, между бровями и у наружных уголков глаз.",
+    "labels": [
+      "Смягчение морщин лба",
+      "Отдохнувший вид"
+    ],
+    "url": "https://mamedov-anar.github.io/dr.derekk/"
+  }
+];
+
 const treatmentCardStyles = `
   .framer-fbpvt7 .framer-1owj5fc { right: min(332px, calc(100% - 935px)); }
 `;
@@ -357,11 +442,12 @@ function renderTreatmentCategories(breakpoint, groups) {
     return groups;
   }
 
-  const [wrinkles, contouring] = groups;
+  const [, contouring] = groups;
   return [
     renderTreatmentCategory("Инъекционная косметология",
       renderTreatmentCards(breakpoint, injectionTreatmentCards, foreheadTreatmentPhoto)),
-    wrinkles,
+    renderTreatmentCategory("Коррекция\u00a0морщин",
+      renderTreatmentCards(breakpoint, wrinkleTreatmentCards, foreheadTreatmentPhoto)),
     renderTreatmentCategory("Аппаратная косметология",
       renderTreatmentCards(breakpoint, deviceTreatmentCards, hydrafacialTreatmentPhoto)),
     contouring,
