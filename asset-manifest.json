@@ -1779,8 +1779,8 @@
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/psfGMHXrQNDy7QQR-V1MKBEhvjR5x8LJRAKPfKMQhw0.Cv36tcBv.mjs",
-      "bytes": 42258,
-      "sha256": "cba9fc5f326558777ac1095a8163727817ced477690b3987d81af0cd3451897b"
+      "bytes": 45352,
+      "sha256": "b99b4bf2abefd4174bbf65c8977934ecc94fa6ec434f0168cdcc893da6619ddb"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/qHC212U3r.BdqxcVqr.mjs",
@@ -1810,7 +1810,7 @@
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/script_main.LLxlMnGa.mjs",
       "bytes": 57902,
-      "sha256": "1574808dcce207d70a6db96265fa387b0256161db175da23b644ec8b61d9cd52"
+      "sha256": "314da07a0544bfb3101bf5bf01f5a70baa494cff00c72a293c5a4795b336afbd"
     },
     {
       "path": "assets/dr.derekk/sites/3jpERwBiajgcDoozk56hpo/searchIndex-S7AoYXM5NxWV.json",
@@ -2170,7 +2170,7 @@
     {
       "path": "treatments/index.html",
       "bytes": 235953,
-      "sha256": "b7d8d4928160cad03054718f8414ee54b44419be4f6985ed4b5ca54d96788b55"
+      "sha256": "08d3f45405976d58bf4140a17e0bf4fe7d29e4de6716ea465d149023bb3725fc"
     },
     {
       "path": "treatments/jawline-filler/index.html",
