@@ -1,4 +1,4 @@
-import{t as e}from"./rolldown-runtime.hBrq4iGT.mjs";import{A as t,C as n,D as r,N as i,c as a,g as o,k as s,l as c,o as ee,s as l,v as te}from"./react.CuwjDPPn.mjs";import{a as ne,r as u,t as re,w as d}from"./motion.Dc2aXs1x.mjs";import{B as f,M as ie,O as ae,P as p,St as m,T as h,V as g,a as _,at as oe,b as v,ct as se,et as y,ft as ce,gt as le,i as b,lt as ue,mt as de,n as x,pt as fe,q as S,u as C,ut as w,w as T,x as E,yt as pe}from"./framer.CxHSQH6w.mjs";import{S as me,a as he,b as D,c as ge,d as _e,f as ve,i as ye,l as be,o as xe,r as Se,s as O,u as Ce,x as we,y as Te}from"./shared-lib.BrY62Mbm.mjs?v=brand-ss3-650-20261103";import{a as Ee,c as De,o as Oe,s as ke}from"./xit0E0FqF.Fh7_3584.mjs";import{n as k,t as Ae}from"./qXZHf8wBR.z4sQPA0a.mjs?v=brand-ss3-650-20261103";import{i as A,n as je,r as Me,t as j}from"./XvDQYR5Gn.BRaww6_L.mjs?v=treatments-injection-cards-20261119";import{a as Ne,t as M}from"./UPVhgwxS9.B779geJj.mjs";import{n as Pe,r as Fe}from"./YgJBP6HuF.DgBeD8p1.mjs?v=brand-ss3-650-20261103";
+import{t as e}from"./rolldown-runtime.hBrq4iGT.mjs";import{A as t,C as n,D as r,N as i,c as a,g as o,k as s,l as c,o as ee,s as l,v as te}from"./react.CuwjDPPn.mjs";import{a as ne,r as u,t as re,w as d}from"./motion.Dc2aXs1x.mjs";import{B as f,M as ie,O as ae,P as p,St as m,T as h,V as g,a as _,at as oe,b as v,ct as se,et as y,ft as ce,gt as le,i as b,lt as ue,mt as de,n as x,pt as fe,q as S,u as C,ut as w,w as T,x as E,yt as pe}from"./framer.CxHSQH6w.mjs";import{S as me,a as he,b as D,c as ge,d as _e,f as ve,i as ye,l as be,o as xe,r as Se,s as O,u as Ce,x as we,y as Te}from"./shared-lib.BrY62Mbm.mjs?v=brand-ss3-650-20261103";import{a as Ee,c as De,o as Oe,s as ke}from"./xit0E0FqF.Fh7_3584.mjs";import{n as k,t as Ae}from"./qXZHf8wBR.z4sQPA0a.mjs?v=brand-ss3-650-20261103";import{i as A,n as je,r as Me,t as j}from"./XvDQYR5Gn.BRaww6_L.mjs?v=treatments-injection-hover-20261119";import{a as Ne,t as M}from"./UPVhgwxS9.B779geJj.mjs";import{n as Pe,r as Fe}from"./YgJBP6HuF.DgBeD8p1.mjs?v=brand-ss3-650-20261103";
 const injectionTreatmentCards = [
   {
     "name": "Биоревитализация",
@@ -38,6 +38,14 @@ const injectionTreatmentCards = [
   }
 ];
 
+const foreheadTreatmentPhoto = {
+  src: "assets/dr.derekk/images/HWWJtTa1mgQEqqnaYTTlgtD0TK0__q1f654dc50c72.png",
+  srcSet: "assets/dr.derekk/images/HWWJtTa1mgQEqqnaYTTlgtD0TK0__qc9ba2fb51883.png 512w,assets/dr.derekk/images/HWWJtTa1mgQEqqnaYTTlgtD0TK0__q1f654dc50c72.png 1024w",
+  pixelWidth: 1024,
+  pixelHeight: 1024,
+  alt: "",
+};
+
 function renderInjectionTreatmentCards(breakpoint) {
   const mobile = { variant: U("EY575kCqs") };
   return a("div", {
@@ -54,7 +62,8 @@ function renderInjectionTreatmentCards(breakpoint) {
             treatmentName: name,
             shortDescription: description,
             benefitLabels: labels,
-            textOnly: true,
+            mobileTextOnly: true,
+            image: foreheadTreatmentPhoto,
             link: url,
             style: { width: "100%" },
           }),
