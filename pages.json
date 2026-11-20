@@ -115,6 +115,126 @@
   },
   {
     "brand": "Dr.Derek",
+    "route": "/treatments/biorevitalization/",
+    "path": "treatments/biorevitalization/index.html",
+    "title": "Биоревитализация лица для увлажнения кожи | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/mesotherapy/",
+    "path": "treatments/mesotherapy/index.html",
+    "title": "Мезотерапия для лица и волос | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/prp-therapy/",
+    "path": "treatments/prp-therapy/index.html",
+    "title": "Плазмотерапия PRP для восстановления кожи | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/collagen-therapy/",
+    "path": "treatments/collagen-therapy/index.html",
+    "title": "Коллагенотерапия лица | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/botox-full-face/",
+    "path": "treatments/botox-full-face/index.html",
+    "title": "Ботулинотерапия Full Face от мимических морщин | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/upper-face-botulinum-therapy/",
+    "path": "treatments/upper-face-botulinum-therapy/index.html",
+    "title": "Ботулинотерапия верхней трети лица | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/ultraformer-smas-lifting/",
+    "path": "treatments/ultraformer-smas-lifting/index.html",
+    "title": "SMAS-лифтинг лица на Ultraformer | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/lumecca-ipl/",
+    "path": "treatments/lumecca-ipl/index.html",
+    "title": "Фототерапия Lumecca при пигментации и куперозе | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/morpheus8-rf-microneedling/",
+    "path": "treatments/morpheus8-rf-microneedling/index.html",
+    "title": "Микроигольчатый RF-лифтинг Morpheus 8 | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/volnewmer-rf-lifting/",
+    "path": "treatments/volnewmer-rf-lifting/index.html",
+    "title": "Монополярный RF-лифтинг Volnewmer | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/oligio-rf-lifting/",
+    "path": "treatments/oligio-rf-lifting/index.html",
+    "title": "Монополярный RF-лифтинг Oligio | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/ulfit-body-contouring/",
+    "path": "treatments/ulfit-body-contouring/index.html",
+    "title": "Ультразвуковой липолиз Ulfit | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/venus-neck-lines-treatment/",
+    "path": "treatments/venus-neck-lines-treatment/index.html",
+    "title": "Бланширование «колец Венеры» на шее | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/jowl-contour-correction/",
+    "path": "treatments/jowl-contour-correction/index.html",
+    "title": "Визуальная коррекция «брылей» филлерами | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/temple-filler/",
+    "path": "treatments/temple-filler/index.html",
+    "title": "Коррекция западения висков филлерами | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/radiesse-collagen-stimulation/",
+    "path": "treatments/radiesse-collagen-stimulation/index.html",
+    "title": "Коллагеностимуляция лица препаратом Radiesse | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/polylactic-acid-collagen-stimulation/",
+    "path": "treatments/polylactic-acid-collagen-stimulation/index.html",
+    "title": "Коллагеностимуляция лица полимолочной кислотой | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/co2-laser-resurfacing/",
+    "path": "treatments/co2-laser-resurfacing/index.html",
+    "title": "Лазерная CO₂-шлифовка лица | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/thulium-laser-rejuvenation/",
+    "path": "treatments/thulium-laser-rejuvenation/index.html",
+    "title": "Омоложение лица тулиевым лазером | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
+    "route": "/treatments/scar-subcision/",
+    "path": "treatments/scar-subcision/index.html",
+    "title": "Субцизия втянутых рубцов | Доктор Дерек"
+  },
+  {
+    "brand": "Dr.Derek",
     "route": "/legal/privacy-policy/",
     "path": "legal/privacy-policy/index.html",
     "title": "Политика конфиденциальности — Dr.Derek"

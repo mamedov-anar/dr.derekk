@@ -1,29 +1,29 @@
 # Dr.Derek — справочник страниц
 
-Состав страниц проверен **2 ноября 2026 года** по ветке `main` репозитория [mamedov-anar/dr.derekk](https://github.com/mamedov-anar/dr.derekk) и истории её коммитов. Срез перед добавлением справочника: [`3bc4cae`](https://github.com/mamedov-anar/dr.derekk/commit/3bc4cae5606b80b4aced295b6bd22780075a8976).
+Состав страниц проверен **20 ноября 2026 года** по ветке `main` репозитория [mamedov-anar/dr.derekk](https://github.com/mamedov-anar/dr.derekk) и истории её коммитов. Срез перед добавлением справочника: [`3bc4cae`](https://github.com/mamedov-anar/dr.derekk/commit/3bc4cae5606b80b4aced295b6bd22780075a8976).
 
 Публичный сайт: [mamedov-anar.github.io/dr.derekk/](https://mamedov-anar.github.io/dr.derekk/). Все адреса в таблицах указаны относительно этого сайта.
 
 ## Быстрый ориентир
 
 - **Основной действующий каталог:** [`/treatments/`](https://mamedov-anar.github.io/dr.derekk/treatments/).
-- **Точная копия действующего каталога:** [`/treatments_2/`](https://mamedov-anar.github.io/dr.derekk/treatments_2/). HTML полностью совпадает с `/treatments/`; копия опубликована отдельно для дальнейшей работы.
+- **Точная копия действующего каталога:** [`/treatments_2/`](https://mamedov-anar.github.io/dr.derekk/treatments_2/). Копия состояния каталога на 2 ноября 2026 года опубликована отдельно для дальнейшей работы.
 - **Новая тестовая страница услуг:** [`/services-preview/`](https://mamedov-anar.github.io/dr.derekk/services-preview/). Используется для просмотра и обсуждения структуры; основной каталог ею пока не заменён.
 - **Основные страницы сайта:** главная, о враче, контакты, действующий каталог процедур.
-- **Остальные действующие страницы:** 14 отдельных процедур, политика конфиденциальности и служебная страница 404.
+- **Остальные действующие страницы:** 34 отдельных процедуры, политика конфиденциальности и служебная страница 404.
 
 ## Категории и количество
 
 | Категория | Количество | Статус |
 | --- | ---: | --- |
 | Основные страницы | 4 | Действующие, нетестовые |
-| Внутренние страницы отдельных процедур | 14 | Действующие, нетестовые; раскрывают карточки основного каталога |
+| Внутренние страницы отдельных процедур | 34 | Действующие, нетестовые; раскрывают карточки основного каталога |
 | Правовая страница | 1 | Действующая, нетестовая; вспомогательная |
 | Тестовые страницы | 2 | Копия действующего каталога и новая структура услуг; не заменяют основной каталог |
 | Служебная страница ошибки | 1 | Действующая, нетестовая; техническая |
-| **Всего текущих страниц с отдельными маршрутами** | **22** | **20 исходных маршрутов + 2 тестовых** |
+| **Всего текущих страниц с отдельными маршрутами** | **42** | **40 действующих маршрутов + 2 тестовых** |
 
-Дополнительно в корне есть технический файл `404.html`. Он обслуживает неизвестные адреса GitHub Pages и направляет посетителя на `/404/`. Это отдельный HTML-файл, но не самостоятельный раздел сайта. Всего в текущем дереве репозитория **23 HTML-файла**.
+Дополнительно в корне есть технический файл `404.html`. Он обслуживает неизвестные адреса GitHub Pages и направляет посетителя на `/404/`. Это отдельный HTML-файл, но не самостоятельный раздел сайта. Всего в текущем дереве репозитория **43 HTML-файла**.
 
 ## 1. Основные страницы — действующие, нетестовые
 
@@ -32,11 +32,11 @@
 | Главная | [`/`](https://mamedov-anar.github.io/dr.derekk/) | [index.html](index.html) | Входная страница сайта и основные сведения о враче. |
 | О враче | [`/about/`](https://mamedov-anar.github.io/dr.derekk/about/) | [about/index.html](about/index.html) | Информация о враче. |
 | Контакты и запись | [`/contact/`](https://mamedov-anar.github.io/dr.derekk/contact/) | [contact/index.html](contact/index.html) | Контактная информация и запись. |
-| Действующий каталог процедур | [`/treatments/`](https://mamedov-anar.github.io/dr.derekk/treatments/) | [treatments/index.html](treatments/index.html) | Основной каталог с 14 существующими карточками процедур. |
+| Действующий каталог процедур | [`/treatments/`](https://mamedov-anar.github.io/dr.derekk/treatments/) | [treatments/index.html](treatments/index.html) | Основной каталог с 34 карточками процедур. |
 
 ## 2. Отдельные процедуры — действующие, нетестовые
 
-Это внутренние страницы текущего каталога `/treatments/`, а не 14 дополнительных разделов верхнего уровня. При разработке нового каталога они продолжают существовать по своим адресам. Заголовки трёх страниц приведены к названиям карточек **19 ноября 2026 года**.
+Это индивидуальные страницы 34 услуг действующего каталога `/treatments/`. Каждая доступна с соответствующей карточки. Заголовки трёх страниц приведены к названиям карточек **19 ноября 2026 года**.
 
 | Процедура | Адрес на сайте | Файл в репозитории |
 | --- | --- | --- |
@@ -54,6 +54,26 @@
 | Коррекция межбровных морщин | [`/treatments/frown-line-treatment/`](https://mamedov-anar.github.io/dr.derekk/treatments/frown-line-treatment/) | [treatments/frown-line-treatment/index.html](treatments/frown-line-treatment/index.html) |
 | Коррекция «гусиных лапок» | [`/treatments/crow-s-feet-treatment/`](https://mamedov-anar.github.io/dr.derekk/treatments/crow-s-feet-treatment/) | [treatments/crow-s-feet-treatment/index.html](treatments/crow-s-feet-treatment/index.html) |
 | Подтяжка бровей | [`/treatments/brow-lift/`](https://mamedov-anar.github.io/dr.derekk/treatments/brow-lift/) | [treatments/brow-lift/index.html](treatments/brow-lift/index.html) |
+| Биоревитализация | [`/treatments/biorevitalization/`](https://mamedov-anar.github.io/dr.derekk/treatments/biorevitalization/) | [treatments/biorevitalization/index.html](treatments/biorevitalization/index.html) |
+| Мезотерапия | [`/treatments/mesotherapy/`](https://mamedov-anar.github.io/dr.derekk/treatments/mesotherapy/) | [treatments/mesotherapy/index.html](treatments/mesotherapy/index.html) |
+| Плазмотерапия PRP | [`/treatments/prp-therapy/`](https://mamedov-anar.github.io/dr.derekk/treatments/prp-therapy/) | [treatments/prp-therapy/index.html](treatments/prp-therapy/index.html) |
+| Коллагенотерапия | [`/treatments/collagen-therapy/`](https://mamedov-anar.github.io/dr.derekk/treatments/collagen-therapy/) | [treatments/collagen-therapy/index.html](treatments/collagen-therapy/index.html) |
+| Ботулинотерапия Botox Full Face | [`/treatments/botox-full-face/`](https://mamedov-anar.github.io/dr.derekk/treatments/botox-full-face/) | [treatments/botox-full-face/index.html](treatments/botox-full-face/index.html) |
+| Ботулинотерапия верхней трети лица | [`/treatments/upper-face-botulinum-therapy/`](https://mamedov-anar.github.io/dr.derekk/treatments/upper-face-botulinum-therapy/) | [treatments/upper-face-botulinum-therapy/index.html](treatments/upper-face-botulinum-therapy/index.html) |
+| SMAS-лифтинг Ultraformer | [`/treatments/ultraformer-smas-lifting/`](https://mamedov-anar.github.io/dr.derekk/treatments/ultraformer-smas-lifting/) | [treatments/ultraformer-smas-lifting/index.html](treatments/ultraformer-smas-lifting/index.html) |
+| Фототерапия Lumecca | [`/treatments/lumecca-ipl/`](https://mamedov-anar.github.io/dr.derekk/treatments/lumecca-ipl/) | [treatments/lumecca-ipl/index.html](treatments/lumecca-ipl/index.html) |
+| RF-игольчатый Morpheus 8 | [`/treatments/morpheus8-rf-microneedling/`](https://mamedov-anar.github.io/dr.derekk/treatments/morpheus8-rf-microneedling/) | [treatments/morpheus8-rf-microneedling/index.html](treatments/morpheus8-rf-microneedling/index.html) |
+| Монополярный RF-лифтинг Volnewmer | [`/treatments/volnewmer-rf-lifting/`](https://mamedov-anar.github.io/dr.derekk/treatments/volnewmer-rf-lifting/) | [treatments/volnewmer-rf-lifting/index.html](treatments/volnewmer-rf-lifting/index.html) |
+| Монополярный RF-лифтинг Oligio | [`/treatments/oligio-rf-lifting/`](https://mamedov-anar.github.io/dr.derekk/treatments/oligio-rf-lifting/) | [treatments/oligio-rf-lifting/index.html](treatments/oligio-rf-lifting/index.html) |
+| Коррекция контуров тела Ulfit | [`/treatments/ulfit-body-contouring/`](https://mamedov-anar.github.io/dr.derekk/treatments/ulfit-body-contouring/) | [treatments/ulfit-body-contouring/index.html](treatments/ulfit-body-contouring/index.html) |
+| Бланширование «колец Венеры» | [`/treatments/venus-neck-lines-treatment/`](https://mamedov-anar.github.io/dr.derekk/treatments/venus-neck-lines-treatment/) | [treatments/venus-neck-lines-treatment/index.html](treatments/venus-neck-lines-treatment/index.html) |
+| Визуальная коррекция «брылей» | [`/treatments/jowl-contour-correction/`](https://mamedov-anar.github.io/dr.derekk/treatments/jowl-contour-correction/) | [treatments/jowl-contour-correction/index.html](treatments/jowl-contour-correction/index.html) |
+| Коррекция западения висков | [`/treatments/temple-filler/`](https://mamedov-anar.github.io/dr.derekk/treatments/temple-filler/) | [treatments/temple-filler/index.html](treatments/temple-filler/index.html) |
+| Коллагеностимуляция Radiesse | [`/treatments/radiesse-collagen-stimulation/`](https://mamedov-anar.github.io/dr.derekk/treatments/radiesse-collagen-stimulation/) | [treatments/radiesse-collagen-stimulation/index.html](treatments/radiesse-collagen-stimulation/index.html) |
+| Коллагеностимуляция полимолочной кислотой | [`/treatments/polylactic-acid-collagen-stimulation/`](https://mamedov-anar.github.io/dr.derekk/treatments/polylactic-acid-collagen-stimulation/) | [treatments/polylactic-acid-collagen-stimulation/index.html](treatments/polylactic-acid-collagen-stimulation/index.html) |
+| Шлифовка CO₂-лазером | [`/treatments/co2-laser-resurfacing/`](https://mamedov-anar.github.io/dr.derekk/treatments/co2-laser-resurfacing/) | [treatments/co2-laser-resurfacing/index.html](treatments/co2-laser-resurfacing/index.html) |
+| Омоложение тулиевым лазером LaseMed | [`/treatments/thulium-laser-rejuvenation/`](https://mamedov-anar.github.io/dr.derekk/treatments/thulium-laser-rejuvenation/) | [treatments/thulium-laser-rejuvenation/index.html](treatments/thulium-laser-rejuvenation/index.html) |
+| Субцизия рубцов | [`/treatments/scar-subcision/`](https://mamedov-anar.github.io/dr.derekk/treatments/scar-subcision/) | [treatments/scar-subcision/index.html](treatments/scar-subcision/index.html) |
 
 ## 3. Правовая и служебные страницы — нетестовые
 
@@ -101,7 +121,7 @@
 ## 6. Источники и границы справочника
 
 - Перечень текущих страниц сверяется с HTML-файлами ветки `main`. Удалённые страницы выявлены по истории этой ветки.
-- [`pages.json`](pages.json) содержит 20 исходных маршрутов, включая `/404/`; тестовые `/services-preview/` и `/treatments_2/` учитываются отдельно в этом справочнике.
+- [`pages.json`](pages.json) содержит 40 маршрутов, включая `/404/`; тестовые `/services-preview/` и `/treatments_2/` учитываются отдельно в этом справочнике.
 - Исходные 20 маршрутов и технический `404.html` впервые появились в репозитории при [публикации сайта `23be096`](https://github.com/mamedov-anar/dr.derekk/commit/23be096b41235a46244cfc9baa9448ac18bbabbf). Это дата появления в данном репозитории, а не дата первоначальной разработки сайта.
 - Word-документы, макеты, изображения, ZIP-архивы и исторические локальные экспорты не считаются опубликованными веб-страницами.
 - `README.md`, `AGENTS.md`, `PAGES.md`, `pages.json` и файлы контрольных сумм — документация и служебные данные репозитория.

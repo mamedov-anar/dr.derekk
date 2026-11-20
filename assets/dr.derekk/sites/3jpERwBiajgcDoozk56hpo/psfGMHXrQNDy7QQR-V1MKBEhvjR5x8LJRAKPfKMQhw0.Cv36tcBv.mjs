@@ -7,7 +7,7 @@ const injectionTreatmentCards = [
       "Увлажнение кожи",
       "Сохранение эластичности кожи"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/biorevitalization/"
   },
   {
     "name": "Мезотерапия",
@@ -16,7 +16,7 @@ const injectionTreatmentCards = [
       "Меньше тусклости",
       "Лечение алопеции"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/mesotherapy/"
   },
   {
     "name": "Плазмотерапия PRP",
@@ -25,7 +25,7 @@ const injectionTreatmentCards = [
       "Улучшение текстуры кожи",
       "Восстановление после процедур"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/prp-therapy/"
   },
   {
     "name": "Коллагенотерапия",
@@ -34,7 +34,7 @@ const injectionTreatmentCards = [
       "Повышение упругости кожи",
       "Ровнее рельеф кожи"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/collagen-therapy/"
   }
 ];
 
@@ -54,7 +54,7 @@ const deviceTreatmentCards = [
       "Чётче овал лица",
       "Лифтинг без операции"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/ultraformer-smas-lifting/"
   },
   {
     "name": "Фототерапия Lumecca",
@@ -63,7 +63,7 @@ const deviceTreatmentCards = [
       "Осветление пигментных пятен",
       "Уменьшение стойкой красноты"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/lumecca-ipl/"
   },
   {
     "name": "RF-игольчатый Morpheus 8",
@@ -72,7 +72,7 @@ const deviceTreatmentCards = [
       "Ровнее рельеф кожи",
       "Повышение упругости кожи"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/morpheus8-rf-microneedling/"
   },
   {
     "name": "Монополярный RF-лифтинг Volnewmer",
@@ -81,7 +81,7 @@ const deviceTreatmentCards = [
       "Меньше дряблости",
       "Чётче овал лица"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/volnewmer-rf-lifting/"
   },
   {
     "name": "Монополярный RF-лифтинг Oligio",
@@ -90,7 +90,7 @@ const deviceTreatmentCards = [
       "Повышение упругости кожи",
       "Безоперационная подтяжка"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/oligio-rf-lifting/"
   },
   {
     "name": "Коррекция контуров тела Ulfit",
@@ -99,7 +99,7 @@ const deviceTreatmentCards = [
       "Меньше локального жира",
       "Коррекция без операции"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/ulfit-body-contouring/"
   }
 ];
 
@@ -119,7 +119,7 @@ const collagenTreatmentCards = [
       "Восполнение объёма лица",
       "Чётче овал лица"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/radiesse-collagen-stimulation/"
   },
   {
     "name": "Коллагеностимуляция полимолочной кислотой",
@@ -128,7 +128,7 @@ const collagenTreatmentCards = [
       "Постепенное восполнение объёма",
       "Повышение плотности кожи"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/polylactic-acid-collagen-stimulation/"
   }
 ];
 
@@ -180,7 +180,7 @@ const laserTreatmentCards = [
       "Сглаживание рубцов постакне",
       "Сглаживание мелких морщин"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/co2-laser-resurfacing/"
   },
   {
     "name": "Омоложение тулиевым лазером LaseMed",
@@ -189,7 +189,7 @@ const laserTreatmentCards = [
       "Ровнее тон кожи",
       "Кожа становится глаже"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/thulium-laser-rejuvenation/"
   },
   {
     "name": "Лазерное лечение акне",
@@ -257,7 +257,7 @@ const skinTreatmentCards = [
       "Меньшая глубина рубцов",
       "Выравнивание рельефа кожи"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/scar-subcision/"
   },
   {
     "name": "Аппаратный уход Hydrafacial",
@@ -325,7 +325,7 @@ const wrinkleTreatmentCards = [
       "Коррекция морщин лба",
       "Смягчение межбровных складок"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/botox-full-face/"
   },
   {
     "name": "Подтяжка бровей",
@@ -366,7 +366,7 @@ const wrinkleTreatmentCards = [
       "Смягчение морщин лба",
       "Отдохнувший вид"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/upper-face-botulinum-therapy/"
   }
 ];
 
@@ -426,7 +426,7 @@ const contourTreatmentCards = [
       "Сглаживание «колец Венеры»",
       "Ровнее рельеф шеи"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/venus-neck-lines-treatment/"
   },
   {
     "name": "Коррекция линии челюсти",
@@ -451,7 +451,7 @@ const contourTreatmentCards = [
       "Визуальное смягчение «брылей»",
       "Плавная линия челюсти"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/jowl-contour-correction/"
   },
   {
     "name": "Коррекция западения висков",
@@ -460,7 +460,7 @@ const contourTreatmentCards = [
       "Сглаживание височных впадин",
       "Баланс пропорций лица"
     ],
-    "url": "https://mamedov-anar.github.io/dr.derekk/"
+    "url": "https://mamedov-anar.github.io/dr.derekk/treatments/temple-filler/"
   }
 ];
 
