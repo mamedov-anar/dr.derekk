@@ -5,7 +5,7 @@ const injectionTreatmentCards = [
     "description": "Инъекционная процедура для увлажнения кожи и поддержания её эластичности.",
     "labels": [
       "Увлажнение кожи",
-      "Сохранение эластичности кожи"
+      "Эластичная кожа"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/biorevitalization/"
   },
@@ -22,8 +22,8 @@ const injectionTreatmentCards = [
     "name": "Плазмотерапия PRP",
     "description": "Инъекции собственной плазмы для восстановления кожи после некоторых процедур.",
     "labels": [
-      "Улучшение текстуры кожи",
-      "Восстановление после процедур"
+      "Гладкая кожа",
+      "Восстановление кожи"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/prp-therapy/"
   },
@@ -31,8 +31,8 @@ const injectionTreatmentCards = [
     "name": "Коллагенотерапия",
     "description": "Инъекции для улучшения текстуры кожи и поддержки её восстановления.",
     "labels": [
-      "Повышение упругости кожи",
-      "Ровнее рельеф кожи"
+      "Упругая кожа",
+      "Сглаживание неровностей"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/collagen-therapy/"
   }
@@ -51,8 +51,8 @@ const deviceTreatmentCards = [
     "name": "SMAS-лифтинг Ultraformer",
     "description": "Ультразвуковая подтяжка тканей для более чёткого овала лица.",
     "labels": [
-      "Чётче овал лица",
-      "Лифтинг без операции"
+      "Овал чётче",
+      "Безоперационный лифтинг"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/ultraformer-smas-lifting/"
   },
@@ -60,8 +60,8 @@ const deviceTreatmentCards = [
     "name": "Фототерапия Lumecca",
     "description": "Широкополосный свет для осветления  пигментных пятен и уменьшения проявлений розации и купероза.",
     "labels": [
-      "Осветление пигментных пятен",
-      "Уменьшение стойкой красноты"
+      "Осветление пятен",
+      "Меньше красноты"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/lumecca-ipl/"
   },
@@ -69,8 +69,8 @@ const deviceTreatmentCards = [
     "name": "RF-игольчатый Morpheus 8",
     "description": "Радиочастотное воздействие через микроиглы для улучшения рельефа кожи.",
     "labels": [
-      "Ровнее рельеф кожи",
-      "Повышение упругости кожи"
+      "Сглаживание неровностей",
+      "Упругая кожа"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/morpheus8-rf-microneedling/"
   },
@@ -79,7 +79,7 @@ const deviceTreatmentCards = [
     "description": "Радиочастотная процедура для повышения плотности кожи при начальной дряблости.",
     "labels": [
       "Меньше дряблости",
-      "Чётче овал лица"
+      "Овал чётче"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/volnewmer-rf-lifting/"
   },
@@ -87,7 +87,7 @@ const deviceTreatmentCards = [
     "name": "Монополярный RF-лифтинг Oligio",
     "description": "Монополярный RF-лифтинг для более упругой и подтянутой кожи.",
     "labels": [
-      "Повышение упругости кожи",
+      "Упругая кожа",
       "Безоперационная подтяжка"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/oligio-rf-lifting/"
@@ -96,8 +96,8 @@ const deviceTreatmentCards = [
     "name": "Коррекция контуров тела Ulfit",
     "description": "Может уменьшить объём отдельных зон тела с локальными жировыми отложениями.",
     "labels": [
-      "Меньше локального жира",
-      "Коррекция без операции"
+      "Меньше отложений",
+      "Безоперационная коррекция"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/ulfit-body-contouring/"
   }
@@ -116,8 +116,8 @@ const collagenTreatmentCards = [
     "name": "Коллагеностимуляция Radiesse",
     "description": "Восполнение утраченного объёма лица и стимуляция выработки коллагена.",
     "labels": [
-      "Восполнение объёма лица",
-      "Чётче овал лица"
+      "Восполнение объёма",
+      "Овал чётче"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/radiesse-collagen-stimulation/"
   },
@@ -125,8 +125,8 @@ const collagenTreatmentCards = [
     "name": "Коллагеностимуляция полимолочной кислотой",
     "description": "Коллагеностимуляция при возрастной потере объёма лица и снижении плотности кожи.",
     "labels": [
-      "Постепенное восполнение объёма",
-      "Повышение плотности кожи"
+      "Восполнение объёма",
+      "Кожа плотнее"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/polylactic-acid-collagen-stimulation/"
   }
@@ -177,8 +177,8 @@ const laserTreatmentCards = [
     "name": "Шлифовка CO₂-лазером",
     "description": "Лазерная шлифовка для коррекции рубцов постакне, неровного рельефа и мелких морщин.",
     "labels": [
-      "Сглаживание рубцов постакне",
-      "Сглаживание мелких морщин"
+      "Сглаживание рубцов",
+      "Сглаживание морщин"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/co2-laser-resurfacing/"
   },
@@ -186,8 +186,8 @@ const laserTreatmentCards = [
     "name": "Омоложение тулиевым лазером LaseMed",
     "description": "Лазерное воздействие для выравнивания тона и улучшения текстуры кожи.",
     "labels": [
-      "Ровнее тон кожи",
-      "Кожа становится глаже"
+      "Тон ровнее",
+      "Кожа глаже"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/thulium-laser-rejuvenation/"
   },
@@ -239,7 +239,7 @@ const skinTreatmentCards = [
     "description": "Контролируемое воздействие микроиглами для коррекции текстуры кожи и отдельных рубцов.",
     "labels": [
       "Сглаживание рубцов",
-      "Ровнее рельеф кожи"
+      "Сглаживание неровностей"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/microneedling/",
     "image": {
@@ -254,8 +254,8 @@ const skinTreatmentCards = [
     "name": "Субцизия рубцов",
     "description": "Коррекция втянутых рубцов, в том числе постакне, для более ровного рельефа кожи.",
     "labels": [
-      "Меньшая глубина рубцов",
-      "Выравнивание рельефа кожи"
+      "Сглаживание рубцов",
+      "Сглаживание неровностей"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/scar-subcision/"
   },
@@ -322,8 +322,8 @@ const wrinkleTreatmentCards = [
     "name": "Ботулинотерапия Botox Full Face",
     "description": "Ботулинотерапия для коррекции мимических морщин в нескольких зонах лица.",
     "labels": [
-      "Коррекция морщин лба",
-      "Смягчение межбровных складок"
+      "Гладкий лоб",
+      "Гладкое межбровье"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/botox-full-face/"
   },
@@ -332,7 +332,7 @@ const wrinkleTreatmentCards = [
     "description": "Ботулинотерапия для лёгкого подъёма бровей.",
     "labels": [
       "Выразительный взгляд",
-      "Приподнятые хвостики бровей"
+      "Подъём кончиков"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/brow-lift/",
     "image": {
@@ -348,7 +348,7 @@ const wrinkleTreatmentCards = [
     "description": "Ботулинотерапия для уменьшения мимических морщин у наружных уголков глаз.",
     "labels": [
       "Свежий взгляд",
-      "Меньше морщин улыбки"
+      "Меньше морщин"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/crow-s-feet-treatment/",
     "image": {
@@ -363,7 +363,7 @@ const wrinkleTreatmentCards = [
     "name": "Ботулинотерапия верхней трети лица",
     "description": "Уменьшения мимических морщин на лбу, между бровями и у наружных уголков глаз.",
     "labels": [
-      "Смягчение морщин лба",
+      "Гладкий лоб",
       "Отдохнувший вид"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/upper-face-botulinum-therapy/"
@@ -408,7 +408,7 @@ const contourTreatmentCards = [
     "description": "Филлер для восполнения утраченного объёма и более выраженного контура скул.",
     "labels": [
       "Выраженные скулы",
-      "Восполнение утраченного объёма"
+      "Восполнение объёма"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/cheek-filler/",
     "image": {
@@ -423,8 +423,8 @@ const contourTreatmentCards = [
     "name": "Бланширование «колец Венеры»",
     "description": "Поверхностные инъекции для уменьшения горизонтальных морщин на шее.",
     "labels": [
-      "Сглаживание «колец Венеры»",
-      "Ровнее рельеф шеи"
+      "Сглаживание складок",
+      "Сглаживание неровностей"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/venus-neck-lines-treatment/"
   },
@@ -432,8 +432,8 @@ const contourTreatmentCards = [
     "name": "Коррекция линии челюсти",
     "description": "Филлер для чёткого контура челюсти, выраженных углов и коррекции асимметрии.",
     "labels": [
-      "Чёткая линия челюсти",
-      "Выраженные углы челюсти"
+      "Чёткий контур",
+      "Выраженные углы"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/jawline-filler/",
     "image": {
@@ -448,8 +448,8 @@ const contourTreatmentCards = [
     "name": "Визуальная коррекция «брылей»",
     "description": "Восполнение объёма в нижней трети лица для визуального смягчения «брылей».",
     "labels": [
-      "Визуальное смягчение «брылей»",
-      "Плавная линия челюсти"
+      "Смягчение «брылей»",
+      "Плавный контур"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/jowl-contour-correction/"
   },
@@ -457,8 +457,8 @@ const contourTreatmentCards = [
     "name": "Коррекция западения висков",
     "description": "Коррекция западения висков и восполнение утраченного объёма.",
     "labels": [
-      "Сглаживание височных впадин",
-      "Баланс пропорций лица"
+      "Сглаживание впадин",
+      "Баланс пропорций"
     ],
     "url": "https://mamedov-anar.github.io/dr.derekk/treatments/temple-filler/"
   }
