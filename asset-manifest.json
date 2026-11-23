@@ -2124,68 +2124,68 @@
     },
     {
       "path": "treatments/acne-laser-treatment/index.html",
-      "bytes": 168170,
-      "sha256": "8c58cf3819c1a11d67bb5bc0f677ec6ade5c17c84605a938f2e6d516a1680c92"
+      "bytes": 168365,
+      "sha256": "c9fe28411e57d8bcaadab1c632525402379da2fbb4cad227578e8e7c082840ad"
     },
     {
       "path": "treatments/biorevitalization/index.html",
-      "bytes": 166927,
-      "sha256": "dcf7a014e09bb44c46d1a865513e3bfc928acdccfe8f937e40e7381ee471fef9"
+      "bytes": 167337,
+      "sha256": "d557c5c2f458d9356ed7e59fe7ce94eb6c8e7b71d550fd584526cefe800319e7"
     },
     {
       "path": "treatments/botox-full-face/index.html",
-      "bytes": 168020,
-      "sha256": "1aa1ab8cda62de5d0be4e59b7360f07875e0d85631f9624eb3aceb8e3951a299"
+      "bytes": 168349,
+      "sha256": "c336a042e03a5f692187bdb8abd08eea0f26fa480fd9b05ba350bbda099741da"
     },
     {
       "path": "treatments/brow-lift/index.html",
-      "bytes": 167398,
-      "sha256": "7ac0b7a37654f3fddf0822a594f139f265c99307305d52171f0a2f5f491d05aa"
+      "bytes": 167574,
+      "sha256": "526f1d9be10c16e701bb3ee0462179d263a4b26f77e6db3339b791bc31e5c193"
     },
     {
       "path": "treatments/cheek-filler/index.html",
-      "bytes": 167431,
-      "sha256": "42f59e0545304c11e5dd46320b9a2240227a0c53817ccbed0dc91dc0e27e8065"
+      "bytes": 167664,
+      "sha256": "224957aa65fb58c111bffd61b07aabd595ed60a0b83ec718fcd5a475b1bc9f33"
     },
     {
       "path": "treatments/chemical-peel/index.html",
-      "bytes": 167514,
-      "sha256": "836bfdbe4d1befc362482cd4213968b45e1d38a0f7937126f49363a1860f932e"
+      "bytes": 167794,
+      "sha256": "123287f05659c289bd8e828bde41f2451e4628d60a2391a6eb422bd04db5a52e"
     },
     {
       "path": "treatments/chin-filler/index.html",
-      "bytes": 167547,
-      "sha256": "d7e6b555d089e6eb6b5abefb2c8a47a2ca06ab521fb40082b427b6df3edf05c3"
+      "bytes": 167751,
+      "sha256": "c6144519b35d71ac81919d4110cdf9718fe2612b417d6ee3aca9b7bd3264922a"
     },
     {
       "path": "treatments/co2-laser-resurfacing/index.html",
-      "bytes": 167380,
-      "sha256": "ba79624c71fe434437b6790d00f295246cccc4cd127118b41a61bbb60c828312"
+      "bytes": 167717,
+      "sha256": "4e0c221ee716dd94f3c28c1969991b3f2d8bea68fbe9d34aa8867b5b1d132fa9"
     },
     {
       "path": "treatments/collagen-therapy/index.html",
-      "bytes": 166428,
-      "sha256": "f371ae0f4747c357197683ca191d1cd6919349ee907a06858068150abeb3ff14"
+      "bytes": 166803,
+      "sha256": "4b7329dca376cf5da4ef2dd552f002318e210b4150a7aaf9aae5054e3b41807d"
     },
     {
       "path": "treatments/crow-s-feet-treatment/index.html",
-      "bytes": 168017,
-      "sha256": "eca309e9f549f146c565f732ce8bda39c1e3fc3e044dc8cc03a572c53e3eea97"
+      "bytes": 168236,
+      "sha256": "81e6ba5479c54961621caf307cb4041d1ba8eb10eb628f76da3718ccaf13335c"
     },
     {
       "path": "treatments/forehead-line-treatment/index.html",
-      "bytes": 167883,
-      "sha256": "9a9f329525d6090922f73dc0908af2e54961517a7ad0f2c75ae46011f9689474"
+      "bytes": 168087,
+      "sha256": "61d9176f43868b6e9b330b12d22c4b4a4cdfea6725e88f73fd0f3327c7ba9ceb"
     },
     {
       "path": "treatments/frown-line-treatment/index.html",
-      "bytes": 168067,
-      "sha256": "5c6d649efcac5d32d6eafec7b4a31c3a67df347b66eee67448eb165c600d31bc"
+      "bytes": 168339,
+      "sha256": "15cfb1a05d4a99679b2589d0f57e5afeb7cbf42c83cbd65c06701732578e265d"
     },
     {
       "path": "treatments/hydrafacial/index.html",
-      "bytes": 167744,
-      "sha256": "03618e3e0ea77fc9f892b02d60e650a75f4cd13fd36b62bf4a23e41ae5cbe8c0"
+      "bytes": 167875,
+      "sha256": "0800c88aa1fa3137c464392e0b3eb1c24121361af76d42aff7264c3f4a45b727"
     },
     {
       "path": "treatments/index.html",
@@ -2194,108 +2194,108 @@
     },
     {
       "path": "treatments/jawline-filler/index.html",
-      "bytes": 167994,
-      "sha256": "56d524936e575d217b7f205d9bd52a8b0266e03f6609079ecf31592e9fa32f16"
+      "bytes": 168169,
+      "sha256": "18afe439aff869a14188af13d72ad01debc0176f7c24d3eb5ce8c0caaf3ed492"
     },
     {
       "path": "treatments/jowl-contour-correction/index.html",
-      "bytes": 167580,
-      "sha256": "b659c5265e6ced8093cb00a4d61acd8010b7abe1c059f248cef12f536de65df2"
+      "bytes": 167814,
+      "sha256": "2b92a8706f2706a4a7bc01ced5c42f91336195090e82619bb545dbf1d9f77fe5"
     },
     {
       "path": "treatments/laser-skin-rejuvenation/index.html",
-      "bytes": 168127,
-      "sha256": "7a0fe7f241ed6418023b6c5a1332b35abdfde0d8a6fe95e04a856b872675ba29"
+      "bytes": 168337,
+      "sha256": "f222f4f3eed54e05bb28160700be3328085e45575b50934c198e2d0356a45ba3"
     },
     {
       "path": "treatments/lip-filler/index.html",
-      "bytes": 167529,
-      "sha256": "bac5e664ba9523ed9607f3b0d812c82f64f6d9bde544e28cf346545e8f38a996"
+      "bytes": 167727,
+      "sha256": "63bca2bef6cb9c9d8f69b061300092ad8aecd41aae678c5d23fe06ea40e31083"
     },
     {
       "path": "treatments/lumecca-ipl/index.html",
-      "bytes": 167667,
-      "sha256": "8d674cbed5c13dd7773c71c1485a3dbdbbe67d0fa5112ca7b9dfca52e5669f0b"
+      "bytes": 167968,
+      "sha256": "4e195a7ef280e2f263ceb831640efefecc4357ee22d8cc294e1703bfb1e0e0a5"
     },
     {
       "path": "treatments/mesotherapy/index.html",
-      "bytes": 166681,
-      "sha256": "2e7413519f345c02e66d1fd46c933a3b8eca2141dd5a3dee73f42652959bfd88"
+      "bytes": 167046,
+      "sha256": "d222ee020db9feaf1c1f26923a6bc6b8c465947a40ff888bf6cffe37519e5317"
     },
     {
       "path": "treatments/microneedling/index.html",
-      "bytes": 167248,
-      "sha256": "cb2cf6619176db9c3b441cc855958932cc166f0bb3508994c2f3245b48aabbc9"
+      "bytes": 167430,
+      "sha256": "462135e62e3fe6b4ee6db242b8c4f91cad4f0bfe9c11e7904ca87a06d46e7683"
     },
     {
       "path": "treatments/morpheus8-rf-microneedling/index.html",
-      "bytes": 167542,
-      "sha256": "a2e57239148df4a8b331edf13ea791a7b6377c240502597803ff2cf24b326a0b"
+      "bytes": 167906,
+      "sha256": "78429c3a0190c91c6c8abfd600ad0252406b5770b17f57aec68f0b7947fc6784"
     },
     {
       "path": "treatments/oligio-rf-lifting/index.html",
-      "bytes": 167257,
-      "sha256": "767454a6dbd216d2a4889faf04af87d43d6ca92f3f0176198a59b4475c0f32fd"
+      "bytes": 167586,
+      "sha256": "5ac5fd29b53dc9c6252a785c9d3946aac68f77f20eae0e89f23e29d7d7d9a0b0"
     },
     {
       "path": "treatments/pigmentation-removal/index.html",
-      "bytes": 168362,
-      "sha256": "b3c03b3d293c0f096a605ee03c4310c88cb0f4dcde5ae4cabaa48b54fddc0943"
+      "bytes": 168618,
+      "sha256": "145cfe9d189914c95c043c52a7bc7cac506d48cd3e6780c39d1ec70045d7816d"
     },
     {
       "path": "treatments/polylactic-acid-collagen-stimulation/index.html",
-      "bytes": 167856,
-      "sha256": "53b9284942ae7d8a01998144a6f03936705cb5d10a142c12043dbb3421f228b7"
+      "bytes": 168233,
+      "sha256": "ffb32d19d9e277e43c6db51b4614f6566a37470946c40effb963a53611068030"
     },
     {
       "path": "treatments/prp-therapy/index.html",
-      "bytes": 167382,
-      "sha256": "efa41fa1829929761d426e093a20e19efeae563c00a1fbd680739f9188ab4d46"
+      "bytes": 167729,
+      "sha256": "d95ba81a123834843899aead1bb2fb2e6f218ee9bea24e3af8e9a8cbb70044d9"
     },
     {
       "path": "treatments/radiesse-collagen-stimulation/index.html",
-      "bytes": 167393,
-      "sha256": "f4687896904a84f41909133bc1dcbdffa3f6d201230dbba2653a5b437686989f"
+      "bytes": 167715,
+      "sha256": "ff9600bce02e96efef44cd00e3217405a9d28e3029e0f4e47a68adc735ffb980"
     },
     {
       "path": "treatments/scar-subcision/index.html",
-      "bytes": 167170,
-      "sha256": "a4ccc00127e45e3ce04c9da42d2336d5b81437f10e1116b76b9244270a0e6302"
+      "bytes": 167450,
+      "sha256": "26ad02a8bcd6fafa7f4016fd5e8785657c7cb001ce2a2003c1883a54e1ba6549"
     },
     {
       "path": "treatments/temple-filler/index.html",
-      "bytes": 167144,
-      "sha256": "38b54a5968b7f1632334558908a7babc6b8ff0b77a14c130e4917d16d67ee90f"
+      "bytes": 167485,
+      "sha256": "edd7b0585766258789f94cb778239eb9bf096a77352ae6408797ea5d7976f597"
     },
     {
       "path": "treatments/thulium-laser-rejuvenation/index.html",
-      "bytes": 167764,
-      "sha256": "ca455773c3ec0e4327b459ca55a81e86d06ebdbdb6d66cf1d507d99546fc92fc"
+      "bytes": 168055,
+      "sha256": "f68c69a600bf74f57bd7fc10a812ccbb64d0635689555cdc1651bdaa2e2114c9"
     },
     {
       "path": "treatments/ulfit-body-contouring/index.html",
-      "bytes": 167870,
-      "sha256": "39e42276ebeee63ce391342a16dd1442a73f6e1320d4d8900c1f9cb6de5dccf3"
+      "bytes": 168185,
+      "sha256": "ca0ccbab43fd9fe9738e2bf68d138d640193d60cde9c0b155a034724ffb98c82"
     },
     {
       "path": "treatments/ultraformer-smas-lifting/index.html",
-      "bytes": 166805,
-      "sha256": "6e90e4c1013b5c4050066615e5220e51f04ec1b927f7220cb54e261eb265b8c3"
+      "bytes": 167158,
+      "sha256": "c35b3d2bfd219ec703990bec496c57480a29a834b6963488dc403835e80a3460"
     },
     {
       "path": "treatments/upper-face-botulinum-therapy/index.html",
-      "bytes": 168315,
-      "sha256": "c2bb1996802c6697ff895a93e98c42d71975f3c099ea4461867a55f4ff6c63b5"
+      "bytes": 168562,
+      "sha256": "1e143c33c212d6594db5074a68970272ccb6e833a0ae7184efacfbc6ee6de295"
     },
     {
       "path": "treatments/venus-neck-lines-treatment/index.html",
-      "bytes": 167449,
-      "sha256": "b392153503b1bc95c4d5edb2809002544fa9b1e622d5023541558d67926f4ff5"
+      "bytes": 167731,
+      "sha256": "1d2e1233cca488b87096e7f0968c52e73d3f72542622b137ef5e2f13217cfb17"
     },
     {
       "path": "treatments/volnewmer-rf-lifting/index.html",
-      "bytes": 167421,
-      "sha256": "cd0b6f8f8b8627fe53a69190d1cbc8b7a5d68e994178a64aba9a20e05fd90927"
+      "bytes": 167658,
+      "sha256": "1209bd517cd0f68bce6f60473bfb19e46e6d1b419162b4276896a95f0d251446"
     },
     {
       "path": "treatments_2/index.html",
