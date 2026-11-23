@@ -2069,8 +2069,8 @@
     },
     {
       "path": "assets/treatment-benefits.mjs",
-      "bytes": 1933,
-      "sha256": "e3671ae2266d77e7b755e5676e89295f82fad63cb324e189ea9becc8eb9e1da8"
+      "bytes": 2163,
+      "sha256": "53f57ff0ced264647da61af1acab48660d569cbd75b5bfc4dd8dba100957a07d"
     },
     {
       "path": "contact/index.html",
@@ -2089,8 +2089,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 380524,
-      "sha256": "e8788a1e327d2bab6582b1a60dc41a439a08ea02f63bfef3d18d1cc56428a5d9"
+      "bytes": 379924,
+      "sha256": "4a78a4f0dd9b6d8336a54404fb74435a8f52b59e8a635b277431d658e321d404"
     },
     {
       "path": "legal/privacy-policy/index.html",

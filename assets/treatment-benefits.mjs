@@ -1,5 +1,13 @@
 // Procedure-card labels selected in the workbook, columns G and H.
 export const treatmentBenefitsByTitle = Object.freeze({
+  "Биоревитализация": [
+    "Увлажнение кожи",
+    "Эластичная кожа"
+  ],
+  "Мезотерапия": [
+    "Меньше тусклости",
+    "Лечение алопеции"
+  ],
   "Коррекция морщин лба": [
     "Гладкий лоб",
     "Отдохнувший вид"
