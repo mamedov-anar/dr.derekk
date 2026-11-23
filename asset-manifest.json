@@ -19,8 +19,8 @@
     },
     {
       "path": "404/index.html",
-      "bytes": 65557,
-      "sha256": "9d681d84f080890792d366e19f0ed39b13ba1a761e342421c328952d3a2d2141"
+      "bytes": 65607,
+      "sha256": "27a0f23e017993d0df7196d49d9c5f02babc48b276c9915385086e22322940c4"
     },
     {
       "path": "AGENTS.md",
@@ -39,8 +39,8 @@
     },
     {
       "path": "about/index.html",
-      "bytes": 208660,
-      "sha256": "9446ae6b1a1fb0a8312a1b1e7bdaba87703ce806c82ba64d8b04bb15cf1677fc"
+      "bytes": 208948,
+      "sha256": "d2dc3d2ad52d4b437c8fa7aa561283724b371fecfc28d6a2ecd6555874adfee2"
     },
     {
       "path": "assets/brand/apple-touch-icon.png",
@@ -2074,8 +2074,8 @@
     },
     {
       "path": "contact/index.html",
-      "bytes": 122075,
-      "sha256": "901b7c1cfabcbdb4cb36ac2b7aade037fcb2885babd81071a806e83c835d986f"
+      "bytes": 122394,
+      "sha256": "07a176e687f70c7350b1d684d2af5a3b97f4cf606ab05cf5bc9f606f3a4103bb"
     },
     {
       "path": "docs/QA-2026-10-25.md",
@@ -2089,13 +2089,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 380286,
-      "sha256": "f5f1916971b25d444182aa7d256278eff7a5fa496e919d9c0c2c11311fc66d7d"
+      "bytes": 380524,
+      "sha256": "e8788a1e327d2bab6582b1a60dc41a439a08ea02f63bfef3d18d1cc56428a5d9"
     },
     {
       "path": "legal/privacy-policy/index.html",
-      "bytes": 86669,
-      "sha256": "c08566b711615d96f6a0ab3114e8b0cf302ba252b0f0bafcd26402d189fc1792"
+      "bytes": 86976,
+      "sha256": "25ba9db1778a9a90c1c6f7099956a472dadf601a33dbeb5333ec596122226cf2"
     },
     {
       "path": "pages.json",
@@ -2104,8 +2104,8 @@
     },
     {
       "path": "services-preview/index.html",
-      "bytes": 31687,
-      "sha256": "0453aefc55fb88f99b40353c524afb7036fb12355b67881a459190713350c651"
+      "bytes": 32045,
+      "sha256": "9519719b90d72010a0f9f0b05dac3457c0119c31c2e3d86ae9e5c37719fd201e"
     },
     {
       "path": "services-preview/services-preview.css",
@@ -2189,8 +2189,8 @@
     },
     {
       "path": "treatments/index.html",
-      "bytes": 298370,
-      "sha256": "2ccdacbe5b8194fa8262d1b52bb254dbebc20a2fddfcec20b62bedc021216588"
+      "bytes": 298795,
+      "sha256": "1edaa79ecb3b2d9744c176b5540012692e2a61a1019d4a6f666759b80c0a7b32"
     },
     {
       "path": "treatments/jawline-filler/index.html",
@@ -2299,8 +2299,8 @@
     },
     {
       "path": "treatments_2/index.html",
-      "bytes": 233794,
-      "sha256": "66ff61f2b5cc7530b87d4013d96757e5832bba936e5a1fa16d698cf8cc75ba30"
+      "bytes": 234141,
+      "sha256": "c2072ff7c722843a77e4d20d023f06c36c8913e578f163c318a0a309864199f5"
     }
   ]
 }
