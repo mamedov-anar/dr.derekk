@@ -169,12 +169,27 @@
       frame.title = 'Место приёма: Москва, Садовническая, 5';
     }
   }
+  const unprotectedField = 'input:not(.ym-disable-keys), textarea:not(.ym-disable-keys)';
+  const formFieldObserver = new MutationObserver(records => {
+    for (const { target } of records) {
+      if (target.matches(unprotectedField)) target.classList.add('ym-disable-keys');
+    }
+  });
+  function protectFormFields() {
+    for (const form of document.forms) {
+      for (const field of form.querySelectorAll(unprotectedField)) {
+        field.classList.add('ym-disable-keys');
+      }
+      formFieldObserver.observe(form, { subtree: true, attributes: true, attributeFilter: ['class'] });
+    }
+  }
   let pageUpdateScheduled = false;
   function schedulePageUpdate() {
     if (pageUpdateScheduled) return;
     pageUpdateScheduled = true;
     queueMicrotask(() => {
       pageUpdateScheduled = false;
+      protectFormFields();
       disclosures();
       followAppointmentFragment();
     });
@@ -190,6 +205,7 @@
   window.addEventListener('resize', followAppointmentFragment);
   document.addEventListener('DOMContentLoaded', () => {
     fixLinks(document);
+    protectFormFields();
     disclosures();
     followAppointmentFragment();
     // Use an explicitly configured public URL for canonical metadata.

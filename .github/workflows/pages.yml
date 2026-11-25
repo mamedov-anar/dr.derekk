@@ -1,0 +1,52 @@
+name: Verify and deploy Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the revision
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Export the static site
+        run: |
+          mkdir "$RUNNER_TEMP/dr-derekk-pages"
+          git archive --output="$RUNNER_TEMP/dr-derekk.tar" HEAD -- . ':!.github'
+          tar -xf "$RUNNER_TEMP/dr-derekk.tar" -C "$RUNNER_TEMP/dr-derekk-pages"
+      - name: Check every published HTML file
+        run: python3 .github/pages/prepare.py --check --root "$RUNNER_TEMP/dr-derekk-pages"
+      - name: Upload the validated site
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/dr-derekk-pages
+          include-hidden-files: true
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
