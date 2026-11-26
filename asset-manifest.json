@@ -9,8 +9,8 @@
     },
     {
       "path": ".github/pages/prepare.py",
-      "bytes": 6485,
-      "sha256": "bc89c81dc9851cec6bd08b79140789951a884281d03db40ac124ac768ba9f6e2"
+      "bytes": 6648,
+      "sha256": "6bc288c5c48d7440f881f896bb5159c96e0db186bad0af872b201fbfd5d563d9"
     },
     {
       "path": ".github/workflows/pages.yml",
@@ -44,13 +44,13 @@
     },
     {
       "path": "PAGES.md",
-      "bytes": 22371,
-      "sha256": "98e7eb32538c606be2cbcb62db23f450cad4958c73f4494e772123a61df63808"
+      "bytes": 22852,
+      "sha256": "70beff4cfca1d6580f39f61e911bb7032bf3a6db9c1a8cb82a88eb292d6221d2"
     },
     {
       "path": "README.md",
-      "bytes": 8622,
-      "sha256": "2b8295a346bece0d23159ffe2e4a3a3731c565cecbbcc00db794534dad01ed83"
+      "bytes": 8811,
+      "sha256": "99c0f937e343422380d100610af3b7cab0f2f7e59f3a064e746e080d26920381"
     },
     {
       "path": "about/index.html",
@@ -2316,6 +2316,11 @@
       "path": "treatments_2/index.html",
       "bytes": 235690,
       "sha256": "d5fe25e0b8d6622fee56a3437b45a6f0a1addaedf334d1eb89b50c608662ef37"
+    },
+    {
+      "path": "yandex_ddb1b2810149db7c.html",
+      "bytes": 161,
+      "sha256": "fb805da1ac45b162f777d77009c5c91e5c2135325a76795b364b66069c528dda"
     }
   ]
 }

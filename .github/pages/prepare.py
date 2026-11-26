@@ -78,6 +78,8 @@ def published_html(root):
     for directory, subdirectories, names in os.walk(root):
         if Path(directory) == root:
             subdirectories[:] = sorted(set(subdirectories) - {".git", ".github"})
+            # Preserve the original verification HTML for Yandex Webmaster.
+            names = [name for name in names if name != "yandex_ddb1b2810149db7c.html"]
         else:
             subdirectories.sort()
         for name in sorted(names):
