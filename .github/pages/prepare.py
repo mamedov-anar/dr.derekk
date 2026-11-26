@@ -1,4 +1,4 @@
-"""Prepare checked-in HTML and its manifests, or validate a Pages artifact."""
+"""Prepare and validate the repository HTML and the exported Pages site."""
 
 import argparse
 import hashlib
@@ -9,9 +9,13 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+from urllib.parse import quote
 
 
 REPOSITORY = Path(__file__).resolve().parents[2]
+SITE_URL = "https://mamedov-anar.github.io/dr.derekk/"
+TREATMENTS_URL = SITE_URL + "treatments/"
+CARD_PATH = re.compile(r"treatments/[^/]+/index\.html")
 METRIKA_ID = "114682237"
 START = "<!-- Yandex.Metrika counter -->"
 END = "<!-- /Yandex.Metrika counter -->"
@@ -45,7 +49,107 @@ def body_end(html):
     if parser.position is None:
         raise ValueError("missing opening <body> tag")
     line, column, tag_length = parser.position
-    return len(html) - len(html.split("\n", line - 1)[-1]) + column + tag_length
+    return html_offset(html, line, column) + tag_length
+
+
+def html_offset(html, line, column):
+    return len(html) - len(html.split("\n", line - 1)[-1]) + column
+
+
+class PageMarkup(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_head = False
+        self.head_end = None
+        self.canonicals = []
+        self.headings = set()
+        self.heading = None
+        self.script = None
+        self.breadcrumbs = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "head":
+            self.in_head = True
+        elif tag == "link" and self.in_head and "canonical" in (attrs.get("rel") or "").lower().split():
+            self.canonicals.append((attrs.get("href") or "").strip())
+        elif tag == "h1":
+            self.heading = []
+        elif tag == "br" and self.heading is not None:
+            self.heading.append(" ")
+        elif tag == "script" and (attrs.get("type") or "").strip().lower() == "application/ld+json":
+            self.script = []
+
+    def handle_data(self, data):
+        if self.script is not None:
+            self.script.append(data)
+        elif self.heading is not None:
+            self.heading.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "head":
+            self.in_head = False
+            self.head_end = self.getpos()
+        elif tag == "h1" and self.heading is not None:
+            self.headings.add(" ".join("".join(self.heading).replace("\u00ad", "").split()))
+            self.heading = None
+        elif tag == "script" and self.script is not None:
+            source = "".join(self.script)
+            self.script = None
+            try:
+                data = json.loads(source)
+            except json.JSONDecodeError as error:
+                if "BreadcrumbList" in source:
+                    raise ValueError("invalid BreadcrumbList JSON-LD") from error
+            else:
+                self.breadcrumbs.extend((self.in_head, entry) for entry in breadcrumb_lists(data))
+
+
+def breadcrumb_lists(data):
+    if isinstance(data, dict):
+        kind = data.get("@type")
+        if kind == "BreadcrumbList" or isinstance(kind, list) and "BreadcrumbList" in kind:
+            yield data
+        for value in data.values():
+            yield from breadcrumb_lists(value)
+    elif isinstance(data, list):
+        for value in data:
+            yield from breadcrumb_lists(value)
+
+
+def prepare_breadcrumbs(html, name, check):
+    page = PageMarkup()
+    page.feed(html)
+    page.close()
+    expected_url = SITE_URL + quote(name.removesuffix("index.html"))
+    if not CARD_PATH.fullmatch(name) or expected_url not in page.canonicals:
+        if page.breadcrumbs:
+            raise ValueError("BreadcrumbList found outside a canonical treatment page")
+        return html, False
+    if page.canonicals != [expected_url] or page.head_end is None:
+        raise ValueError("expected one canonical URL and a closing </head> tag")
+    if len(page.headings) != 1 or "" in page.headings:
+        raise ValueError("expected one distinct non-empty treatment h1")
+
+    title, = page.headings
+    data = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "item": {"name": "Процедуры", "@id": TREATMENTS_URL}},
+            {"@type": "ListItem", "position": 2, "item": {"name": title, "@id": page.canonicals[0]}},
+        ],
+    }
+    if page.breadcrumbs:
+        if json.dumps(page.breadcrumbs, sort_keys=True) == json.dumps([(True, data)], sort_keys=True):
+            return html, True
+        raise ValueError("expected exactly one matching BreadcrumbList in <head>")
+    if check:
+        raise ValueError("missing BreadcrumbList in <head>")
+
+    end = html_offset(html, *page.head_end)
+    payload = json.dumps(data, ensure_ascii=False).replace("<", "\\u003c")
+    return f'{html[:end]}<script type="application/ld+json">{payload}</script>\n{html[end:]}', True
 
 
 def metrika_blocks():
@@ -102,33 +206,36 @@ def prepare_html(html, expected, check):
     return f"{html[:end]}\n{expected}\n{rest}"
 
 
-def update_manifests():
-    manifest_path = REPOSITORY / "asset-manifest.json"
-    sums_path = REPOSITORY / "SHA256SUMS.txt"
+def update_manifests(root, names, check=False):
+    manifest_path = root / "asset-manifest.json"
+    sums_path = root / "SHA256SUMS.txt"
     manifest = json.loads(manifest_path.read_bytes())
-    names = subprocess.check_output(
-        ["git", "ls-files", "-z"], cwd=REPOSITORY
-    ).decode().split("\0")
     files = []
     for name in sorted(set(names) - {"", manifest_path.name, sums_path.name}):
-        contents = (REPOSITORY / name).read_bytes()
+        contents = (root / name).read_bytes()
         files.append({"path": name, "bytes": len(contents), "sha256": hashlib.sha256(contents).hexdigest()})
     manifest["files"] = files
     manifest_bytes = (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode()
-    manifest_path.write_bytes(manifest_bytes)
     checksums = {entry["path"]: entry["sha256"] for entry in files}
     checksums[manifest_path.name] = hashlib.sha256(manifest_bytes).hexdigest()
-    sums_path.write_bytes("".join(f"{sha}  {name}\n" for name, sha in sorted(checksums.items())).encode())
+    sums_bytes = "".join(f"{sha}  {name}\n" for name, sha in sorted(checksums.items())).encode()
+    for path, contents in ((manifest_path, manifest_bytes), (sums_path, sums_bytes)):
+        if check:
+            if path.read_bytes() != contents:
+                raise ValueError(f"{path.name} does not match the exported site")
+        else:
+            path.write_bytes(contents)
 
 
 def main():
     cli = argparse.ArgumentParser(description=__doc__)
     cli.add_argument("--check", action="store_true", help="Report errors without changing files")
-    cli.add_argument("--root", type=Path, help="Check this exported Pages directory")
+    cli.add_argument("--root", type=Path, help="Prepare or check this exported Pages directory")
     args = cli.parse_args()
-    if args.root and not args.check:
-        cli.error("--root requires --check")
     root = args.root.resolve() if args.root else REPOSITORY
+    if args.root and root == REPOSITORY:
+        cli.error("--root must point to a separate Pages export")
+    check_metrika = args.check or args.root is not None
     standard, fallback = metrika_blocks()
     filenames = list(published_html(root))
     if not filenames:
@@ -136,11 +243,15 @@ def main():
 
     errors = []
     changes = []
+    treatment_count = 0
     for path in filenames:
         name = path.relative_to(root).as_posix()
         html = path.read_bytes().decode("utf-8")
         try:
-            prepared = prepare_html(html, fallback if name == "404.html" else standard, args.check)
+            prepared = prepare_html(html, fallback if name == "404.html" else standard, check_metrika)
+            if args.root:
+                prepared, is_treatment = prepare_breadcrumbs(prepared, name, args.check)
+                treatment_count += is_treatment
             if prepared != html:
                 changes.append((path, prepared))
         except ValueError as error:
@@ -152,7 +263,21 @@ def main():
     if not args.check:
         for path, prepared in changes:
             path.write_bytes(prepared.encode("utf-8"))
-        update_manifests()
+
+    if args.root:
+        names = (path.relative_to(root).as_posix() for path in root.rglob("*") if path.is_file())
+        try:
+            update_manifests(root, names, args.check)
+        except (OSError, ValueError) as error:
+            print(error, file=sys.stderr)
+            return 1
+        action = "Checked" if args.check else "Prepared"
+        print(f"{action} BreadcrumbList for {treatment_count} canonical treatment pages.")
+    elif not args.check:
+        names = subprocess.check_output(
+            ["git", "ls-files", "-z"], cwd=REPOSITORY
+        ).decode().split("\0")
+        update_manifests(root, names)
         print(f"Updated {len(changes)} HTML files and refreshed the manifests.")
     print(f"Checked {len(filenames)} HTML files for Metrika {METRIKA_ID}.")
     return 0

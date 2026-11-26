@@ -9,13 +9,13 @@
     },
     {
       "path": ".github/pages/prepare.py",
-      "bytes": 6648,
-      "sha256": "6bc288c5c48d7440f881f896bb5159c96e0db186bad0af872b201fbfd5d563d9"
+      "bytes": 11759,
+      "sha256": "72d6df5ac89d8a94edbce41fd177d729553a948cdee0f1e9db0d5d0c695d752c"
     },
     {
       "path": ".github/workflows/pages.yml",
-      "bytes": 1399,
-      "sha256": "51e664dacba23a2512f790104a7d4ab62a625011602729cff685761b8a993423"
+      "bytes": 1552,
+      "sha256": "85635a8af7daa3be2acbe93242f265ee7a2355efff7f1cb1c2ff79475f3bf4ee"
     },
     {
       "path": ".gitignore",
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8811,
-      "sha256": "99c0f937e343422380d100610af3b7cab0f2f7e59f3a064e746e080d26920381"
+      "bytes": 9314,
+      "sha256": "382afe87fc8a45510d82b86979e98ce2e5fca19f6140b18b00247d1a0c34568f"
     },
     {
       "path": "about/index.html",
