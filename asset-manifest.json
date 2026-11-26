@@ -2118,6 +2118,11 @@
       "sha256": "ee190fa231060b6b61b0313632974c5f6146723116566e45e9e1ff4b06e89820"
     },
     {
+      "path": "robots.txt",
+      "bytes": 23,
+      "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95"
+    },
+    {
       "path": "services-preview/index.html",
       "bytes": 33610,
       "sha256": "d57515d99b0b8145beab13f3decb97fae6a09220394f363ea05bb353d8a54ba8"
